@@ -1,5 +1,6 @@
 import { readdirSync } from "node:fs";
 import { join } from "node:path";
+import type { IssueCount, Report, SelectorCount } from "./result.config";
 import {
 	ensureDirectoryExists,
 	logError,
@@ -7,47 +8,7 @@ import {
 	readJsonFile,
 	writeJsonFile,
 } from "./utils";
-
-interface Report {
-	documentTitle: string;
-	pageUrl: string;
-	issues: {
-		context: string;
-		selector: string;
-		code: string;
-		type: "error" | "warning" | "notice";
-		typeCode: number;
-		message: string;
-		runner: "htmlcs" | "axe";
-		recurrence: number;
-	}[];
-	meta: {
-		errorCount: number;
-		warningCount: number;
-		noticeCount: number;
-		accessScore: number;
-	};
-	automateable: {
-		missingAltIndexs: number[];
-	};
-}
-
-interface IssueCount {
-	code: string;
-	type: Report["issues"][number]["type"];
-	message: string;
-	url: string;
-	selector: string;
-	count: number;
-}
-
-interface SelectorCount {
-	code: string;
-	type: Report["issues"][number]["type"];
-	message: string;
-	url: string;
-	count: number;
-}
+import { generateHtmlReport } from "./result.ui";
 
 /**
  * Filters issues based on the environment variable.
@@ -206,6 +167,8 @@ async function generateAccessibilityReport(): Promise<void> {
 
 		const resultFilePath = join(resultDir, "accessibility-report.json");
 		writeJsonFile(resultFilePath, results);
+
+		await generateHtmlReport(results);
 
 		logInfo("Accessibility report generated successfully.");
 	} catch (error) {
