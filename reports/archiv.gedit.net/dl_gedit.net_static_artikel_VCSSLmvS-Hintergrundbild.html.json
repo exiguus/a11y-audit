@@ -1,0 +1,635 @@
+{
+	"documentTitle": "Variables CSS-Layout mit verschiedenen Spaltenfarben | Hintergrundbild",
+	"pageUrl": "https://archiv.gedit.net/dl/gedit.net/static/artikel/VCSSLmvS-Hintergrundbild.html",
+	"issues": [
+		{
+			"context": "<a href=\"VCSSLmvS-Hintergrundbild.html#\" onclick=\"document.body.style.fontSize='1em'\" title=\"Schriftgröße ändern in: 100%\">100%</a>",
+			"selector": "#head>:nth-child(5)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.6:1. Recommendation:  change text colour to #677f05.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"VCSSLmvS-Hintergrundbild.html#\" onclick=\"document.body.style.fontSize='1.25em'\" title=\"Schriftgröße ändern in: 125%\">125%</a>",
+			"selector": "#head>:nth-child(5)>:nth-child(2)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.6:1. Recommendation:  change text colour to #677f05.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"VCSSLmvS-Hintergrundbild.html#\" onclick=\"document.body.style.fontSize='1.5em'\" title=\"Schriftgröße ändern in: 150%\">150%</a>",
+			"selector": "#head>:nth-child(5)>:nth-child(3)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.6:1. Recommendation:  change text colour to #869e24.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"VCSSLmvS-Hintergrundbild.html#\" onclick=\"document.body.style.fontSize='1.75em'\" title=\"Schriftgröße ändern in: 175%\">175%</a>",
+			"selector": "#head>:nth-child(5)>:nth-child(4)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.6:1. Recommendation:  change text colour to #869e24.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"VCSSLmvS-Hintergrundbild.html#\" onclick=\"document.body.style.fontSize='2em'\" title=\"Schriftgröße ändern in: 200%\">200%</a>",
+			"selector": "#head>:nth-child(5)>:nth-child(5)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.6:1. Recommendation:  change text colour to #869e24.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"VCSSLmvS-Hintergrundbild.html#\" onclick=\"getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte.gif) repeat-y right top';\" title=\"Hintergrundgrafik | 40em/640px\">40em/640px</a>",
+			"selector": "#head>:nth-child(8)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.6:1. Recommendation:  change text colour to #677f05.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"VCSSLmvS-Hintergrundbild.html#\" onclick=\"getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte-variabel.gif) repeat-y 19.25em top';\" title=\"Hintergrundgrafik für variable Schriftgröße | 80em/1280px\">80em/1280px</a>",
+			"selector": "#head>:nth-child(8)>:nth-child(2)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.6:1. Recommendation:  change text colour to #869e24.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"VCSSLmvS-Hintergrundbild.html#\" onclick=\"getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte.gif) repeat-y right top';\" title=\"Hintergrundgrafik | 40em/640px\">40em/640px</a>",
+			"selector": "#head>:nth-child(8)>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"VCSSLmvS-Hintergrundbild.html#\" onclick=\"getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte-variabel.gif) repeat-y 19.25em top';\" title=\"Hintergrundgrafik für variable Schriftgröße | 80em/1280px\">80em/1280px</a>",
+			"selector": "#head>:nth-child(8)>:nth-child(2)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<html lang=\"de\"><head>\n    <meta http-equiv=\"con...</html>",
+			"selector": "",
+			"code": "landmark-one-main",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Document should have one main landmark",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the document has a main landmark",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/landmark-one-main?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<h1>\n        <a name=\"top\" href=\"/dl...</h1>",
+			"selector": "#head>:nth-child(1)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<h2>Technik mit Hintergrundfarbe</h2>",
+			"selector": "#head>:nth-child(2)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p class=\"browser\">\n        Getestet mit Opera 9.64...</p>",
+			"selector": "#head>:nth-child(3)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<h3>Schriftgröße ändern in</h3>",
+			"selector": "#head>:nth-child(4)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<ul>\n        <li style=\"font-size: 1...</ul>",
+			"selector": "#head>:nth-child(5)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<h3>Hintergrundgrafik rechte Spalte ...</h3>",
+			"selector": "#head>:nth-child(7)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<ul>\n        <li style=\"font-size: 1...</ul>",
+			"selector": "#head>:nth-child(8)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<div id=\"content-left\">\n        <p>\n          Lorem ips...</div>",
+			"selector": "#content-left",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p class=\"description\">\n          Der blaue Hintergrund...</p>",
+			"selector": "#content-right>:nth-child(1)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p class=\"description\">\n          Ändert man nun die Sc...</p>",
+			"selector": "#content-right>:nth-child(2)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p id=\"show\" class=\"description\">\n          <a name=\"mehr\" href=\"...</p>",
+			"selector": "#show",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<div id=\"foot\">\n      <p>\n        <a href=\"VCSS...</div>",
+			"selector": "#foot",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n          Class aptent taciti s...</p>",
+			"selector": "#content-left>:nth-child(2)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<p class=\"description\">\n          Der blaue Hintergrund...</p>",
+			"selector": "#content-right>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<p class=\"description\">\n          Ändert man nun die Sc...</p>",
+			"selector": "#content-right>:nth-child(2)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<tt>background: rgb(153, 66, 58) url...</tt>",
+			"selector": "#content-right>:nth-child(1)>:nth-child(4)",
+			"code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.Tt",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Semantic markup should be used to mark emphasised or special text so that it can be programmatically determined.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a name=\"hintergrund\" href=\"VCSSLmvS-Hintergrundbild.html#hintergrund\" onclick=\"getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte.gif) repeat-y right top';\" title=\"Hintergrund nicht variable\">moment</a>",
+			"selector": "#content-right>:nth-child(1)>:nth-child(2)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<em>(Javascript-Link)</em>",
+			"selector": "#content-right>:nth-child(1)>:nth-child(3)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 3
+		},
+		{
+			"context": "<tt>background: rgb(153, 66, 58) url...</tt>",
+			"selector": "#content-right>:nth-child(1)>:nth-child(4)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a name=\"#125\" href=\"VCSSLmvS-Hintergrundbild.html#125\" onclick=\"document.body.style.fontSize='1.25em'\" title=\"Schriftgröße ändern in: 125%\">125%</a>",
+			"selector": "#content-right>:nth-child(2)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<tt>background: rgb(153, 66, 58) url...</tt>",
+			"selector": "#content-right>:nth-child(2)>:nth-child(4)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a name=\"hintergrund-variable\" href=\"VCSSLmvS-Hintergrundbild.html#hintergrund-variable\" onclick=\"getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte-variabel.gif) repeat-y 19.25em top';\" title=\"Hintergrund anpassen\">Hinte...",
+			"selector": "#content-right>:nth-child(2)>:nth-child(6)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a name=\"mehr\" href=\"VCSSLmvS-Hintergrundbild.html#weniger\" onclick=\"document.getElementById('hide').style.display='block';document.getElementById('show').style.display='none'\" title=\"Mehr Text\">Mehr Text</a>",
+			"selector": "#show>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<tt>background: rgb(153, 66, 58) url...</tt>",
+			"selector": "#content-right>:nth-child(2)>:nth-child(4)",
+			"code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.Tt",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Semantic markup should be used to mark emphasised or special text so that it can be programmatically determined.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n          Lorem ipsum dolor sit...</p>",
+			"selector": "#content-left>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n          Lorem ipsum dolor sit...</p>",
+			"selector": "#content-left>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n          Class aptent taciti s...</p>",
+			"selector": "#content-left>:nth-child(2)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p class=\"description\">\n          Der blaue Hintergrund...</p>",
+			"selector": "#content-right>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a name=\"hintergrund\" href=\"VCSSLmvS-Hintergrundbild.html#hintergrund\" onclick=\"getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte.gif) repeat-y right top';\" title=\"Hintergrund nicht variable\">moment</a>",
+			"selector": "#content-right>:nth-child(1)>:nth-child(2)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<em>(Javascript-Link)</em>",
+			"selector": "#content-right>:nth-child(1)>:nth-child(3)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<tt>background: rgb(153, 66, 58) url...</tt>",
+			"selector": "#content-right>:nth-child(1)>:nth-child(4)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p class=\"description\">\n          Ändert man nun die Sc...</p>",
+			"selector": "#content-right>:nth-child(2)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<em>(Javascript-Link)</em>",
+			"selector": "#content-right>:nth-child(2)>:nth-child(2)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<tt>background: rgb(153, 66, 58) url...</tt>",
+			"selector": "#content-right>:nth-child(2)>:nth-child(4)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a name=\"hintergrund-variable\" href=\"VCSSLmvS-Hintergrundbild.html#hintergrund-variable\" onclick=\"getElementById('wrapper').style.background='rgb(153, 66, 58) url(VCSSLmvS_spalte-variabel.gif) repeat-y 19.25em top';\" title=\"Hintergrund anpassen\">Hinte...",
+			"selector": "#content-right>:nth-child(2)>:nth-child(6)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<em>(Javascript-Link)</em>",
+			"selector": "#content-right>:nth-child(2)>:nth-child(7)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a name=\"mehr\" href=\"VCSSLmvS-Hintergrundbild.html#weniger\" onclick=\"document.getElementById('hide').style.display='block';document.getElementById('show').style.display='none'\" title=\"Mehr Text\">Mehr Text</a>",
+			"selector": "#show>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<em>(Javascript-Link)</em>",
+			"selector": "#show>:nth-child(2)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		}
+	],
+	"meta": {
+		"errorCount": 22,
+		"warningCount": 29,
+		"noticeCount": 0,
+		"accessScore": 80
+	},
+	"automateable": {
+		"missingAltIndexs": []
+	}
+}

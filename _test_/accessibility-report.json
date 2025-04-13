@@ -1,0 +1,14 @@
+{
+	"origin": "www.gattner.name",
+	"datetime": "2025-04-12T13:51:34.658Z",
+	"overallAccessibilityScore": 100,
+	"totalIssues": 0,
+	"totalErrors": 0,
+	"totalWarnings": 108,
+	"totalNotices": 0,
+	"totalPages": 4,
+	"missingAltIndex": 0,
+	"wcagIssues": [],
+	"axeIssues": [],
+	"selectorIssues": []
+}

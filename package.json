@@ -1,0 +1,53 @@
+{
+	"name": "a11y-audit",
+	"version": "1.0.0",
+	"description": "Audit a11y WCAG2AA",
+	"module": "index.ts",
+	"scripts": {
+		"a11y:audit": "pnpm run a11y:audit:scrape && pnpm run a11y:audit:report && pnpm run a11y:audit:result",
+		"a11y:audit:scrape": "BUN_JSC_forceRAMSize=20 bun ./scrape.ts",
+		"a11y:audit:report": "BUN_JSC_forceRAMSize=20 bun ./report.ts",
+		"a11y:audit:result": "BUN_JSC_forceRAMSize=20 bun ./result.ts",
+		"a11y:audit:backup": "BUN_JSC_forceRAMSize=20 bun ./backup.ts",
+		"a11y:audit:clean": "BUN_JSC_forceRAMSize=20 bun ./clean.ts",
+		"lint": "biome lint --write .",
+		"lint:check": "biome lint --error-on-warnings .",
+		"format": "biome format --write .",
+		"format:check": "biome format --error-on-warnings .",
+		"check": "pnpm check:biome && pnpm check:fta",
+		"check:biome": "pnpm lint:check && pnpm format:check",
+		"check:fta": "fta --config-path ./fta.config.json .",
+		"test": "bun test",
+		"prepare": "husky"
+	},
+	"keywords": [
+		"a11y",
+		"audit",
+		"wcag2aa",
+		"web",
+		"accessibility",
+		"EN 301 549"
+	],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@commitlint/cli": "^19.8.0",
+		"@commitlint/config-conventional": "^19.8.0",
+		"@commitlint/prompt-cli": "^19.8.0",
+		"@playwright/test": "^1.51.1",
+		"@types/node": "^22.14.1",
+		"archiver": "^7.0.1",
+		"axios": "^1.8.4",
+		"fta-cli": "^2.0.1",
+		"husky": "^9.1.7",
+		"kayle": "^0.8.64",
+		"lint-staged": "^15.5.1",
+		"xml2js": "^0.6.2"
+	},
+	"lint-staged": {
+		"*.@(ts|js|mjs|cjs)": ["pnpm format", "pnpm lint"],
+		"*.@(json)": ["pnpm format"]
+	}
+}

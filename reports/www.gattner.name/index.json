@@ -1,0 +1,245 @@
+{
+	"documentTitle": "Simon Gattner - Full-Stack and Frontend development",
+	"pageUrl": "https://www.gattner.name/",
+	"issues": [
+		{
+			"context": "<a title=\"Skip to main content\" href=\"#main\" data-testid=\"skip-nav-main\" tabindex=\"0\" class=\"csGuEx SkipNav__StyledLink-gattner-corporate__sc-pkl5du-0\">Skip to main content</a>",
+			"selector": "#root>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a title=\"Skip to navigation\" href=\"#nav\" data-testid=\"skip-nav-nav\" tabindex=\"0\" class=\"csGuEx SkipNav__StyledLink-gattner-corporate__sc-pkl5du-0\">Skip to navigation</a>",
+			"selector": "#root>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a title=\"Skip to footer\" href=\"#footer\" data-testid=\"skip-nav-footer\" tabindex=\"0\" class=\"csGuEx SkipNav__StyledLink-gattner-corporate__sc-pkl5du-0\">Skip to footer</a>",
+			"selector": "#root>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<mark class=\"fjgpMS Mark__StyledMark-gattner-corporate__sc-kbppif-0\">Simon Gattner</mark>",
+			"selector": "#root>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span data-testid=\"randext\" aria-hidden=\"true\" class=\"Animation__StyledAnimation-gattner-corporate__sc-1vffw48-0 bjHlbD\" data-randext=\"false\">development</span>",
+			"selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<p size=\"md\" class=\"Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0 jqSWAN\">Full-Stack development</p>",
+			"selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"bEyvsT styles__StyledNavLink-gattner-corporate__sc-199jze8-0\" data-testid=\"footer-menu-link-impressum\" title=\"Impressum\" href=\"/impressum\">Impressum</a>",
+			"selector": "#footer>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<mark class=\"fjgpMS Mark__StyledMark-gattner-corporate__sc-kbppif-0\">Full-Stack and Frontend</mark>",
+			"selector": "#root>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<mark class=\"fjgpMS Mark__StyledMark-gattner-corporate__sc-kbppif-0\">development</mark>",
+			"selector": "#root>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(2)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span data-testid=\"header-nav-link-home\" title=\"Home\" class=\"bXsfVW styles__StyledActiveNavLink-gattner-corporate__sc-199jze8-2\">Home</span>",
+			"selector": "#nav>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"bEyvsT styles__StyledNavLink-gattner-corporate__sc-199jze8-0\" data-testid=\"header-nav-link-about\" title=\"About\" href=\"/about\">About</a>",
+			"selector": "#nav>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"bEyvsT styles__StyledNavLink-gattner-corporate__sc-199jze8-0\" data-testid=\"header-nav-link-contact\" title=\"Contact\" href=\"/contact\">Contact</a>",
+			"selector": "#nav>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span data-randext-char=\"x0\">c</span>",
+			"selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span data-randext-char=\"x1\">a</span>",
+			"selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span data-randext-char=\"x2\">F</span>",
+			"selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span data-randext-char=\"x3\">k</span>",
+			"selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(4)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span data-randext-char=\"x4\">k</span>",
+			"selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(5)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span data-randext-char=\"x5\">-</span>",
+			"selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(6)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span data-randext-char=\"x6\">F</span>",
+			"selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(7)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span data-randext-char=\"x7\">a</span>",
+			"selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(8)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span data-randext-char=\"x8\">S</span>",
+			"selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(9)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span data-randext-char=\"x9\">t</span>",
+			"selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(10)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"bEyvsT styles__StyledNavLink-gattner-corporate__sc-199jze8-0\" data-testid=\"footer-menu-link-contact\" title=\"Contact\" href=\"/contact\">Contact</a>",
+			"selector": "#footer>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		}
+	],
+	"meta": {
+		"errorCount": 0,
+		"warningCount": 23,
+		"noticeCount": 0,
+		"accessScore": 100
+	},
+	"automateable": {
+		"missingAltIndexs": []
+	}
+}

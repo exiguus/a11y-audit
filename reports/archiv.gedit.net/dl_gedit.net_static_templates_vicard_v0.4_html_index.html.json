@@ -1,0 +1,1425 @@
+{
+	"documentTitle": "Joe Bloggs viCard",
+	"pageUrl": "https://archiv.gedit.net/dl/gedit.net/static/templates/vicard/v0.4/html/index.html",
+	"issues": [
+		{
+			"context": "<li>v0.4</li>",
+			"selector": "#footer>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.14:1. Recommendation:  change background to #7a7a00.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<li>© <strong>Joe Bloggs</strong> 20...</li>",
+			"selector": "#footer>:nth-child(2)>:nth-child(1)>:nth-child(2)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.24:1. Recommendation:  change background to #0274e3.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"http://gedit.net/\" title=\"Template by gedit.net\"><abbr title=\"Virtual Identity Ca...</a>",
+			"selector": "#footer>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.24:1. Recommendation:  change background to #0274e3.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<strong>Joe Bloggs</strong>",
+			"selector": "#footer>:nth-child(2)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.24:1. Recommendation:  change background to #0274e3.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB\" title=\"Creativ Commons Licence BY-NC-SA\">Some Rights Reserved</a>",
+			"selector": "#footer>:nth-child(2)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.24:1. Recommendation:  change background to #0274e3.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<strong>example.org</strong>",
+			"selector": "#footer>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.14:1. Recommendation:  change background to #7a7a00.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<abbr title=\"Virtual Identity Card\">viCard</abbr>",
+			"selector": "#footer>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+			"type": "error",
+			"typeCode": 1,
+			"message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.24:1. Recommendation:  change background to #0274e3.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<em>Virtual Identity Card of</em>",
+			"selector": "#header>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<strong>example.org</strong>",
+			"selector": "#footer>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"http://gedit.net/\" title=\"Template by gedit.net\"><abbr title=\"Virtual Identity Ca...</a>",
+			"selector": "#footer>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<abbr title=\"Virtual Identity Card\">viCard</abbr>",
+			"selector": "#footer>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<li>© <strong>Joe Bloggs</strong> 20...</li>",
+			"selector": "#footer>:nth-child(2)>:nth-child(1)>:nth-child(2)",
+			"code": "color-contrast",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<strong>Joe Bloggs</strong>",
+			"selector": "#footer>:nth-child(2)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB\" title=\"Creativ Commons Licence BY-NC-SA\">Some Rights Reserved</a>",
+			"selector": "#footer>:nth-child(2)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<html dir=\"ltr\" lang=\"en\" class=\" jsshow\"><head>\n    <meta http-equiv=\"con...</html>",
+			"selector": "",
+			"code": "landmark-one-main",
+			"type": "error",
+			"typeCode": 1,
+			"message": "Document should have one main landmark",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the document has a main landmark",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/landmark-one-main?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<h1><em>Virtual Identity Card of</em...</h1>",
+			"selector": "#header>:nth-child(1)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<div class=\"section col\" id=\"contact\">\n          <h2>\n            Cont...</div>",
+			"selector": "#contact",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<h2>\n            Whois\n            <...</h2>",
+			"selector": "#whois>:nth-child(1)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n            Suspendisse elit od...</p>",
+			"selector": "#whois>:nth-child(2)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n            Nunc magna nulla, t...</p>",
+			"selector": "#whois>:nth-child(3)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n            Tincidunt uis matti...</p>",
+			"selector": "#whois>:nth-child(4)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<div class=\"section col\" id=\"follow\">\n          <h2>\n            Foll...</div>",
+			"selector": "#follow",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<div class=\"section col\">\n          <ul class=\"nav\">\n    ...</div>",
+			"selector": "#footer>:nth-child(1)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<li>\n              <a href=\"http://g...</li>",
+			"selector": "#footer>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<li>© <strong>Joe Bloggs</strong> 20...</li>",
+			"selector": "#footer>:nth-child(2)>:nth-child(1)>:nth-child(2)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<li>\n              <a href=\"http://c...</li>",
+			"selector": "#footer>:nth-child(2)>:nth-child(1)>:nth-child(3)",
+			"code": "region",
+			"type": "error",
+			"typeCode": 1,
+			"message": "All page content should be contained by landmarks",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures all page content is contained by landmarks",
+				"impact": "moderate",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<abbr title=\"Uniform Resource Locator\">URL</abbr>",
+			"selector": "#contact>:nth-child(2)>:nth-child(9)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"http://example.org/\" title=\"Joe Bloggs url\">example.org</a>",
+			"selector": "#contact>:nth-child(2)>:nth-child(10)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span>read more →</span>",
+			"selector": "#whois>:nth-child(4)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"jshide\" href=\"#related-sites\" onclick=\"toggle('related-sites');\" title=\"Show/Hide Related Links\">(Show/Hide)</a>",
+			"selector": "#follow>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"jshide\" href=\"#other-sites\" onclick=\"toggle('other-sites');\" title=\"Show/Hide Other Sites\">(Show/Hide)</a>",
+			"selector": "#follow>:nth-child(2)>:nth-child(2)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n            Nunc magna nulla, t...</p>",
+			"selector": "#whois>:nth-child(3)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n            Tincidunt uis matti...</p>",
+			"selector": "#whois>:nth-child(4)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<em>Virtual Identity Card of</em>",
+			"selector": "#header>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<em>@</em>",
+			"selector": "#contact>:nth-child(2)>:nth-child(8)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<em>.</em>",
+			"selector": "#contact>:nth-child(2)>:nth-child(8)>:nth-child(1)>:nth-child(2)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<dt>Name:</dt>",
+			"selector": "#contact>:nth-child(2)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<dt>Address:</dt>",
+			"selector": "#contact>:nth-child(2)>:nth-child(3)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"http://example.org/blog/\" title=\"Jon Bloggs Blog\">Read my <strong>Blog</strong></a>",
+			"selector": "#related-sites>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"http://flickr.com/photos/joe\" title=\"Jon Bloggs Photos\">Watch my <strong>Photos</strong>...</a>",
+			"selector": "#related-sites>:nth-child(2)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"http://del.icio.us/joe\" title=\"Jon Bloggs Bookmarks\">Take a look at my <strong>Bookma...</a>",
+			"selector": "#related-sites>:nth-child(3)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"irc:irc.example.org/joe\" title=\"Jon Bloggs on IRC\">Chat with me on\n                ...</a>",
+			"selector": "#related-sites>:nth-child(4)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"aim:goim?screenname=joe.html\" title=\"Jon Bloggs on AIM\">Get back to me on\n              ...</a>",
+			"selector": "#related-sites>:nth-child(5)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"ymsgr:sendIM?joe.html\" title=\"Jon Bloggs YIM\">Get in touch with me on\n        ...</a>",
+			"selector": "#related-sites>:nth-child(6)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"xmpp:joe.html\" title=\"Jon Bloggs JABBER\">Contact me on <strong>Jabber</st...</a>",
+			"selector": "#related-sites>:nth-child(7)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<strong>Blog</strong>",
+			"selector": "#related-sites>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<strong>Photos</strong>",
+			"selector": "#related-sites>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<strong>Bookmarks</strong>",
+			"selector": "#related-sites>:nth-child(3)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<strong>Jabber</strong>",
+			"selector": "#related-sites>:nth-child(7)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<abbr title=\"Internet Relay Chat\">IRC</abbr>",
+			"selector": "#related-sites>:nth-child(4)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<abbr title=\"AOL Instant Messenger\">AIM</abbr>",
+			"selector": "#related-sites>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<abbr title=\"Yahoo Messenger\">YIM</abbr>",
+			"selector": "#related-sites>:nth-child(6)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<div class=\"section row\" id=\"top\">\n      <a class=\"screen\" href=\"#...</div>",
+			"selector": "#top",
+			"code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H48",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "If this element contains a navigation section, it is recommended that it be marked up as a list.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n            Download my\n       ...</p>",
+			"selector": "#contact>:nth-child(3)",
+			"code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H48",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "If this element contains a navigation section, it is recommended that it be marked up as a list.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<dt>Phone:</dt>",
+			"selector": "#contact>:nth-child(2)>:nth-child(5)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<dd class=\"tel\" title=\"+49-30-12345-67\">\n              <em>+</em>49&nbsp...</dd>",
+			"selector": "#contact>:nth-child(2)>:nth-child(6)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<dt>E-Mail:</dt>",
+			"selector": "#contact>:nth-child(2)>:nth-child(7)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<dt><abbr title=\"Uniform Resource Lo...</dt>",
+			"selector": "#contact>:nth-child(2)>:nth-child(9)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"files/vcard.vcf\" title=\"vCard of Joe Bloggs\">vCard</a>",
+			"selector": "#contact>:nth-child(3)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"jshide\" href=\"#more-whois\" onclick=\"toggle('more-whois')\" title=\"Show/Hide more Informations\">(Show/Hide) <span>read more →</s...</a>",
+			"selector": "#whois>:nth-child(4)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<li>\n              Related\n         ...</li>",
+			"selector": "#follow>:nth-child(2)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<li>\n              Other Sites\n     ...</li>",
+			"selector": "#follow>:nth-child(2)>:nth-child(2)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n            Download my\n       ...</p>",
+			"selector": "#contact>:nth-child(3)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n            Suspendisse elit od...</p>",
+			"selector": "#whois>:nth-child(2)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span class=\"given-name\">Joe</span>",
+			"selector": "#contact>:nth-child(2)>:nth-child(2)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span class=\"family-name\">Bloggs</span>",
+			"selector": "#contact>:nth-child(2)>:nth-child(2)>:nth-child(2)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<div class=\"street-address\">Karl-Marx-Allee 42</div>",
+			"selector": "#contact>:nth-child(2)>:nth-child(4)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span class=\"postal-code\" title=\"D-130000\">13000</span>",
+			"selector": "#contact>:nth-child(2)>:nth-child(4)>:nth-child(2)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span class=\"locality region\">Berlin</span>",
+			"selector": "#contact>:nth-child(2)>:nth-child(4)>:nth-child(3)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<div class=\"country-name\">Germany</div>",
+			"selector": "#contact>:nth-child(2)>:nth-child(4)>:nth-child(4)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<em>+</em>",
+			"selector": "#contact>:nth-child(2)>:nth-child(6)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<em>–</em>",
+			"selector": "#contact>:nth-child(2)>:nth-child(6)>:nth-child(2)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" onclick=\"this.href=this.href.replace(/(.*)\\/at\\/(.*)\\/dot\\/(.*)/i,'$1\\@$2\\.$3');\" href=\"mailto:joe/at/example/dot/org.html\" title=\"Joe Bloggs email\">joe<em>@</em>example<em>.</em>or...</a>",
+			"selector": "#contact>:nth-child(2)>:nth-child(8)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.BgImage",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element's text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<dt>Name:</dt>",
+			"selector": "#contact>:nth-child(2)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<span class=\"given-name\">Joe</span>",
+			"selector": "#contact>:nth-child(2)>:nth-child(2)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<span class=\"family-name\">Bloggs</span>",
+			"selector": "#contact>:nth-child(2)>:nth-child(2)>:nth-child(2)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<dt>Address:</dt>",
+			"selector": "#contact>:nth-child(2)>:nth-child(3)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<div class=\"street-address\">Karl-Marx-Allee 42</div>",
+			"selector": "#contact>:nth-child(2)>:nth-child(4)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<span class=\"locality region\">Berlin</span>",
+			"selector": "#contact>:nth-child(2)>:nth-child(4)>:nth-child(3)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<div class=\"country-name\">Germany</div>",
+			"selector": "#contact>:nth-child(2)>:nth-child(4)>:nth-child(4)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<dt>Phone:</dt>",
+			"selector": "#contact>:nth-child(2)>:nth-child(5)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<dd class=\"tel\" title=\"+49-30-12345-67\">\n              <em>+</em>49&nbsp...</dd>",
+			"selector": "#contact>:nth-child(2)>:nth-child(6)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<dt>E-Mail:</dt>",
+			"selector": "#contact>:nth-child(2)>:nth-child(7)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" onclick=\"this.href=this.href.replace(/(.*)\\/at\\/(.*)\\/dot\\/(.*)/i,'$1\\@$2\\.$3');\" href=\"mailto:joe/at/example/dot/org.html\" title=\"Joe Bloggs email\">joe<em>@</em>example<em>.</em>or...</a>",
+			"selector": "#contact>:nth-child(2)>:nth-child(8)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<abbr title=\"Uniform Resource Locator\">URL</abbr>",
+			"selector": "#contact>:nth-child(2)>:nth-child(9)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"http://example.org/\" title=\"Joe Bloggs url\">example.org</a>",
+			"selector": "#contact>:nth-child(2)>:nth-child(10)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n            Download my\n       ...</p>",
+			"selector": "#contact>:nth-child(3)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"files/vcard.vcf\" title=\"vCard of Joe Bloggs\">vCard</a>",
+			"selector": "#contact>:nth-child(3)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n            Suspendisse elit od...</p>",
+			"selector": "#whois>:nth-child(2)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n            Nunc magna nulla, t...</p>",
+			"selector": "#whois>:nth-child(3)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<p>\n            Tincidunt uis matti...</p>",
+			"selector": "#whois>:nth-child(4)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"jshide\" href=\"#more-whois\" onclick=\"toggle('more-whois')\" title=\"Show/Hide more Informations\">(Show/Hide) <span>read more →</s...</a>",
+			"selector": "#whois>:nth-child(4)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<span>read more →</span>",
+			"selector": "#whois>:nth-child(4)>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<li>\n              Related\n         ...</li>",
+			"selector": "#follow>:nth-child(2)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"jshide\" href=\"#related-sites\" onclick=\"toggle('related-sites');\" title=\"Show/Hide Related Links\">(Show/Hide)</a>",
+			"selector": "#follow>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"http://example.org/blog/\" title=\"Jon Bloggs Blog\">Read my <strong>Blog</strong></a>",
+			"selector": "#related-sites>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<strong>Blog</strong>",
+			"selector": "#related-sites>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"http://flickr.com/photos/joe\" title=\"Jon Bloggs Photos\">Watch my <strong>Photos</strong>...</a>",
+			"selector": "#related-sites>:nth-child(2)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<strong>Photos</strong>",
+			"selector": "#related-sites>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"http://del.icio.us/joe\" title=\"Jon Bloggs Bookmarks\">Take a look at my <strong>Bookma...</a>",
+			"selector": "#related-sites>:nth-child(3)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<strong>Bookmarks</strong>",
+			"selector": "#related-sites>:nth-child(3)>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"irc:irc.example.org/joe\" title=\"Jon Bloggs on IRC\">Chat with me on\n                ...</a>",
+			"selector": "#related-sites>:nth-child(4)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<abbr title=\"Internet Relay Chat\">IRC</abbr>",
+			"selector": "#related-sites>:nth-child(4)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"aim:goim?screenname=joe.html\" title=\"Jon Bloggs on AIM\">Get back to me on\n              ...</a>",
+			"selector": "#related-sites>:nth-child(5)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<abbr title=\"AOL Instant Messenger\">AIM</abbr>",
+			"selector": "#related-sites>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"ymsgr:sendIM?joe.html\" title=\"Jon Bloggs YIM\">Get in touch with me on\n        ...</a>",
+			"selector": "#related-sites>:nth-child(6)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<abbr title=\"Yahoo Messenger\">YIM</abbr>",
+			"selector": "#related-sites>:nth-child(6)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"url\" href=\"xmpp:joe.html\" title=\"Jon Bloggs JABBER\">Contact me on <strong>Jabber</st...</a>",
+			"selector": "#related-sites>:nth-child(7)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<strong>Jabber</strong>",
+			"selector": "#related-sites>:nth-child(7)>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<li>\n              Other Sites\n     ...</li>",
+			"selector": "#follow>:nth-child(2)>:nth-child(2)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<a class=\"jshide\" href=\"#other-sites\" onclick=\"toggle('other-sites');\" title=\"Show/Hide Other Sites\">(Show/Hide)</a>",
+			"selector": "#follow>:nth-child(2)>:nth-child(2)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		},
+		{
+			"context": "<li>v0.4</li>",
+			"selector": "#footer>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "color-contrast",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must have sufficient color contrast",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+			},
+			"recurrence": 0
+		}
+	],
+	"meta": {
+		"errorCount": 26,
+		"warningCount": 86,
+		"noticeCount": 0,
+		"accessScore": 80
+	},
+	"automateable": {
+		"missingAltIndexs": []
+	}
+}

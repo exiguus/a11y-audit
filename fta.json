@@ -1,0 +1,9 @@
+{
+	"output_limit": 250,
+	"score_cap": 90,
+	"exclude_directories": ["__mocks__", "mocks"],
+	"exclude_filenames": ["*.d.ts"],
+	"extensions": [".cjs", ".js", ".mjs", ".ts"],
+	"include_comments": false,
+	"exclude_under": 10
+}
