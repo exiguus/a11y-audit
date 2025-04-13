@@ -59,7 +59,6 @@ post_task() {
     echo "Error: Failed to create sitemap file."
   fi
 
-  wait 1
   # Post-cleanup: remove temporary files
   post_cleanup
 }
@@ -105,7 +104,7 @@ main() {
        "${base_url}"
 }
 
-# Trap cleanup function to ensure temporary files are removed
-trap 'post_cleanup' EXIT
+# Trap task function to ensure sitemap is written, temporary files are removed and cleanup is done
+trap 'post_task' EXIT
 
 main "$@"
