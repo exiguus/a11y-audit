@@ -28,8 +28,17 @@
 		"accessibility",
 		"EN 301 549"
 	],
-	"author": "",
-	"license": "ISC",
+	"author": {
+		"name": "Simon Gattner",
+		"url": "https://gattner.name/",
+		"mastodon": "https://toot.community/@exiguus"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/exiguus/a11y-audit"
+	},
+	"homepage": "https://github.com/exiguus/a11y-audit#readme",
 	"packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971",
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
@@ -48,6 +57,6 @@
 	},
 	"lint-staged": {
 		"*.@(ts|js|mjs|cjs)": ["pnpm format", "pnpm lint"],
-		"*.@(json)": ["pnpm format"]
+		"*.@(json|html)": ["pnpm format"]
 	}
 }
