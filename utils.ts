@@ -147,6 +147,43 @@ export function getEnvVariable(name: string, defaultValue: string): string {
 }
 
 /**
+ * Escape unsafe HTML characters in a string.
+ */
+export function escapeHtml(unsafe: string): string {
+	const entityMap: { [key: string]: string } = {
+		"&": "&amp;",
+		"<": "&lt;",
+		">": "&gt;",
+		'"': "&quot;",
+		"'": "&#39;",
+		"/": "&#x2F;",
+	};
+
+	return unsafe.replace(/[&<>"'/]/g, (char) => entityMap[char]);
+}
+/**
+ * Escapes unsafe HTML characters in an object.
+ */
+export const escapeHtmlObject = <T, R>(
+	obj: T,
+	keysToEscape: (keyof T)[],
+): R => {
+	return obj != null && typeof obj === "object"
+		? (Object.fromEntries(
+				Object.entries(obj).map(([key, value]) => {
+					const escapedValue =
+						keysToEscape.includes(key as keyof T) && typeof value === "string"
+							? escapeHtml(value)
+							: value?.toString
+								? escapeHtml(value.toString())
+								: value;
+					return [key, escapedValue];
+				}),
+			) as R)
+		: ((obj || "").toString() as R);
+};
+
+/**
  * Centralized logging utility.
  */
 export function logInfo(message: string): void {

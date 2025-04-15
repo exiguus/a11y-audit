@@ -1,12 +1,63 @@
 import { writeFileSync } from "node:fs";
-import type { IssueCount, SelectorCount, Results } from "./result.config";
+import type {
+	Results,
+	ResultsEscaped,
+	IssueCountEscaped,
+	SelectorCountEscaped,
+} from "./result.config";
+import { escapeHtml, escapeHtmlObject } from "./utils";
+
+const escapeDate = (rawData: Results): ResultsEscaped => ({
+	datetime: escapeHtml(rawData.datetime),
+	origin: escapeHtml(rawData.origin),
+	overallAccessibilityScore: escapeHtml(
+		rawData.overallAccessibilityScore.toString(),
+	),
+	totalIssues: escapeHtml(rawData.totalIssues.toString()),
+	totalErrors: escapeHtml(rawData.totalErrors.toString()),
+	totalWarnings: escapeHtml(rawData.totalWarnings.toString()),
+	totalNotices: escapeHtml(rawData.totalNotices.toString()),
+	totalPages: escapeHtml(rawData.totalPages.toString()),
+	missingAltIndex: escapeHtml(rawData.missingAltIndex.toString()),
+	wcagIssues: rawData.wcagIssues.map((issue) =>
+		escapeHtmlObject(issue, [
+			"code",
+			"type",
+			"message",
+			"count",
+			"selector",
+			"url",
+		]),
+	),
+	axeIssues: rawData.axeIssues.map((issue) =>
+		escapeHtmlObject(issue, [
+			"code",
+			"type",
+			"message",
+			"count",
+			"selector",
+			"url",
+		]),
+	),
+	selectorIssues: rawData.selectorIssues.map((issue) =>
+		escapeHtmlObject(issue, [
+			"code",
+			"type",
+			"message",
+			"count",
+			"selector",
+			"url",
+		]),
+	),
+});
 
 /**
  * Generates the HTML content for the accessibility report.
  * @param data The data to populate the HTML content.
  * @return The generated HTML string.
  */
-const generateHtml = (data: Results): string => {
+const generateHtml = (rawData: Results): string => {
+	const data = escapeDate(rawData);
 	return `
 <!DOCTYPE html>
 <html lang="en">
@@ -173,7 +224,7 @@ const generateHtml = (data: Results): string => {
           <tbody>
             ${data.wcagIssues
 							.map(
-								(issue: IssueCount) => `
+								(issue: IssueCountEscaped) => `
               <tr>
                 <td>${issue.code}</td>
                 <td class="${issue.type.toLowerCase()}">${issue.type}</td>
@@ -211,7 +262,7 @@ const generateHtml = (data: Results): string => {
           <tbody>
             ${data.axeIssues
 							.map(
-								(issue: IssueCount) => `
+								(issue: IssueCountEscaped) => `
               <tr>
                 <td>${issue.code}</td>
                 <td class="${issue.type.toLowerCase()}">${issue.type}</td>
@@ -249,7 +300,7 @@ const generateHtml = (data: Results): string => {
           <tbody>
             ${data.selectorIssues
 							.map(
-								(issue: SelectorCount) => `
+								(issue: SelectorCountEscaped) => `
               <tr>
                 <td><code>${issue.selector}</code></td>
                 <td class="${issue.type.toLowerCase()}">${issue.type}</td>

@@ -54,3 +54,36 @@ export interface Results {
 	axeIssues: IssueCount[];
 	selectorIssues: SelectorCount[];
 }
+
+export interface IssueCountEscaped {
+	code: string;
+	type: string;
+	message: string;
+	url: string;
+	selector: string;
+	count: string;
+}
+
+export interface SelectorCountEscaped {
+	code: string;
+	type: string;
+	message: string;
+	url: string;
+	selector: string;
+	count: string;
+}
+
+export interface ResultsEscaped {
+	origin: string;
+	datetime: string;
+	overallAccessibilityScore: string;
+	totalIssues: string;
+	totalErrors: string;
+	totalWarnings: string;
+	totalNotices: string;
+	totalPages: string;
+	missingAltIndex: string;
+	wcagIssues: IssueCountEscaped[];
+	axeIssues: IssueCountEscaped[];
+	selectorIssues: SelectorCountEscaped[];
+}
