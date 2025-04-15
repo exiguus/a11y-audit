@@ -34,7 +34,14 @@ export class AccessibilityAuditor {
 			logInfo("Starting accessibility audit...");
 			const sitemap = this.loadSitemap();
 
-			for (const url of sitemap) {
+			const filteredSitemap = sitemap.filter(
+				(url) => !this.reporter.fileExists(url),
+			);
+			logInfo(
+				`Audit ${filteredSitemap.length} URLs. ${sitemap.length - filteredSitemap.length} reports already exist.`,
+			);
+
+			for (const url of filteredSitemap) {
 				this.config.origin = url;
 				await this.auditUrl(this.config as CrawlConfig);
 			}
@@ -78,10 +85,6 @@ export class AccessibilityAuditor {
 	private async auditUrl(config: CrawlConfig): Promise<void> {
 		if (!config.origin) {
 			throw new Error("Origin is required");
-		}
-		if (this.reporter.fileExists(config.origin)) {
-			logInfo(`File already exists for ${config.origin}, skipping ...`);
-			return;
 		}
 
 		const browser = await this.browser;
