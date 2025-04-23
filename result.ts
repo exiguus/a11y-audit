@@ -3,6 +3,7 @@ import { join } from "node:path";
 import type { IssueCount, Report, SelectorCount } from "./result.config";
 import {
 	ensureDirectoryExists,
+	getDateTime,
 	logError,
 	logInfo,
 	readJsonFile,
@@ -153,7 +154,7 @@ async function generateAccessibilityReport(): Promise<void> {
 
 		const results = {
 			origin: process.env.ORIGIN || "default",
-			datetime: new Date().toISOString(),
+			datetime: getDateTime(),
 			overallAccessibilityScore: calculateOverallAccessibilityScore(reports),
 			...totals,
 			missingAltIndex: calculateMissingAltIndex(reports),
