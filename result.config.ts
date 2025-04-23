@@ -31,15 +31,6 @@ export interface IssueCount {
 	count: number;
 }
 
-export interface SelectorCount {
-	code: string;
-	type: Report["issues"][number]["type"];
-	message: string;
-	url: string;
-	selector: string;
-	count: number;
-}
-
 export interface Results {
 	origin: string;
 	datetime: string;
@@ -52,19 +43,26 @@ export interface Results {
 	missingAltIndex: number;
 	wcagIssues: IssueCount[];
 	axeIssues: IssueCount[];
-	selectorIssues: SelectorCount[];
+	selectorIssues: IssueCount[];
+	issuesByCode: Record<
+		string,
+		{
+			count: number;
+			code: string;
+			issues: IssueCount[];
+		}
+	>;
+	issuesByPage: Record<
+		string,
+		{
+			count: number;
+			url: string;
+			issues: IssueCount[];
+		}
+	>;
 }
 
 export interface IssueCountEscaped {
-	code: string;
-	type: string;
-	message: string;
-	url: string;
-	selector: string;
-	count: string;
-}
-
-export interface SelectorCountEscaped {
 	code: string;
 	type: string;
 	message: string;
@@ -85,5 +83,21 @@ export interface ResultsEscaped {
 	missingAltIndex: string;
 	wcagIssues: IssueCountEscaped[];
 	axeIssues: IssueCountEscaped[];
-	selectorIssues: SelectorCountEscaped[];
+	selectorIssues: IssueCountEscaped[];
+	issuesByCode: Record<
+		string,
+		{
+			count: string;
+			code: string;
+			issues: IssueCountEscaped[];
+		}
+	>;
+	issuesByPage: Record<
+		string,
+		{
+			count: string;
+			url: string;
+			issues: IssueCountEscaped[];
+		}
+	>;
 }

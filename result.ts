@@ -1,6 +1,6 @@
 import { readdirSync } from "node:fs";
 import { join } from "node:path";
-import type { IssueCount, Report, SelectorCount } from "./result.config";
+import type { IssueCount, Report } from "./result.config";
 import {
 	ensureDirectoryExists,
 	getDateTime,
@@ -51,6 +51,7 @@ function calculateIssueCounts(reports: Report[]): IssueCount[] {
 					acc[key] = {
 						count: 1,
 						type: issue.type,
+						code: issue.code,
 						message: issue.message,
 						url: report.pageUrl,
 						selector: issue.selector,
@@ -61,13 +62,13 @@ function calculateIssueCounts(reports: Report[]): IssueCount[] {
 			}
 			return acc;
 		},
-		{} as Record<string, Omit<IssueCount, "code">>,
+		{} as Record<string, IssueCount>,
 	);
 
 	return Object.entries(issuesMap)
 		.map(([code, value]) => ({
-			code,
 			...value,
+			code,
 		}))
 		.sort((a, b) => b.count - a.count);
 }
@@ -81,7 +82,7 @@ function calculateMissingAltIndex(reports: Report[]): number {
 /**
  * Calculates the selector issues from the reports.
  */
-function calculateSelectorIssues(reports: Report[]): SelectorCount[] {
+function calculateSelectorIssues(reports: Report[]): IssueCount[] {
 	const selectorMap = reports.reduce(
 		(acc, report) => {
 			for (const issue of report.issues) {
@@ -91,6 +92,7 @@ function calculateSelectorIssues(reports: Report[]): SelectorCount[] {
 						code: issue.code,
 						type: issue.type,
 						message: issue.message,
+						selector: issue.selector,
 						url: report.pageUrl,
 						count: 1,
 					};
@@ -100,17 +102,122 @@ function calculateSelectorIssues(reports: Report[]): SelectorCount[] {
 			}
 			return acc;
 		},
-		{} as Record<string, Omit<SelectorCount, "selector">>,
+		{} as Record<string, IssueCount>,
 	);
 
 	return Object.entries(selectorMap)
 		.map(([selector, value]) => ({
-			selector,
 			...value,
+			selector,
 		}))
 		.sort((a, b) => b.count - a.count);
 }
 
+/**
+ * Issues sorted by code
+ */
+
+function calculateIssuesByCode(reports: Report[]) {
+	const issuesByCode = reports.reduce(
+		(acc, report) => {
+			for (const issue of report.issues) {
+				const key = issue.code;
+				if (!acc[key]) {
+					acc[key] = {
+						count: 1,
+						code: issue.code,
+						issues: [],
+					};
+				} else {
+					acc[key].count++;
+				}
+				acc[key].issues.push({
+					type: issue.type,
+					message: issue.message,
+					url: report.pageUrl,
+					selector: issue.selector,
+					count: acc[key].count,
+					code: issue.code,
+				});
+			}
+			return acc;
+		},
+		{} as Record<
+			string,
+			{
+				count: number;
+				code: string;
+				issues: IssueCount[];
+			}
+		>,
+	);
+
+	// sort object keys by name
+	const sortedKeys = Object.keys(issuesByCode).sort((a, b) =>
+		a.localeCompare(b),
+	);
+	const sortedIssuesByCode = sortedKeys.reduce(
+		(acc, key) => {
+			acc[key] = issuesByCode[key];
+			return acc;
+		},
+		{} as Record<string, { count: number; code: string; issues: IssueCount[] }>,
+	);
+	return sortedIssuesByCode;
+}
+/**
+ * Issues sorted by page
+ */
+
+function calculateIssuesByPage(reports: Report[]) {
+	const issuesByPage = reports.reduce(
+		(acc, report) => {
+			for (const issue of report.issues) {
+				const key = report.pageUrl;
+				if (!acc[key]) {
+					acc[key] = {
+						count: 1,
+						url: report.pageUrl,
+						issues: [],
+					};
+				} else {
+					acc[key].count++;
+				}
+				acc[key].issues.push({
+					type: issue.type,
+					message: issue.message,
+					url: report.pageUrl,
+					selector: issue.selector,
+					count: acc[key].count,
+					code: issue.code,
+				});
+			}
+			return acc;
+		},
+		{} as Record<
+			string,
+			{
+				count: number;
+				url: string;
+				issues: IssueCount[];
+			}
+		>,
+	);
+
+	// sort object keys by name
+	const sortedKeys = Object.keys(issuesByPage).sort((a, b) =>
+		a.localeCompare(b),
+	);
+	const sortedIssuesByPage = sortedKeys.reduce(
+		(acc, key) => {
+			acc[key] = issuesByPage[key];
+			return acc;
+		},
+		{} as Record<string, { count: number; url: string; issues: IssueCount[] }>,
+	);
+
+	return sortedIssuesByPage;
+}
 /**
  * Calculates the overall accessibility score from the reports.
  */
@@ -161,6 +268,8 @@ async function generateAccessibilityReport(): Promise<void> {
 			wcagIssues: issueCounts.filter((issue) => issue.code.startsWith("WCAG")),
 			axeIssues: issueCounts.filter((issue) => !issue.code.startsWith("WCAG")),
 			selectorIssues: calculateSelectorIssues(reports),
+			issuesByCode: calculateIssuesByCode(reports),
+			issuesByPage: calculateIssuesByPage(reports),
 		};
 
 		const resultDir = `${process.env.RESULT_PATH || "./results"}/${process.env.ORIGIN || "default"}`;
