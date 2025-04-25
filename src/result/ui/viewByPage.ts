@@ -6,10 +6,11 @@ export const generateByPageHtml = (data: ResultsEscaped): string =>
 		data,
 		content: `<section id="issues-by-page">
       <h2>Issues by Page</h2>
+      <p><button data-toggle-details-status="close" data-toggle-details>Toggle all details</button></p>
       ${Object.entries(data.issuesByPage)
 				.map(
 					([key, value]) => `
-        <details open aria-expanded="true" aria-labelledby="${value.url}">
+        <details aria-labelledby="${value.url}">
           <summary>(${value.count}) ${key}</summary>
           <h3 id="${value.url}">${key}</h3>
           <h4>${value.count} Issues found.</h4>

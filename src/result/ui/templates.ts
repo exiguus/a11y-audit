@@ -274,6 +274,36 @@ export const getHtmlLayout = ({
   <footer>
     <p>Accessibility Report <a title="view on github" href="https://github.com/exiguus/a11y-audit">a11y audit tools</a></p>
   </footer>
+  <script>
+    const toggleDetails = (event) => {
+      event.preventDefault();
+      const buttonElement = event.currentTarget;
+      if (!buttonElement) return;
+      const sectionElement = buttonElement.parentElement.parentElement;
+      if (!sectionElement) return;
+      const detailsElements = sectionElement.querySelectorAll("details");
+      const currentStatus = buttonElement.getAttribute("data-toggle-details-status");
+      detailsElements.forEach((details) => {
+        if (currentStatus === "open") {
+          details.removeAttribute("open");
+          details.setAttribute("aria-expanded", false);
+          buttonElement.setAttribute("data-toggle-details-status", "close");
+        } else {
+          details.setAttribute("open", "");
+          details.setAttribute("aria-expanded", true);
+          buttonElement.setAttribute("data-toggle-details-status", "open");
+        }
+      });
+    };
+    document.querySelector("button[data-toggle-details]")?.addEventListener("click", toggleDetails);
+
+    document.ready = () => {
+      buttonDetailsToggleElements = document.querySelectorAll("button[data-toggle-details]");
+      buttonDetailsToggleElements.forEach((buttonDetailsToggleElement) => {
+        toggleDetails({ currentTarget: buttonDetailsToggleElement });
+      });
+    }
+  </script>
 </body>
 </html>
 `;
