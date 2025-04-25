@@ -1,40 +1,10 @@
-import type { ResultsEscaped } from "../config";
-import { getDateTime } from "../../utils";
 
-const getProcessStatus = (score: number): string => {
-	switch (true) {
-		case score >= 90:
-			return "success";
-		case score >= 70:
-			return "notice";
-		case score >= 50:
-			return "warning";
-		default:
-			return "error";
-	}
-};
-
-export const getHtmlLayout = ({
-	type = "index",
-	data,
-	content,
-}: {
-	type?: "index" | "issues-by";
-	data: ResultsEscaped;
-	content: string;
-}): string => {
-	const config = {
-		processStatus: getProcessStatus(
-			Number.parseInt(data.overallAccessibilityScore),
-		),
-	};
-	return `
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accessibility Report ${data.origin}</title>
+  <title>Accessibility Report default</title>
   <style>
     :root {
       --color: #333;
@@ -226,7 +196,7 @@ export const getHtmlLayout = ({
 <body>
   <header>
     <h1>Accessibility Report</h1>
-    <h2 class="sr-only">${data.origin} by Page</h2>
+    <h2 class="sr-only">default by Page</h2>
   </header>
   <nav>
     <h2 id="toc" aria-hidden="true">Table of Content</h2>
@@ -238,38 +208,50 @@ export const getHtmlLayout = ({
     </ul>
   </nav>
   <main>
-    <details ${type === "index" ? 'open="true" aria-expanded="true"' : ""} aria-labelledby="summary">
+    <details open="true" aria-expanded="true" aria-labelledby="summary">
       <summary id="summary">
         <label class="sr-only" for="accessibility-score-process">Accessibility Score</label>
-        <progress class="${config.processStatus}" id="accessibility-score-process" max="100" value="${data.overallAccessibilityScore}">${data.overallAccessibilityScore}%</progress>
-        <br />Summary: (${data.totalIssues}) ${data.origin}
+        <progress class="error" id="accessibility-score-process" max="100" value="NaN">NaN%</progress>
+        <br />Summary: (0) default
       </summary>
       <header aria-labelledby="summary-name">
-        <h3 aria-hidden="true">${data.origin}</h3>
+        <h3 aria-hidden="true">default</h3>
         <h4 id="summary-name">Summary</h4>
         <dl aria-label="Summary of the accessibility report">
           <dt>Origin</dt>
-          <dd>${data.origin}</dd>
+          <dd>default</dd>
           <dt>Date</dt>
-          <dd>${getDateTime()}</dd>
+          <dd>2025-04-25 22:30:58</dd>
           <dt>Total Issues</dt>
-          <dd>${data.totalIssues}</dd>
+          <dd>0</dd>
           <dt>Total Errors</dt>
-          <dd>${data.totalErrors}</dd>
+          <dd>0</dd>
           <dt>Total Warnings</dt>
-          <dd>${data.totalWarnings}</dd>
+          <dd>0</dd>
           <dt>Total Notices</dt>
-          <dd>${data.totalNotices}</dd>
+          <dd>0</dd>
           <dt>Total Pages</dt>
-          <dd>${data.totalPages}</dd>
+          <dd>0</dd>
           <dt>Missing Alt Index</dt>
-          <dd>${data.missingAltIndex}</dd>
+          <dd>0</dd>
           <dt>Overall Accessibility Score</dt>
-          <dd class="${config.processStatus}"><strong>${data.overallAccessibilityScore}%</strong></dd>
+          <dd class="error"><strong>NaN%</strong></dd>
         </dl>
       </header>
     </details>
-    ${content}
+    <section id="wcag-issues">
+      <h2>WCAG Issues</h2>
+      <p>No WCAG issues found.</p>
+    </section>
+    <section id="axe-issues">
+      <h2>Axe Issues</h2>
+      <p>No Axe issues found.</p>
+    </section>
+    <section id="selector-issues">
+      <h2>Selector Issues</h2>
+      <p>No Selector issues found.</p>
+    </section>
+  
   </main>
   <footer>
     <p>Accessibility Report <a title="view on github" href="https://github.com/exiguus/a11y-audit">a11y audit tools</a></p>
@@ -306,5 +288,3 @@ export const getHtmlLayout = ({
   </script>
 </body>
 </html>
-`;
-};
