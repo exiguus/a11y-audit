@@ -22,7 +22,16 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build
+      - name: Prepare default .env
+        run: cp .env.example .env
+
+      - name: Audit
+        run: pnpm a11y:audit
+
+      - name: Prepare zola-monoplain .env
+        run: cp .env.zola-monoplain .env
+
+      - name: Audit
         run: pnpm a11y:audit
 
       - name: Deploy
