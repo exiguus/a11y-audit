@@ -9,10 +9,19 @@ export const generateByPageHtml = (data: ResultsEscaped): string =>
       <h2>Issues by Page</h2>
       <p>Issues are grouped by page. The page is a unique identifier for the issue.</p>
       <p>Issues are sorted by issue count in descending order.</p>
-      <p><button data-toggle-details-status="close" data-toggle-details>Toggle all details</button></p>
+      ${
+				Object.entries(data.issuesByCode).length > 0
+					? `
+        <p><button data-toggle-details-status="close" data-toggle-details>Toggle all details</button></p>
+      `
+					: ""
+			}
       ${
 				Object.entries(data.issuesByPage).length === 0
-					? "<p>No issues found.</p>"
+					? `
+            <h3>Congratulations!</h3>
+            <p>No issues found.</p>
+          `
 					: Object.entries(data.issuesByPage)
 							.map(
 								([key, value]) => `

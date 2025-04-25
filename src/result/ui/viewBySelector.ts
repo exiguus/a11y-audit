@@ -9,10 +9,19 @@ export const generateBySelectorHtml = (data: ResultsEscaped): string =>
       <h2>Issues by Selector</h2>
       <p>Issues are grouped by selector. The selector is a unique identifier for the issue.</p>
       <p>Selector are sorted by issue count in descending order.</p>
-      <p><button data-toggle-details-status="close" data-toggle-details>Toggle all details</button></p>
+      ${
+				Object.entries(data.issuesByCode).length > 0
+					? `
+        <p><button data-toggle-details-status="close" data-toggle-details>Toggle all details</button></p>
+      `
+					: ""
+			}
       ${
 				Object.entries(data.issuesBySelector).length === 0
-					? "<p>No issues found.</p>"
+					? `
+            <h3>Congratulations!</h3>
+            <p>No issues found.</p>
+          `
 					: Object.entries(data.issuesBySelector)
 							.map(
 								([key, value]) => `

@@ -10,10 +10,19 @@ export const generateByCodeHtml = (data: ResultsEscaped): string =>
       <p>Issues are grouped by code. The code is a unique identifier for the issue.</p>
       <p>Issues are sorted by code name.</p>
       <p>Click on the code to view the issue.</p>
-      <p><button data-toggle-details-status="close" data-toggle-details>Toggle all details</button></p>
+      ${
+				Object.entries(data.issuesByCode).length > 0
+					? `
+        <p><button data-toggle-details-status="close" data-toggle-details>Toggle all details</button></p>
+      `
+					: ""
+			}
       ${
 				Object.entries(data.issuesByCode).length === 0
-					? "<p>No issues found.</p>"
+					? `
+            <h3>Congratulations!</h3>
+            <p>No issues found.</p>
+          `
 					: Object.entries(data.issuesByCode)
 							.map(
 								([key, value]) => `
