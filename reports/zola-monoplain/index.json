@@ -1,0 +1,14 @@
+{
+	"documentTitle": "",
+	"pageUrl": "",
+	"meta": {
+		"errorCount": 0,
+		"warningCount": 0,
+		"noticeCount": 0,
+		"accessScore": 0
+	},
+	"automateable": {
+		"missingAltIndexs": []
+	},
+	"issues": []
+}

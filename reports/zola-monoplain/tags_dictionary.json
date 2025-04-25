@@ -1,0 +1,120 @@
+{
+	"documentTitle": "Dictionary | mono/plain; a11y=true",
+	"pageUrl": "https://exiguus.github.io/zola-monoplain/tags/dictionary/",
+	"issues": [
+		{
+			"context": "<h2 id=\"footer-links\" class=\"sr-only\">Links</h2>",
+			"selector": "#footer-links",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<h2 id=\"footer-info\" class=\"sr-only\">Information</h2>",
+			"selector": "#footer-info",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<i class=\"sr-only\">Last update:</i>",
+			"selector": "#tags--dictionary>:nth-child(6)>:nth-child(4)>:nth-child(5)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"#main\">Skip to content</a>",
+			"selector": "#skip-nav>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<a href=\"#main-nav\">Skip to navigation</a>",
+			"selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span class=\"sr-only\">Github</span>",
+			"selector": "#tags--dictionary>:nth-child(6)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span class=\"sr-only\">Mastodon</span>",
+			"selector": "#tags--dictionary>:nth-child(6)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<span class=\"sr-only\">Atom</span>",
+			"selector": "#tags--dictionary>:nth-child(6)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<nav id=\"skip-nav\" aria-label=\"Skip Navigation\" aria-live=\"off\" aria-atomic=\"false\">\n  <ul>\n    <li><a href=\"#main\">...</nav>",
+			"selector": "#skip-nav",
+			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_10.C32,C31,C33,C38,SCR34,G206",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "This element has \"position: fixed\". This may require scrolling in two dimensions, which is considered a failure of this Success Criterion.",
+			"runner": "htmlcs",
+			"recurrence": 0
+		},
+		{
+			"context": "<p aria-labelledby=\"footer-info\">\n    © mono/plain; a11y=true 202...</p>",
+			"selector": "#tags--dictionary>:nth-child(6)>:nth-child(4)",
+			"code": "aria-allowed-attr",
+			"type": "warning",
+			"typeCode": 2,
+			"message": "Elements must only use allowed ARIA attributes",
+			"runner": "axe",
+			"runnerExtras": {
+				"description": "Ensures ARIA attributes are allowed for an element's role",
+				"impact": "serious",
+				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-allowed-attr?application=axeAPI"
+			},
+			"recurrence": 0
+		}
+	],
+	"meta": {
+		"errorCount": 0,
+		"warningCount": 10,
+		"noticeCount": 0,
+		"accessScore": 100
+	},
+	"automateable": {
+		"missingAltIndexs": []
+	}
+}

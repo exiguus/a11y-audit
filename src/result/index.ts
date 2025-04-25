@@ -9,7 +9,8 @@ import {
 	readJsonFile,
 	writeJsonFile,
 } from "../utils";
-import { generateHtmlReport } from "./ui";
+import { generateHtmlReport } from "./ui/reports";
+import { generateResultListing } from "./ui/resultListing";
 
 /**
  * Filters issues based on the environment variable.
@@ -356,4 +357,5 @@ async function generateAccessibilityReport(): Promise<void> {
 
 export async function main(): Promise<void> {
 	await generateAccessibilityReport();
+	await generateResultListing();
 }
