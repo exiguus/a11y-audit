@@ -113,13 +113,13 @@ pnpm run a11y:audit:backup
 The backup command is used to create a backup of the results and sitemaps.
 Backups are compressed and stored with timestamps.
 
-### Cleanup
+### Clean
 
 ```bash
-pnpm run a11y:audit:cleanup
+pnpm run a11y:audit:clean
 ```
 
-The cleanup command is used to remove all the results and sitemaps. This command is useful for cleaning up the results and sitemaps after the audit is complete.
+The clean command is used to remove all the results and sitemaps. This command is useful for cleaning up the results and sitemaps after the audit is complete.
 
 ### crawl.sh
 
