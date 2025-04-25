@@ -113,6 +113,7 @@ main() {
        --header="Accept-encoding: identity" \
        --output-file="${TEMP_FILE}" \
        --directory-prefix="${TEMP_PATH}" \
+       --show-progress \
        "${base_url}"
 }
 

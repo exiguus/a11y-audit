@@ -23,7 +23,9 @@
 	"keywords": [
 		"a11y",
 		"audit",
-		"wcag2aa",
+		"wcag2",
+		"wcag2.1",
+		"wcag2.2",
 		"web",
 		"accessibility",
 		"EN 301 549"
