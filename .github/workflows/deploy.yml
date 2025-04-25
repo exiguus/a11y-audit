@@ -23,7 +23,7 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm build
+        run: pnpm a11y:audit
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
