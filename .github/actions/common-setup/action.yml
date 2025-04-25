@@ -11,6 +11,11 @@ runs:
       with:
         node-version-file: ${{ inputs.node-version-file }}
 
+    - name: Setup bun
+      uses: oven-sh/setup-bun@v2
+      with:
+        bun-version-file: ${{ inputs.node-version-file }}
+
     - uses: pnpm/action-setup@v4
       name: Install pnpm
       with:
