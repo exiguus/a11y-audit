@@ -70,7 +70,10 @@ export class AccessibilityAuditor {
 				const fileContent = readFileSync(filePath, "utf-8");
 				const urls: string[] = JSON.parse(fileContent);
 				const filteredUrls = urls.filter(
-					(url) => url.endsWith(".html") || !url.slice(-8).includes("."),
+					(url) =>
+						url.endsWith(".html") ||
+						!url.slice(-8).includes(".") ||
+						url.endsWith("/"),
 				);
 				content.push(...filteredUrls);
 			}
