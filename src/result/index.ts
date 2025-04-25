@@ -1,6 +1,6 @@
 import { readdirSync } from "node:fs";
 import { join } from "node:path";
-import type { IssueCount, Report } from "./result.config";
+import type { IssueCount, Report } from "./config";
 import {
 	ensureDirectoryExists,
 	getDateTime,
@@ -8,8 +8,8 @@ import {
 	logInfo,
 	readJsonFile,
 	writeJsonFile,
-} from "./utils";
-import { generateHtmlReport } from "./result.ui";
+} from "../utils";
+import { generateHtmlReport } from "./ui";
 
 /**
  * Filters issues based on the environment variable.
@@ -288,7 +288,6 @@ async function generateAccessibilityReport(): Promise<void> {
 	}
 }
 
-// Execute the report generation
-(async () => {
+export async function main(): Promise<void> {
 	await generateAccessibilityReport();
-})();
+}

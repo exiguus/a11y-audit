@@ -1,9 +1,9 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { type Browser, chromium } from "@playwright/test";
 import { type Audit, kayle, setLogging } from "kayle";
-import { type CrawlConfig, defaultConfig } from "./report.config";
+import { type CrawlConfig, defaultConfig } from "./config";
 import { Reporter } from "./reporter.class";
-import { logError, logInfo } from "./utils";
+import { logError, logInfo } from "../utils";
 
 export class AccessibilityAuditor {
 	private readonly reporter: Reporter;
@@ -111,11 +111,9 @@ export class AccessibilityAuditor {
 	}
 }
 
-// Enable logging if needed
-setLogging(!!process.env.DEBUG);
-
-// Run the audit
-(async () => {
+export async function main(): Promise<void> {
+	// Enable logging if needed
+	setLogging(!!process.env.DEBUG);
 	const auditor = new AccessibilityAuditor(defaultConfig);
 
 	try {
@@ -125,4 +123,4 @@ setLogging(!!process.env.DEBUG);
 		logError(`Error during audit: ${error.message}`);
 		process.exit(1);
 	}
-})();
+}

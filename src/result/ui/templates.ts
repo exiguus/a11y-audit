@@ -1,5 +1,5 @@
-import type { ResultsEscaped } from "./result.config";
-import { getDateTime } from "./utils";
+import type { ResultsEscaped } from "../config";
+import { getDateTime } from "../../utils";
 
 const getProcessStatus = (score: number): string => {
 	switch (true) {

@@ -43,8 +43,19 @@ post_cleanup() {
   fi
 }
 
+check_dependencies() {
+  local dependencies=("wget" "grep" "sed")
+  for dep in "${dependencies[@]}"; do
+    if ! command -v "${dep}" &> /dev/null; then
+      echo "Error: ${dep} is not installed. Please install it and try again."
+      exit 1
+    fi
+  done
+}
+
 pre_task() {
   # Pre-cleanup: remove existing sitemap file
+  check_dependencies
   pre_cleanup
 }
 
@@ -84,6 +95,7 @@ main() {
   local base_url="$1"
 
   # Use wget to recursively download pages and save URLs
+  echo "Start crawling: ${base_url}"
   wget --wait=1 \
        --spider \
        --recursive \

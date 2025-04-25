@@ -1,5 +1,5 @@
-import type { ResultsEscaped, IssueCountEscaped } from "./result.config";
-import { getHtmlLayout } from "./result.ui.templates";
+import type { ResultsEscaped, IssueCountEscaped } from "../config";
+import { getHtmlLayout } from "./templates";
 
 export const generateIndexHtml = (data: ResultsEscaped): string =>
 	getHtmlLayout({

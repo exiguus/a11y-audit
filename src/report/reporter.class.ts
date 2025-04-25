@@ -6,7 +6,7 @@ import {
 	logInfo,
 	sanitizeFolderName,
 	writeJsonFile,
-} from "./utils";
+} from "../utils";
 
 export class Reporter {
 	private readonly reportDir: string =

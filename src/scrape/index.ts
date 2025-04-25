@@ -6,7 +6,7 @@ import {
 	logInfo,
 	logWarn,
 	writeJsonFile,
-} from "./utils";
+} from "../utils";
 
 class SitemapScraper {
 	private readonly outputDir: string;
@@ -86,8 +86,7 @@ class SitemapScraper {
 	}
 }
 
-// Usage
-(async () => {
+export async function main(): Promise<void> {
 	try {
 		const urlList = JSON.parse(process.env.URL_LIST || "[]");
 		const siteMaps = JSON.parse(process.env.SITEMAP_URLS || "[]");
@@ -106,4 +105,4 @@ class SitemapScraper {
 	} catch (error) {
 		logError(`Error: ${error instanceof Error ? error.message : error}`);
 	}
-})();
+}

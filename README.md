@@ -121,8 +121,10 @@ The cleanup command is used to remove all the results and sitemaps. This command
 
 ### crawl.sh
 
+Recursive crawl a website and generate a sitemap.txt file.
+
 ```bash
-./crawl.sh https://www.example.org
+./scripts/crawl.sh https://www.example.org
 ```
 
 The `crawl.sh` script use wget to recursively crawl a website and generate a `sitemap.txt` file. The file can be used to manualy export the `URL_LIST` with  `export URL_LIST=$(jq -R < sitemap.txt | jq -s .)`.

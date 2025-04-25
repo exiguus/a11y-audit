@@ -1,19 +1,19 @@
-import type { ResultsEscaped, IssueCountEscaped } from "./result.config";
-import { getHtmlLayout } from "./result.ui.templates";
+import type { ResultsEscaped, IssueCountEscaped } from "../config";
+import { getHtmlLayout } from "./templates";
 
-export const generateByCodeHtml = (data: ResultsEscaped): string =>
+export const generateByPageHtml = (data: ResultsEscaped): string =>
 	getHtmlLayout({
 		data,
-		content: `<section id="issues-by-code">
-      <h2>Issues by Code</h2>
-      ${Object.entries(data.issuesByCode)
+		content: `<section id="issues-by-page">
+      <h2>Issues by Page</h2>
+      ${Object.entries(data.issuesByPage)
 				.map(
 					([key, value]) => `
-        <details open aria-expanded="true" aria-labelledby="${value.code}">
+        <details open aria-expanded="true" aria-labelledby="${value.url}">
           <summary>(${value.count}) ${key}</summary>
-          <h3 id="${value.code}">${key}</h3>
-          <h4>${value.count} issues found.</h4>
-          <p>${value.code} issue code.</p>
+          <h3 id="${value.url}">${key}</h3>
+          <h4>${value.count} Issues found.</h4>
+          <p><a title="open page in new tab" href="${value.url}" target="_blank">${value.url}</a></p>
           ${
 						value.issues.length === 0
 							? "<p>No issues found.</p>"
@@ -53,6 +53,5 @@ export const generateByCodeHtml = (data: ResultsEscaped): string =>
         `,
 				)
 				.join("")}
-    </section>
-  `,
+    </section>`,
 	});

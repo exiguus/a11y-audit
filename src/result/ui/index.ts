@@ -1,13 +1,9 @@
 import { writeFileSync } from "node:fs";
-import type {
-	Results,
-	ResultsEscaped,
-	IssueCountEscaped,
-} from "./result.config";
-import { escapeHtml, escapeHtmlObject } from "./utils";
-import { generateIndexHtml } from "./result.ui.index";
-import { generateByCodeHtml } from "./result.ui.byCode";
-import { generateByPageHtml } from "./result.ui.byPage";
+import type { Results, ResultsEscaped, IssueCountEscaped } from "../config";
+import { escapeHtml, escapeHtmlObject } from "../../utils";
+import { generateIndexHtml } from "./viewHome";
+import { generateByCodeHtml } from "./viewByCode";
+import { generateByPageHtml } from "./viewByPage";
 
 const escapeDate = (rawData: Results): ResultsEscaped => ({
 	datetime: escapeHtml(rawData.datetime),
