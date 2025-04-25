@@ -3,13 +3,20 @@ import { getHtmlLayout } from "./templates";
 
 export const generateByCodeHtml = (data: ResultsEscaped): string =>
 	getHtmlLayout({
+		type: "issues-by",
 		data,
 		content: `<section id="issues-by-code">
       <h2>Issues by Code</h2>
+      <p>Issues are grouped by code. The code is a unique identifier for the issue.</p>
+      <p>Issues are sorted by code name.</p>
+      <p>Click on the code to view the issue.</p>
       <p><button data-toggle-details-status="close" data-toggle-details>Toggle all details</button></p>
-      ${Object.entries(data.issuesByCode)
-				.map(
-					([key, value]) => `
+      ${
+				Object.entries(data.issuesByCode).length === 0
+					? "<p>No issues found.</p>"
+					: Object.entries(data.issuesByCode)
+							.map(
+								([key, value]) => `
         <details aria-labelledby="${value.code}">
           <summary>(${value.count}) ${key}</summary>
           <h3 id="${value.code}">${key}</h3>
@@ -52,8 +59,9 @@ export const generateByCodeHtml = (data: ResultsEscaped): string =>
 					}
         </details>
         `,
-				)
-				.join("")}
+							)
+							.join("")
+			}
     </section>
   `,
 	});

@@ -216,7 +216,72 @@ function calculateIssuesByPage(reports: Report[]) {
 		{} as Record<string, { count: number; url: string; issues: IssueCount[] }>,
 	);
 
-	return sortedIssuesByPage;
+	// sort by count
+	const sortedIssuesByPageCount = Object.entries(sortedIssuesByPage).sort(
+		([, a], [, b]) => b.count - a.count,
+	);
+	const sortedIssuesByPageCountMap = sortedIssuesByPageCount.reduce(
+		(acc, [key, value]) => {
+			acc[key] = value;
+			return acc;
+		},
+		{} as Record<string, { count: number; url: string; issues: IssueCount[] }>,
+	);
+	return sortedIssuesByPageCountMap;
+}
+/**
+ * Issues sorted by selector
+ */
+function calculateIssuesBySelector(reports: Report[]) {
+	const issuesBySelector = reports.reduce(
+		(acc, report) => {
+			for (const issue of report.issues) {
+				const key = issue.selector;
+				if (!acc[key]) {
+					acc[key] = {
+						count: 1,
+						selector: issue.selector,
+						issues: [],
+					};
+				} else {
+					acc[key].count++;
+				}
+				acc[key].issues.push({
+					type: issue.type,
+					message: issue.message,
+					url: report.pageUrl,
+					selector: issue.selector,
+					count: acc[key].count,
+					code: issue.code,
+				});
+			}
+			return acc;
+		},
+		{} as Record<
+			string,
+			{
+				count: number;
+				selector: string;
+				issues: IssueCount[];
+			}
+		>,
+	);
+
+	// sort by count
+	const sortedKeys = Object.keys(issuesBySelector).sort(
+		(a, b) => issuesBySelector[b].count - issuesBySelector[a].count,
+	);
+	const sortedIssuesBySelector = sortedKeys.reduce(
+		(acc, key) => {
+			acc[key] = issuesBySelector[key];
+			return acc;
+		},
+		{} as Record<
+			string,
+			{ count: number; selector: string; issues: IssueCount[] }
+		>,
+	);
+	return sortedIssuesBySelector;
 }
 /**
  * Calculates the overall accessibility score from the reports.
@@ -270,6 +335,7 @@ async function generateAccessibilityReport(): Promise<void> {
 			selectorIssues: calculateSelectorIssues(reports),
 			issuesByCode: calculateIssuesByCode(reports),
 			issuesByPage: calculateIssuesByPage(reports),
+			issuesBySelector: calculateIssuesBySelector(reports),
 		};
 
 		const resultDir = `${process.env.RESULT_PATH || "./results"}/${process.env.ORIGIN || "default"}`;

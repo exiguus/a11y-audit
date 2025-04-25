@@ -60,6 +60,14 @@ export interface Results {
 			issues: IssueCount[];
 		}
 	>;
+	issuesBySelector: Record<
+		string,
+		{
+			count: number;
+			selector: string;
+			issues: IssueCount[];
+		}
+	>;
 }
 
 export interface IssueCountEscaped {
@@ -97,6 +105,14 @@ export interface ResultsEscaped {
 		{
 			count: string;
 			url: string;
+			issues: IssueCountEscaped[];
+		}
+	>;
+	issuesBySelector: Record<
+		string,
+		{
+			count: string;
+			selector: string;
 			issues: IssueCountEscaped[];
 		}
 	>;

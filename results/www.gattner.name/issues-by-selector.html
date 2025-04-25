@@ -208,7 +208,7 @@
     </ul>
   </nav>
   <main>
-    <details open="true" aria-expanded="true" aria-labelledby="summary">
+    <details  aria-labelledby="summary">
       <summary id="summary">
         <label class="sr-only" for="accessibility-score-process">Accessibility Score</label>
         <progress class="success" id="accessibility-score-process" max="100" value="100">100%</progress>
@@ -239,19 +239,13 @@
         </dl>
       </header>
     </details>
-    <section id="wcag-issues">
-      <h2>WCAG Issues</h2>
-      <p>No WCAG issues found.</p>
+    <section id="issues-by-selector">
+      <h2>Issues by Selector</h2>
+      <p>Issues are grouped by selector. The selector is a unique identifier for the issue.</p>
+      <p>Selector are sorted by issue count in descending order.</p>
+      <p><button data-toggle-details-status="close" data-toggle-details>Toggle all details</button></p>
+      <p>No issues found.</p>
     </section>
-    <section id="axe-issues">
-      <h2>Axe Issues</h2>
-      <p>No Axe issues found.</p>
-    </section>
-    <section id="selector-issues">
-      <h2>Selector Issues</h2>
-      <p>No Selector issues found.</p>
-    </section>
-  
   </main>
   <footer>
     <p>Accessibility Report <a title="view on github" href="https://github.com/exiguus/a11y-audit">a11y audit tools</a></p>

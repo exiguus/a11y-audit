@@ -4,6 +4,7 @@ import { escapeHtml, escapeHtmlObject } from "../../utils";
 import { generateIndexHtml } from "./viewHome";
 import { generateByCodeHtml } from "./viewByCode";
 import { generateByPageHtml } from "./viewByPage";
+import { generateBySelectorHtml } from "./viewBySelector";
 
 const escapeDate = (rawData: Results): ResultsEscaped => ({
 	datetime: escapeHtml(rawData.datetime),
@@ -127,6 +128,37 @@ const escapeDate = (rawData: Results): ResultsEscaped => ({
 			}
 		>,
 	),
+	issuesBySelector: Object.entries(rawData.issuesBySelector).reduce(
+		(acc, [key, issue]) => {
+			acc[key] = {
+				count: escapeHtml(issue.count.toString()),
+				selector: escapeHtml(issue.selector),
+				issues: (
+					issue.issues.map((issue) =>
+						escapeHtmlObject(issue, [
+							"code",
+							"type",
+							"message",
+							"count",
+							"selector",
+						]),
+					) as IssueCountEscaped[]
+				).map((issue: IssueCountEscaped) => ({
+					...issue,
+					code: issue.code.split(".").join(" "),
+				})),
+			};
+			return acc;
+		},
+		{} as Record<
+			string,
+			{
+				count: string;
+				selector: string;
+				issues: IssueCountEscaped[];
+			}
+		>,
+	),
 });
 
 export async function generateHtmlReport(data: Results): Promise<void> {
@@ -134,6 +166,7 @@ export async function generateHtmlReport(data: Results): Promise<void> {
 	const OUTPUT_INDEX_HTML_PATH = `${RESULT_DIR}/index.html`;
 	const OUTPUT_BYPAGE_HTML_PATH = `${RESULT_DIR}/issues-by-page.html`;
 	const OUTPUT_BYCODE_HTML_PATH = `${RESULT_DIR}/issues-by-code.html`;
+	const OUTPUT_BYSELECTOR_HTML_PATH = `${RESULT_DIR}/issues-by-selector.html`;
 	const escapedData = escapeDate(data);
 	writeFileSync(
 		OUTPUT_INDEX_HTML_PATH,
@@ -148,6 +181,11 @@ export async function generateHtmlReport(data: Results): Promise<void> {
 	writeFileSync(
 		OUTPUT_BYCODE_HTML_PATH,
 		generateByCodeHtml(escapedData),
+		"utf-8",
+	);
+	writeFileSync(
+		OUTPUT_BYSELECTOR_HTML_PATH,
+		generateBySelectorHtml(escapedData),
 		"utf-8",
 	);
 }

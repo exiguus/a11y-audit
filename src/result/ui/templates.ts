@@ -15,9 +15,11 @@ const getProcessStatus = (score: number): string => {
 };
 
 export const getHtmlLayout = ({
+	type = "index",
 	data,
 	content,
 }: {
+	type?: "index" | "issues-by";
 	data: ResultsEscaped;
 	content: string;
 }): string => {
@@ -229,16 +231,14 @@ export const getHtmlLayout = ({
   <nav>
     <h2 id="toc" aria-hidden="true">Table of Content</h2>
     <ul aria-labelledby="toc">
-      <li><a title="Goto Summary" href="#summary">Summary</a></li>
-      <li><a title="Goto WCAG Issues" href="index.html#wcag-issues">WCAG Issues</a></li>
-      <li><a title="Goto Axe Issues" href="index.html#axe-issues">Axe Issues</a></li>
-      <li><a title="Goto Selector Issues" href="index.html#selector-issues">Selector Issues</a></li>
-      <li><a title="Goto Issue by Code" href="issues-by-code.html#summary">Issues by Code</a></li>
-      <li><a title="Goto Issue by Page" href="issues-by-page.html#summary">Issues by Page</a></li>
+      <li><a title="Goto Overview" href="index.html">Overview</a></li>
+      <li><a title="Goto Issues by Code" href="issues-by-code.html#summary">Issues by Code</a></li>
+      <li><a title="Goto Issues by Page" href="issues-by-page.html#summary">Issues by Page</a></li>
+      <li><a title="Goto Issues by Selector" href="issues-by-selector.html#summary">Issues by Selector</a></li>
     </ul>
   </nav>
   <main>
-    <details open aria-expanded="true" aria-labelledby="summary">
+    <details ${type === "index" ? 'open="true" aria-expanded="true"' : ""} aria-labelledby="summary">
       <summary id="summary">
         <label class="sr-only" for="accessibility-score-process">Accessibility Score</label>
         <progress class="${config.processStatus}" id="accessibility-score-process" max="100" value="${data.overallAccessibilityScore}">${data.overallAccessibilityScore}%</progress>

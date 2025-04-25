@@ -1,14 +1,17 @@
 {
 	"origin": "www.gattner.name",
-	"datetime": "2025-04-13T20:38:50.454Z",
+	"datetime": "2025-04-25 23:42:19",
 	"overallAccessibilityScore": 100,
 	"totalIssues": 0,
 	"totalErrors": 0,
-	"totalWarnings": 108,
+	"totalWarnings": 105,
 	"totalNotices": 0,
 	"totalPages": 4,
 	"missingAltIndex": 0,
 	"wcagIssues": [],
 	"axeIssues": [],
-	"selectorIssues": []
+	"selectorIssues": [],
+	"issuesByCode": {},
+	"issuesByPage": {},
+	"issuesBySelector": {}
 }
