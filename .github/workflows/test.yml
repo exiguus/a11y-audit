@@ -25,26 +25,10 @@ jobs:
         with:
           node-version-file: package.json
 
-      - uses: pnpm/action-setup@v4
-        name: Install pnpm
+      - name: Common Setup
+        uses: ./.github/actions/common-setup
         with:
-          run_install: false
-
-      - name: Get pnpm store directory
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
-
-      - uses: actions/cache@v4
-        name: Setup pnpm cache
-        with:
-          path: ${{ env.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
-
-      - name: Install pre-requisites
-        run: pnpm i -g bun
+          node-version-file: package.json
 
       - name: Install dependencies
         run: pnpm install
