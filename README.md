@@ -141,3 +141,26 @@ It can be used if a `sitemap.xml` file is not available.
 - [AXE](https://www.deque.com/axe/)
 - [kayle](https://github.com/a11ywatch/kayle)
 - [WAVE](https://wave.webaim.org/)
+
+## Disclaimer
+
+This repository is provided as-is without any warranties or guarantees. The tools and resources are intended to assist in conducting accessibility audits but may not cover all aspects of accessibility. It is recommended to consult with accessibility experts and follow best practices for web accessibility.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or additional tools, please open an issue or submit a pull request. Ensure that your contributions adhere to the project's coding standards and guidelines.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+This project was inspired by the need for comprehensive accessibility auditing tools and the importance of web accessibility for all users. Thanks to Keyle for the `kayle` library and the contributors to the `htmlcs` and `axe` runners for doing the main work. Special thanks to the W3C for their work on web accessibility standards.
+
+The EU has also made significant contributions to web accessibility through the EN 301 549 standard, which provides guidelines for making web content accessible to people with disabilities. This project aims to support these efforts and promote a more inclusive web for everyone.
+
+## Contact
+
+For questions, feedback, or support, please contact the project maintainer
+or open an issue in the repository.
