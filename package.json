@@ -10,6 +10,7 @@
 		"a11y:audit:result": "BUN_JSC_forceRAMSize=20 bun ./run.ts result",
 		"a11y:audit:backup": "BUN_JSC_forceRAMSize=20 bun ./run.ts backup",
 		"a11y:audit:clean": "BUN_JSC_forceRAMSize=20 bun ./run.ts clean",
+		"a11y:audit:all": "for env_file in .env.*; do echo \"Processing $env_file\"; cp \"$env_file\" .env; pnpm a11y:audit; done",
 		"lint": "biome lint --write .",
 		"lint:check": "biome lint --error-on-warnings .",
 		"format": "biome format --write .",
