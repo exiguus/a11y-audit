@@ -132,6 +132,61 @@ Recursive crawl a website and generate a sitemap.txt file.
 The `crawl.sh` script use wget to recursively crawl a website and generate a `sitemap.txt` file. The file can be used to manualy export the `URL_LIST` with  `export URL_LIST=$(jq -R < sitemap.txt | jq -s .)`.
 It can be used if a `sitemap.xml` file is not available.
 
+## Missing Rules
+
+Currently, some rules for WCAG 2.1 AA and WCAG 2.2 AA are missing. This section lists these rules and how to test them.
+
+Note: This list is generated with AI and may not be complete or accurate. It is recommended to consult the official WCAG guidelines for a comprehensive list of rules.
+
+### Missing Rules for WCAG 2.1 AA
+
+#### 1.3.4 Orientation (AA)
+
+- **Description**: Content should not restrict its view and operation to a single display orientation unless essential.
+- **How to Test**: Ensure content can be viewed and operated in both portrait and landscape modes on mobile devices.
+
+#### 1.3.5 Identify Input Purpose (AA)
+
+- **Description**: The purpose of each input field collecting user information should be programmatically determinable.
+- **How to Test**: Use browser developer tools to inspect form fields and ensure each input field has a clear and programmatically determinable purpose.
+
+#### 4.1.3 Status Messages (AA)
+
+- **Description**: Status messages should be programmatically determinable and presented to users by assistive technologies without receiving focus.
+- **How to Test**: Use screen readers to verify that status messages are announced automatically without requiring user focus.
+
+### Missing Rules for WCAG 2.2 AA
+
+#### 2.4.7 Focus Visible (Enhanced) (AA)
+
+- **Description**: Enhances the visibility of the focus indicator to ensure it is easily noticeable.
+- **How to Test**: Navigate through the content using the keyboard and ensure the focus indicator is clearly visible and distinguishable.
+
+#### 2.5.7 Dragging Movements (AA)
+
+- **Description**: Functionality that uses dragging movements should also be operable through other input methods unless dragging is essential.
+- **How to Test**: Ensure alternative input methods (e.g., keyboard, voice commands) are available for functionality requiring dragging.
+
+#### 2.5.8 Target Size (Minimum) (AA)
+
+- **Description**: The size of the target for pointer inputs should be at least 24 by 24 CSS pixels, except when the target is in a sentence or block of text, or the size is essential.
+- **How to Test**: Measure the clickable/tappable areas of interactive elements to ensure they meet the minimum size requirement.
+
+#### 3.2.6 Consistent Help (AA)
+
+- **Description**: Context-sensitive help should be available in a consistent manner.
+- **How to Test**: Verify that help documentation or tooltips are consistently available and accessible across the application.
+
+#### 3.3.7 Accessible Authentication (AA)
+
+- **Description**: Provide alternative authentication methods that do not rely solely on cognitive function tests.
+- **How to Test**: Check for alternative authentication methods (e.g., email links, backup codes) that do not require users to remember complex information or solve puzzles.
+
+#### 3.3.8 Redundant Entry (AA)
+
+- **Description**: Information previously entered by the user should be retained or made easily available unless security or legal concerns require re-entry.
+- **How to Test**: Fill out forms and navigate away or refresh the page to ensure previously entered information is retained or can be easily retrieved.
+
 ## Additional Resources
 
 - [WCAG 2.1 Guidelines](https://www.w3.org/TR/WCAG21/)
