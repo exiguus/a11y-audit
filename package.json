@@ -45,17 +45,17 @@
 	"packageManager": "pnpm@10.9.0+sha512.0486e394640d3c1fb3c9d43d49cf92879ff74f8516959c235308f5a8f62e2e19528a65cdc2a3058f587cde71eba3d5b56327c8c33a97e4c4051ca48a10ca2d5f",
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
-		"@commitlint/cli": "^19.8.0",
-		"@commitlint/config-conventional": "^19.8.0",
-		"@commitlint/prompt-cli": "^19.8.0",
+		"@commitlint/cli": "^19.8.1",
+		"@commitlint/config-conventional": "^19.8.1",
+		"@commitlint/prompt-cli": "^19.8.1",
 		"@playwright/test": "^1.52.0",
-		"@types/node": "^22.15.2",
+		"@types/node": "^22.15.17",
 		"archiver": "^7.0.1",
 		"axios": "^1.9.0",
 		"fta-cli": "^2.0.1",
 		"husky": "^9.1.7",
 		"kayle": "^0.8.64",
-		"lint-staged": "^15.5.1",
+		"lint-staged": "^15.5.2",
 		"xml2js": "^0.6.2"
 	},
 	"lint-staged": {
