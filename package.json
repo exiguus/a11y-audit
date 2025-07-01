@@ -48,7 +48,7 @@
 		"@commitlint/cli": "^19.8.1",
 		"@commitlint/config-conventional": "^19.8.1",
 		"@commitlint/prompt-cli": "^19.8.1",
-		"@playwright/test": "^1.52.0",
+		"@playwright/test": "^1.53.2",
 		"@types/node": "^22.15.30",
 		"archiver": "^7.0.1",
 		"axios": "^1.9.0",
