@@ -55,7 +55,7 @@
 		"fta-cli": "^2.0.1",
 		"husky": "^9.1.7",
 		"kayle": "^0.8.64",
-		"lint-staged": "^16.1.0",
+		"lint-staged": "^16.1.2",
 		"xml2js": "^0.6.2"
 	},
 	"lint-staged": {
