@@ -37,7 +37,7 @@ test("Test sitemap folder", () => {
 		// Get the list of files in the folder
 		const files = fs.readdirSync(testFolder);
 		// Check if the sitemap.xml file exists
-		expect(files.toString()).toMatch(/999?(\-[0-9])\.json/);
+		expect(files.toString()).toMatch(/999?(-[0-9])\.json/);
 	} else {
 		throw new Error("The folder does not exist");
 	}
