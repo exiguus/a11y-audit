@@ -59,7 +59,12 @@
 		"xml2js": "^0.6.2"
 	},
 	"lint-staged": {
-		"*.@(ts|js|mjs|cjs)": ["pnpm format", "pnpm lint"],
-		"*.@(json|html)": ["pnpm format"]
+		"*.@(ts|js|mjs|cjs)": [
+			"pnpm format",
+			"pnpm lint"
+		],
+		"*.@(json|html)": [
+			"pnpm format"
+		]
 	}
 }
