@@ -25,7 +25,7 @@ export const getHtmlLayout = ({
 }): string => {
 	const config = {
 		processStatus: getProcessStatus(
-			Number.parseInt(data.overallAccessibilityScore),
+			Number.parseInt(data.overallAccessibilityScore, 10),
 		),
 	};
 	return `

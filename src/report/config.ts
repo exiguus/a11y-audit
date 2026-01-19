@@ -19,14 +19,18 @@ export interface CrawlConfig {
 export const defaultConfig: Partial<CrawlConfig> = {
 	browserConfig: {
 		headless: true,
-		timeout: process.env.TIMEOUT ? Number.parseInt(process.env.TIMEOUT) : 30000,
+		timeout: process.env.TIMEOUT
+			? Number.parseInt(process.env.TIMEOUT, 10)
+			: 30000,
 	},
 	kayleConfig: {
 		includeWarnings: true,
 		waitUntil: "networkidle",
 		runners: ["htmlcs", "axe"],
 		standard: Standard.WCAG2AA,
-		timeout: process.env.TIMEOUT ? Number.parseInt(process.env.TIMEOUT) : 30000,
+		timeout: process.env.TIMEOUT
+			? Number.parseInt(process.env.TIMEOUT, 10)
+			: 30000,
 		language: process.env.LANGUAGE || "en",
 	},
 };

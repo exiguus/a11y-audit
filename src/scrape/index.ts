@@ -59,11 +59,7 @@ class SitemapScraper {
 		return { sitemaps, urls };
 	}
 
-	async saveSitemapLinks(
-		links: string[],
-		index: number,
-		sourceUrl?: string,
-	): Promise<void> {
+	async saveSitemapLinks(links: string[], index: number): Promise<void> {
 		const chunkSize = 1000;
 		for (let i = 0; i < links.length; i += chunkSize) {
 			const chunk = links.slice(i, i + chunkSize);
