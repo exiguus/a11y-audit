@@ -51,7 +51,7 @@
 		"@playwright/test": "^1.57.0",
 		"@types/node": "^25.0.9",
 		"archiver": "^7.0.1",
-		"axios": "^1.13.2",
+		"axios": "^1.13.4",
 		"fta-cli": "^2.0.2",
 		"husky": "^9.1.7",
 		"kayle": "^0.8.64",
