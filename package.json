@@ -52,7 +52,7 @@
 		"@types/node": "^25.6.0",
 		"archiver": "^7.0.1",
 		"axios": "^1.15.2",
-		"fta-cli": "^2.0.2",
+		"fta-cli": "^3.0.0",
 		"husky": "^9.1.7",
 		"kayle": "^0.8.64",
 		"lint-staged": "^16.4.0",
