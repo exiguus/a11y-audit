@@ -47,7 +47,7 @@
 		"@biomejs/biome": "^2.4.13",
 		"@commitlint/cli": "^20.5.0",
 		"@commitlint/config-conventional": "^20.5.0",
-		"@commitlint/prompt-cli": "^20.5.0",
+		"@commitlint/prompt-cli": "^21.0.2",
 		"@playwright/test": "^1.59.1",
 		"@types/node": "^25.6.0",
 		"archiver": "^7.0.1",
