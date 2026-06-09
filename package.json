@@ -45,9 +45,9 @@
 	"packageManager": "pnpm@11.5.1",
 	"devDependencies": {
 		"@biomejs/biome": "^2.4.16",
-		"@commitlint/cli": "^20.5.3",
-		"@commitlint/config-conventional": "^20.5.3",
-		"@commitlint/prompt-cli": "^20.5.3",
+		"@commitlint/cli": "^21.0.2",
+		"@commitlint/config-conventional": "^21.0.2",
+		"@commitlint/prompt-cli": "^21.0.2",
 		"@playwright/test": "^1.60.0",
 		"@types/node": "^25.9.1",
 		"archiver": "^7.0.1",
