@@ -33,8 +33,8 @@ importers:
         specifier: ^1.16.1
         version: 1.16.1
       fta-cli:
-        specifier: ^2.0.2
-        version: 2.0.2
+        specifier: ^3.0.0
+        version: 3.0.0
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -608,8 +608,8 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  fta-cli@2.0.2:
-    resolution: {integrity: sha512-m4eZbHGpIquFUxPbOxoHXG6Sjv/OjNPD5aMxSGYNIBfnAs8qqdLmplzw+WfWm/LwpK2ionBBGISTNFmLdyKfcQ==}
+  fta-cli@3.0.0:
+    resolution: {integrity: sha512-SBmoqIwbN7PLDmwmrPgjr6Z6/S9jPhNz5TCPmEVFkIaeloc/T2WXLeeXqhG1+C0UQxpOfGrC7CUb4friqbc2kQ==}
     hasBin: true
 
   function-bind@1.1.2:
@@ -1670,7 +1670,7 @@ snapshots:
   fsevents@2.3.2:
     optional: true
 
-  fta-cli@2.0.2: {}
+  fta-cli@3.0.0: {}
 
   function-bind@1.1.2: {}
 
