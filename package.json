@@ -44,18 +44,18 @@
   "homepage": "https://github.com/exiguus/a11y-audit#readme",
   "packageManager": "pnpm@11.15.0",
   "devDependencies": {
-    "@biomejs/biome": "^2.5.2",
-    "@commitlint/cli": "^21.2.0",
+    "@biomejs/biome": "^2.5.4",
+    "@commitlint/cli": "^21.2.1",
     "@commitlint/config-conventional": "^21.2.0",
     "@commitlint/prompt-cli": "^21.2.0",
     "@playwright/test": "^1.61.1",
-    "@types/node": "^25.9.4",
+    "@types/node": "^25.9.5",
     "archiver": "^7.0.1",
     "axios": "^1.18.1",
     "fta-cli": "^3.0.0",
     "husky": "^9.1.7",
     "kayle": "^0.8.64",
-    "lint-staged": "^17.0.8",
+    "lint-staged": "^17.1.0",
     "xml2js": "^0.6.2"
   },
   "lint-staged": {
