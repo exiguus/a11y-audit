@@ -3,48 +3,33 @@
   "pageUrl": "https://exiguus.github.io/zola-monoplain/posts/feedback/",
   "issues": [
     {
-      "context": "<hgroup role=\"group\" aria-description=\"Post summary\">\n  \n\n<p aria-label=\"Author\">By \n...</hgroup>",
-      "selector": "#main>:nth-child(1)",
-      "code": "aria-valid-attr",
-      "type": "error",
-      "typeCode": 1,
-      "message": "ARIA attributes must conform to valid names",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures attributes that begin with aria- are valid ARIA attributes",
-        "impact": "critical",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr?application=axeAPI"
-      },
+      "context": "<h2 id=\"footer-links\" class=\"sr-only\">Links</h2>",
+      "selector": "#footer-links",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
+      "runner": "htmlcs",
       "recurrence": 0
     },
     {
-      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\"><code data-lang=\"yaml\"><span cla...</pre>",
-      "selector": "#main>:nth-child(8)",
-      "code": "scrollable-region-focusable",
-      "type": "error",
-      "typeCode": 1,
-      "message": "Scrollable region must have keyboard access",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensure elements that have scrollable content are accessible by keyboard",
-        "impact": "moderate",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/scrollable-region-focusable?application=axeAPI"
-      },
+      "context": "<h2 id=\"footer-info\" class=\"sr-only\">Information</h2>",
+      "selector": "#footer-info",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
+      "runner": "htmlcs",
       "recurrence": 0
     },
     {
-      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\"><code data-lang=\"yaml\"><span cla...</pre>",
-      "selector": "#main>:nth-child(11)",
-      "code": "scrollable-region-focusable",
-      "type": "error",
-      "typeCode": 1,
-      "message": "Scrollable region must have keyboard access",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensure elements that have scrollable content are accessible by keyboard",
-        "impact": "moderate",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/scrollable-region-focusable?application=axeAPI"
-      },
+      "context": "<i class=\"sr-only\">Last update:</i>",
+      "selector": "#posts--feedback>:nth-child(6)>:nth-child(4)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
       "recurrence": 0
     },
     {
@@ -108,6 +93,26 @@
       "recurrence": 0
     },
     {
+      "context": "<div class=\"p-name\">Simon Gattner</div>",
+      "selector": "#posts--feedback>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<div class=\"p-nickname\">Nick: exiguus</div>",
+      "selector": "#posts--feedback>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
       "context": "<a href=\"#introduction\">Introduction</a>",
       "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
@@ -130,6 +135,36 @@
     {
       "context": "<a href=\"#example\">Example</a>",
       "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(3)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#template-macro\">Template Macro</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(4)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a class=\"u-url\" href=\"https://www.gattner.name\">Homepage</a>",
+      "selector": "#posts--feedback>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a class=\"u-url\" href=\"https://github.com/exiguus\">Github Profile</a>",
+      "selector": "#posts--feedback>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -178,7 +213,7 @@
       "recurrence": 0
     },
     {
-      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\"><code data-lang=\"yaml\"><span cla...</pre>",
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"yaml\"><span cla...</pre>",
       "selector": "#main>:nth-child(8)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
@@ -288,7 +323,7 @@
       "recurrence": 0
     },
     {
-      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\"><code data-lang=\"yaml\"><span cla...</pre>",
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"yaml\"><span cla...</pre>",
       "selector": "#main>:nth-child(11)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
@@ -318,42 +353,22 @@
       "recurrence": 0
     },
     {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"markdown\"><span...</pre>",
+      "selector": "#main>:nth-child(17)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
       "context": "<nav id=\"skip-nav\" aria-label=\"Skip Navigation\" aria-live=\"off\" aria-atomic=\"false\">\n  <ul>\n    <li><a href=\"#main\">...</nav>",
       "selector": "#skip-nav",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_10.C32,C31,C33,C38,SCR34,G206",
       "type": "warning",
       "typeCode": 2,
       "message": "This element has \"position: fixed\". This may require scrolling in two dimensions, which is considered a failure of this Success Criterion.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<h2 id=\"footer-links\" class=\"sr-only\">Links</h2>",
-      "selector": "#footer-links",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<h2 id=\"footer-info\" class=\"sr-only\">Information</h2>",
-      "selector": "#footer-info",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<i class=\"sr-only\">Last update:</i>",
-      "selector": "#posts--feedback>:nth-child(6)>:nth-child(4)>:nth-child(5)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
       "runner": "htmlcs",
       "recurrence": 0
     },
@@ -581,11 +596,101 @@
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
       },
       "recurrence": 0
+    },
+    {
+      "context": "<span>{{/* email::obfuscate_mail(</span>",
+      "selector": "#main>:nth-child(17)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span>  local_part=local_part,</span>",
+      "selector": "#main>:nth-child(17)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span>  domain_name=config.extra.feedb...</span>",
+      "selector": "#main>:nth-child(17)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span>  tld=config.extra.feedback_emai...</span>",
+      "selector": "#main>:nth-child(17)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span>  title=trans(key=\"post_feedback...</span>",
+      "selector": "#main>:nth-child(17)>:nth-child(1)>:nth-child(5)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span>) */}}</span>",
+      "selector": "#main>:nth-child(17)>:nth-child(1)>:nth-child(6)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
     }
   ],
   "meta": {
-    "errorCount": 3,
-    "warningCount": 47,
+    "errorCount": 0,
+    "warningCount": 59,
     "noticeCount": 0,
     "accessScore": 80
   },

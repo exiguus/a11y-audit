@@ -1,6 +1,6 @@
 {
-  "documentTitle": "Open Graph Preview | mono/plain; a11y=true",
-  "pageUrl": "https://exiguus.github.io/zola-monoplain/posts/opengraph/",
+  "documentTitle": "Development | mono/plain; a11y=true",
+  "pageUrl": "https://exiguus.github.io/zola-monoplain/posts/development/",
   "issues": [
     {
       "context": "<h2 id=\"footer-links\" class=\"sr-only\">Links</h2>",
@@ -24,7 +24,7 @@
     },
     {
       "context": "<i class=\"sr-only\">Last update:</i>",
-      "selector": "#posts--opengraph>:nth-child(6)>:nth-child(4)>:nth-child(5)",
+      "selector": "#posts--development>:nth-child(6)>:nth-child(4)>:nth-child(5)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -64,7 +64,7 @@
     },
     {
       "context": "<span class=\"sr-only\">Github</span>",
-      "selector": "#posts--opengraph>:nth-child(6)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "selector": "#posts--development>:nth-child(6)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -74,7 +74,7 @@
     },
     {
       "context": "<span class=\"sr-only\">Mastodon</span>",
-      "selector": "#posts--opengraph>:nth-child(6)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+      "selector": "#posts--development>:nth-child(6)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -84,7 +84,7 @@
     },
     {
       "context": "<span class=\"sr-only\">Atom</span>",
-      "selector": "#posts--opengraph>:nth-child(6)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
+      "selector": "#posts--development>:nth-child(6)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -94,7 +94,7 @@
     },
     {
       "context": "<div class=\"p-name\">Simon Gattner</div>",
-      "selector": "#posts--opengraph>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "selector": "#posts--development>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -104,7 +104,7 @@
     },
     {
       "context": "<div class=\"p-nickname\">Nick: exiguus</div>",
-      "selector": "#posts--opengraph>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "selector": "#posts--development>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -123,7 +123,7 @@
       "recurrence": 0
     },
     {
-      "context": "<a href=\"#post-metadata\">Post Metadata</a>",
+      "context": "<a href=\"#prerequisites\">Prerequisites</a>",
       "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -133,7 +133,7 @@
       "recurrence": 0
     },
     {
-      "context": "<a href=\"#open-graph-tags\">Open Graph Tags</a>",
+      "context": "<a href=\"#1-check-out-the-repository\">1. Check out the repository</a>",
       "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -143,7 +143,7 @@
       "recurrence": 0
     },
     {
-      "context": "<a href=\"#open-graph-preview-image\">Open Graph Preview Image</a>",
+      "context": "<a href=\"#2-install-cargo-zola-node-js-and-pnpm\">2. Install Cargo, Zola, Node.js ...</a>",
       "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(4)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -153,7 +153,7 @@
       "recurrence": 0
     },
     {
-      "context": "<a href=\"#original-image\">Original Image</a>",
+      "context": "<a href=\"#3-run-development-mode\">3. Run development mode</a>",
       "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(5)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -163,7 +163,7 @@
       "recurrence": 0
     },
     {
-      "context": "<a href=\"#default-image\">Default Image</a>",
+      "context": "<a href=\"#4-understand-tera-templates-and-editor-support\">4. Understand Tera templates and...</a>",
       "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(6)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -173,8 +173,88 @@
       "recurrence": 0
     },
     {
+      "context": "<a href=\"#5-understand-the-theme-structure\">5. Understand the theme structur...</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(7)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#6-debug-templates-and-components\">6. Debug templates and component...</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(8)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#7-run-local-accessibility-checks\">7. Run local accessibility check...</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(9)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#8-run-test-and-check\">8. Run test and check</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(10)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#9-write-documentation\">9. Write Documentation</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(11)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#10-commit-and-push-changes\">10. Commit and push changes</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(12)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#11-release-a-new-version\">11. Release a new version</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(13)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#resources\">Resources</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(14)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
       "context": "<a class=\"u-url\" href=\"https://www.gattner.name\">Homepage</a>",
-      "selector": "#posts--opengraph>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "selector": "#posts--development>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -184,7 +264,87 @@
     },
     {
       "context": "<a class=\"u-url\" href=\"https://github.com/exiguus\">Github Profile</a>",
-      "selector": "#posts--opengraph>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
+      "selector": "#posts--development>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#preferred-cargo\">Preferred (Cargo)</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#package-manager-alternatives\">Package manager alternatives</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(4)>:nth-child(2)>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#node-pnpm\">Node, pnpm</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(4)>:nth-child(2)>:nth-child(3)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#option-a-workspace-root-turbo\">Option A: Workspace root (Turbo)...</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(5)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#option-b-theme-package-directly\">Option B: Theme package directly...</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(5)>:nth-child(2)>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#enable-debug-mode-in-config\">Enable debug mode in config</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(8)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#print-page-data-in-templates\">Print page data in templates</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(8)>:nth-child(2)>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#scope-component-debugging\">Scope component debugging</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(8)>:nth-child(2)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -233,8 +393,38 @@
       "recurrence": 0
     },
     {
-      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"markdown\"><span...</pre>",
-      "selector": "#main>:nth-child(7)",
+      "context": "<a href=\"#linux-debian-ubuntu\">Linux (Debian/Ubuntu)</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(4)>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#macos-homebrew\">macOS (Homebrew)</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(4)>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#alternative\">Alternative</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(4)>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(3)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"shellscript\"><s...</pre>",
+      "selector": "#main>:nth-child(10)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -243,148 +433,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #FF79C6;\">taxonomies</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(6)>:nth-child(2)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #FF79C6;\">extra</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(8)>:nth-child(2)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #FF79C6;\">\"opengraph-preview-image.jpg\"</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(9)>:nth-child(2)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"html\"><span cla...</pre>",
-      "selector": "#main>:nth-child(9)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"html\"><span cla...</pre>",
-      "selector": "#main>:nth-child(13)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #FF79C6;\">meta</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 6
-    },
-    {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\">  property</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 1
-    },
-    {
-      "context": "<span style=\"color: #FF79C6;\">=</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 13
-    },
-    {
-      "context": "<span style=\"color: #E9F284;\">\"</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(2)>:nth-child(3)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 27
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">og:title</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\">  content</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 1
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">mono</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(3)>:nth-child(4)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #BD93F9;\">&amp;#x2F;</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(3)>:nth-child(5)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">plain; a11y=true | Open Graph Pr...</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(3)>:nth-child(6)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\"> property</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(5)>:nth-child(3)",
+      "context": "<span style=\"color: #50FA7B;\">git</span>",
+      "selector": "#main>:nth-child(10)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -393,8 +443,8 @@
       "recurrence": 4
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">og:type</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(5)>:nth-child(6)",
+      "context": "<span style=\"color: #F1FA8C;\"> clone https://github.com/exiguu...</span>",
+      "selector": "#main>:nth-child(10)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -403,28 +453,18 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\"> content</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(5)>:nth-child(8)",
+      "context": "<span style=\"color: #8BE9FD;\">cd</span>",
+      "selector": "#main>:nth-child(10)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
       "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
       "runner": "htmlcs",
-      "recurrence": 4
+      "recurrence": 1
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">website</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(5)>:nth-child(11)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">og:url</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(7)>:nth-child(4)",
+      "context": "<span style=\"color: #F1FA8C;\"> zola-monoplain</span>",
+      "selector": "#main>:nth-child(10)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -433,8 +473,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">http://exiguus.github.io/zola-mo...</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(8)>:nth-child(4)",
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"shellscript\"><s...</pre>",
+      "selector": "#main>:nth-child(15)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -443,8 +483,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">og:description</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(10)>:nth-child(6)",
+      "context": "<span style=\"color: #50FA7B;\">cargo</span>",
+      "selector": "#main>:nth-child(15)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -453,8 +493,18 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">Open Graph Preview by example</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(10)>:nth-child(11)",
+      "context": "<span style=\"color: #F1FA8C;\"> install</span>",
+      "selector": "#main>:nth-child(15)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<span style=\"color: #BD93F9;\"> --locked --git</span>",
+      "selector": "#main>:nth-child(15)>:nth-child(1)>:nth-child(1)>:nth-child(3)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -463,8 +513,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">og:image</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(11)>:nth-child(6)",
+      "context": "<span style=\"color: #F1FA8C;\"> https://github.com/getzola/zola...</span>",
+      "selector": "#main>:nth-child(15)>:nth-child(1)>:nth-child(1)>:nth-child(4)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -473,8 +523,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">http://exiguus.github.io/zola-mo...</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(11)>:nth-child(11)",
+      "context": "<span style=\"color: #50FA7B;\">zola</span>",
+      "selector": "#main>:nth-child(15)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -483,8 +533,18 @@
       "recurrence": 2
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">og:image:url</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(12)>:nth-child(6)",
+      "context": "<span style=\"color: #BD93F9;\"> --version</span>",
+      "selector": "#main>:nth-child(15)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 4
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"shellscript\"><s...</pre>",
+      "selector": "#main>:nth-child(20)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -493,8 +553,18 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">og:image:secure_url</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(13)>:nth-child(6)",
+      "context": "<span style=\"color: #50FA7B;\">sudo</span>",
+      "selector": "#main>:nth-child(20)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> apt update</span>",
+      "selector": "#main>:nth-child(20)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -503,8 +573,228 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #FF79C6;\">link</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(14)>:nth-child(2)",
+      "context": "<span style=\"color: #F1FA8C;\"> apt install zola</span>",
+      "selector": "#main>:nth-child(20)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"shellscript\"><s...</pre>",
+      "selector": "#main>:nth-child(22)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #50FA7B;\">brew</span>",
+      "selector": "#main>:nth-child(22)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> install zola</span>",
+      "selector": "#main>:nth-child(22)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"shellscript\"><s...</pre>",
+      "selector": "#main>:nth-child(28)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #50FA7B;\">node</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #50FA7B;\">corepack</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> enable</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> prepare pnpm@11.9.0</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(3)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #BD93F9;\"> --activate</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(3)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #50FA7B;\">pnpm</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 11
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"shellscript\"><s...</pre>",
+      "selector": "#main>:nth-child(30)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"shellscript\"><s...</pre>",
+      "selector": "#main>:nth-child(35)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> dev</span>",
+      "selector": "#main>:nth-child(35)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 2
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"shellscript\"><s...</pre>",
+      "selector": "#main>:nth-child(39)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> themes/zola-monoplain</span>",
+      "selector": "#main>:nth-child(39)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"toml\"><span cla...</pre>",
+      "selector": "#main>:nth-child(55)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #FF79C6;\">[</span>",
+      "selector": "#main>:nth-child(55)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">extra</span>",
+      "selector": "#main>:nth-child(55)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #FF79C6;\">]</span>",
+      "selector": "#main>:nth-child(55)>:nth-child(1)>:nth-child(1)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">debug</span>",
+      "selector": "#main>:nth-child(55)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #FF79C6;\"> =</span>",
+      "selector": "#main>:nth-child(55)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #BD93F9;\"> true</span>",
+      "selector": "#main>:nth-child(55)>:nth-child(1)>:nth-child(2)>:nth-child(3)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -514,7 +804,47 @@
     },
     {
       "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"markdown\"><span...</pre>",
-      "selector": "#main>:nth-child(17)",
+      "selector": "#main>:nth-child(58)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #FF79C6;\">details</span>",
+      "selector": "#main>:nth-child(58)>:nth-child(1)>:nth-child(3)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<span style=\"color: #FF79C6;\">summary</span>",
+      "selector": "#main>:nth-child(58)>:nth-child(1)>:nth-child(4)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<span style=\"color: #FF79C6;\">pre</span>",
+      "selector": "#main>:nth-child(58)>:nth-child(1)>:nth-child(5)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"markdown\"><span...</pre>",
+      "selector": "#main>:nth-child(60)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -524,7 +854,7 @@
     },
     {
       "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"markdown\"><span...</pre>",
-      "selector": "#main>:nth-child(21)",
+      "selector": "#main>:nth-child(64)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -534,7 +864,247 @@
     },
     {
       "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"markdown\"><span...</pre>",
-      "selector": "#main>:nth-child(26)",
+      "selector": "#main>:nth-child(66)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"markdown\"><span...</pre>",
+      "selector": "#main>:nth-child(68)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"shellscript\"><s...</pre>",
+      "selector": "#main>:nth-child(76)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> test:pa11y</span>",
+      "selector": "#main>:nth-child(76)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"shellscript\"><s...</pre>",
+      "selector": "#main>:nth-child(80)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> test</span>",
+      "selector": "#main>:nth-child(80)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> check</span>",
+      "selector": "#main>:nth-child(80)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"shellscript\"><s...</pre>",
+      "selector": "#main>:nth-child(82)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> build</span>",
+      "selector": "#main>:nth-child(82)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"shellscript\"><s...</pre>",
+      "selector": "#main>:nth-child(89)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> add .</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> commit</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #BD93F9;\"> -m</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(2)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #E9F284;\"> \"</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">feat(posts): short summary of yo...</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(2)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #E9F284;\">\"</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(2)>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> push</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(3)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"plain\"><span cl...</pre>",
+      "selector": "#main>:nth-child(93)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"shellscript\"><s...</pre>",
+      "selector": "#main>:nth-child(97)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> release:patch</span>",
+      "selector": "#main>:nth-child(97)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> release:minor</span>",
+      "selector": "#main>:nth-child(97)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> release:major</span>",
+      "selector": "#main>:nth-child(97)>:nth-child(1)>:nth-child(3)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"shellscript\"><s...</pre>",
+      "selector": "#main>:nth-child(99)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #BD93F9;\"> --follow-tags</span>",
+      "selector": "#main>:nth-child(99)>:nth-child(1)>:nth-child(1)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> origin main</span>",
+      "selector": "#main>:nth-child(99)>:nth-child(1)>:nth-child(1)>:nth-child(4)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
       "type": "warning",
       "typeCode": 2,
@@ -569,7 +1139,7 @@
     },
     {
       "context": "<p aria-labelledby=\"footer-info\">\n    © mono/plain; a11y=true 202...</p>",
-      "selector": "#posts--opengraph>:nth-child(6)>:nth-child(4)",
+      "selector": "#posts--development>:nth-child(6)>:nth-child(4)",
       "code": "aria-allowed-attr",
       "type": "warning",
       "typeCode": 2,
@@ -583,8 +1153,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>title = \"Open Graph Preview\"</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+      "context": "<span style=\"color: #50FA7B;\">git</span>",
+      "selector": "#main>:nth-child(10)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -598,8 +1168,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>description = \"Open Graph Previe...</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "context": "<span style=\"color: #F1FA8C;\"> clone https://github.com/exiguu...</span>",
+      "selector": "#main>:nth-child(10)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -613,8 +1183,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>date = 2025-05-03</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
+      "context": "<span style=\"color: #8BE9FD;\">cd</span>",
+      "selector": "#main>:nth-child(10)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -628,8 +1198,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>authors = [\"Simon Gattner\"]</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(5)>:nth-child(1)",
+      "context": "<span style=\"color: #F1FA8C;\"> zola-monoplain</span>",
+      "selector": "#main>:nth-child(10)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -643,8 +1213,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #FF79C6;\">taxonomies</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(6)>:nth-child(2)",
+      "context": "<span style=\"color: #50FA7B;\">cargo</span>",
+      "selector": "#main>:nth-child(15)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -658,8 +1228,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>tags= [\"Zola\", \"Theme\", \"Markdow...</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(7)>:nth-child(1)",
+      "context": "<span style=\"color: #F1FA8C;\"> install</span>",
+      "selector": "#main>:nth-child(15)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -673,8 +1243,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #FF79C6;\">extra</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(8)>:nth-child(2)",
+      "context": "<span style=\"color: #BD93F9;\"> --locked --git</span>",
+      "selector": "#main>:nth-child(15)>:nth-child(1)>:nth-child(1)>:nth-child(3)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -688,8 +1258,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>images = [</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(9)>:nth-child(1)",
+      "context": "<span style=\"color: #F1FA8C;\"> https://github.com/getzola/zola...</span>",
+      "selector": "#main>:nth-child(15)>:nth-child(1)>:nth-child(1)>:nth-child(4)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -703,8 +1273,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #FF79C6;\">\"opengraph-preview-image.jpg\"</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(9)>:nth-child(2)",
+      "context": "<span style=\"color: #50FA7B;\">zola</span>",
+      "selector": "#main>:nth-child(15)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -718,8 +1288,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>preview_img = \"opengraph-preview...</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(10)>:nth-child(1)",
+      "context": "<span style=\"color: #BD93F9;\"> --version</span>",
+      "selector": "#main>:nth-child(15)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -733,8 +1303,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>{% macro image() %}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "context": "<span style=\"color: #50FA7B;\">sudo</span>",
+      "selector": "#main>:nth-child(20)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -748,8 +1318,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>  {% if page %}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+      "context": "<span style=\"color: #F1FA8C;\"> apt update</span>",
+      "selector": "#main>:nth-child(20)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -763,8 +1333,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>    {% set og_img = \"\" %}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "context": "<span style=\"color: #50FA7B;\">sudo</span>",
+      "selector": "#main>:nth-child(20)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -778,8 +1348,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>    {% if page.extra.preview_img...</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
+      "context": "<span style=\"color: #F1FA8C;\"> apt install zola</span>",
+      "selector": "#main>:nth-child(20)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -793,8 +1363,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>      {% set og_img = page.extra...</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(5)>:nth-child(1)",
+      "context": "<span style=\"color: #50FA7B;\">zola</span>",
+      "selector": "#main>:nth-child(20)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -808,8 +1378,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>    {% elif page.extra.hero_img ...</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(6)>:nth-child(1)",
+      "context": "<span style=\"color: #BD93F9;\"> --version</span>",
+      "selector": "#main>:nth-child(20)>:nth-child(1)>:nth-child(3)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -823,8 +1393,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>      {% set og_img = page.extra...</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(7)>:nth-child(1)",
+      "context": "<span style=\"color: #50FA7B;\">brew</span>",
+      "selector": "#main>:nth-child(22)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -838,8 +1408,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>    {% endif %}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(8)>:nth-child(1)",
+      "context": "<span style=\"color: #F1FA8C;\"> install zola</span>",
+      "selector": "#main>:nth-child(22)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -853,8 +1423,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>    {% if og_img %}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(10)>:nth-child(1)",
+      "context": "<span style=\"color: #50FA7B;\">zola</span>",
+      "selector": "#main>:nth-child(22)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -868,8 +1438,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>      {% if og_img is starting_w...</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(11)>:nth-child(1)",
+      "context": "<span style=\"color: #BD93F9;\"> --version</span>",
+      "selector": "#main>:nth-child(22)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -883,8 +1453,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>        {{ og_img | safe }}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(12)>:nth-child(1)",
+      "context": "<span style=\"color: #50FA7B;\">node</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -898,8 +1468,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>      {% else %}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(13)>:nth-child(1)",
+      "context": "<span style=\"color: #BD93F9;\"> --version</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -913,8 +1483,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>        {% set image = resize_im...</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(14)>:nth-child(1)",
+      "context": "<span style=\"color: #50FA7B;\">corepack</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -928,8 +1498,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>        {{ image.url | safe }}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(15)>:nth-child(1)",
+      "context": "<span style=\"color: #F1FA8C;\"> enable</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -943,8 +1513,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>      {% endif %}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(16)>:nth-child(1)",
+      "context": "<span style=\"color: #50FA7B;\">corepack</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -958,8 +1528,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>    {% else %}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(17)>:nth-child(1)",
+      "context": "<span style=\"color: #F1FA8C;\"> prepare pnpm@11.9.0</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(3)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -973,8 +1543,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>      {% set image = resize_imag...</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(18)>:nth-child(1)",
+      "context": "<span style=\"color: #BD93F9;\"> --activate</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(3)>:nth-child(3)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -988,8 +1558,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>      {{ image.url }}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(19)>:nth-child(1)",
+      "context": "<span style=\"color: #50FA7B;\">pnpm</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1003,8 +1573,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>    {% endif %}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(20)>:nth-child(1)",
+      "context": "<span style=\"color: #BD93F9;\"> --version</span>",
+      "selector": "#main>:nth-child(28)>:nth-child(1)>:nth-child(4)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1018,8 +1588,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>  {% else %}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(21)>:nth-child(1)",
+      "context": "<span style=\"color: #50FA7B;\">pnpm</span>",
+      "selector": "#main>:nth-child(30)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1033,8 +1603,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>    {% set image = resize_image(...</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(22)>:nth-child(1)",
+      "context": "<span style=\"color: #F1FA8C;\"> install</span>",
+      "selector": "#main>:nth-child(30)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1048,8 +1618,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>    {{ image.url }}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(23)>:nth-child(1)",
+      "context": "<span style=\"color: #50FA7B;\">pnpm</span>",
+      "selector": "#main>:nth-child(35)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1063,8 +1633,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>  {% endif %}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(24)>:nth-child(1)",
+      "context": "<span style=\"color: #F1FA8C;\"> dev</span>",
+      "selector": "#main>:nth-child(35)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1078,8 +1648,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>{% endmacro image %}</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(25)>:nth-child(1)",
+      "context": "<span style=\"color: #8BE9FD;\">cd</span>",
+      "selector": "#main>:nth-child(39)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1093,8 +1663,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #FF79C6;\">meta</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "context": "<span style=\"color: #F1FA8C;\"> themes/zola-monoplain</span>",
+      "selector": "#main>:nth-child(39)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1108,8 +1678,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\">  property</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+      "context": "<span style=\"color: #50FA7B;\">pnpm</span>",
+      "selector": "#main>:nth-child(39)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1123,8 +1693,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">og:title</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
+      "context": "<span style=\"color: #F1FA8C;\"> dev</span>",
+      "selector": "#main>:nth-child(39)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1138,8 +1708,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\">  content</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "context": "<span style=\"color: #8BE9FD;\">extra</span>",
+      "selector": "#main>:nth-child(55)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1153,8 +1723,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">mono</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(3)>:nth-child(4)",
+      "context": "<span style=\"color: #8BE9FD;\">debug</span>",
+      "selector": "#main>:nth-child(55)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1168,8 +1738,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #BD93F9;\">&amp;#x2F;</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(3)>:nth-child(5)",
+      "context": "<span style=\"color: #BD93F9;\"> true</span>",
+      "selector": "#main>:nth-child(55)>:nth-child(1)>:nth-child(2)>:nth-child(3)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1183,8 +1753,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">plain; a11y=true | Open Graph Pr...</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(3)>:nth-child(6)",
+      "context": "<span>{% if config.extra.debug %}</span>",
+      "selector": "#main>:nth-child(58)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1198,8 +1768,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #FF79C6;\">meta</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(5)>:nth-child(2)",
+      "context": "<span style=\"color: #FF79C6;\">details</span>",
+      "selector": "#main>:nth-child(58)>:nth-child(1)>:nth-child(3)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1213,8 +1783,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\"> property</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(5)>:nth-child(3)",
+      "context": "<span style=\"color: #FF79C6;\">summary</span>",
+      "selector": "#main>:nth-child(58)>:nth-child(1)>:nth-child(4)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1228,8 +1798,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">og:type</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(5)>:nth-child(6)",
+      "context": "<span>&gt;Debug: page&lt;/</span>",
+      "selector": "#main>:nth-child(58)>:nth-child(1)>:nth-child(4)>:nth-child(3)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1243,8 +1813,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\"> content</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(5)>:nth-child(8)",
+      "context": "<span style=\"color: #FF79C6;\">summary</span>",
+      "selector": "#main>:nth-child(58)>:nth-child(1)>:nth-child(4)>:nth-child(4)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1258,8 +1828,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">website</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(5)>:nth-child(11)",
+      "context": "<span style=\"color: #FF79C6;\">pre</span>",
+      "selector": "#main>:nth-child(58)>:nth-child(1)>:nth-child(5)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1273,8 +1843,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #FF79C6;\">meta</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(6)>:nth-child(2)",
+      "context": "<span>&gt;{{/* page | default(value=\"{...</span>",
+      "selector": "#main>:nth-child(58)>:nth-child(1)>:nth-child(5)>:nth-child(3)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1288,8 +1858,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\">  property</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(7)>:nth-child(1)",
+      "context": "<span style=\"color: #FF79C6;\">pre</span>",
+      "selector": "#main>:nth-child(58)>:nth-child(1)>:nth-child(5)>:nth-child(4)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1303,8 +1873,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">og:url</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(7)>:nth-child(4)",
+      "context": "<span style=\"color: #FF79C6;\">details</span>",
+      "selector": "#main>:nth-child(58)>:nth-child(1)>:nth-child(6)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1318,8 +1888,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\">  content</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(8)>:nth-child(1)",
+      "context": "<span>{% endif %}</span>",
+      "selector": "#main>:nth-child(58)>:nth-child(1)>:nth-child(7)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1333,8 +1903,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">http://exiguus.github.io/zola-mo...</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(8)>:nth-child(4)",
+      "context": "<span>{{/* page | default(value=\"{}\") ...</span>",
+      "selector": "#main>:nth-child(60)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1348,8 +1918,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #FF79C6;\">meta</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(10)>:nth-child(2)",
+      "context": "<span>{{/* page.title | default(value=...</span>",
+      "selector": "#main>:nth-child(64)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1363,8 +1933,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\"> property</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(10)>:nth-child(3)",
+      "context": "<span>{{/* page.extra | default(value=...</span>",
+      "selector": "#main>:nth-child(66)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1378,8 +1948,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">og:description</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(10)>:nth-child(6)",
+      "context": "<span>{{/* __tera_context */}}</span>",
+      "selector": "#main>:nth-child(68)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1393,8 +1963,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\"> content</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(10)>:nth-child(8)",
+      "context": "<span style=\"color: #50FA7B;\">pnpm</span>",
+      "selector": "#main>:nth-child(74)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1408,8 +1978,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">Open Graph Preview by example</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(10)>:nth-child(11)",
+      "context": "<span style=\"color: #F1FA8C;\"> dev</span>",
+      "selector": "#main>:nth-child(74)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1423,8 +1993,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #FF79C6;\">meta</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(11)>:nth-child(2)",
+      "context": "<span style=\"color: #50FA7B;\">pnpm</span>",
+      "selector": "#main>:nth-child(76)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1438,8 +2008,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\"> property</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(11)>:nth-child(3)",
+      "context": "<span style=\"color: #F1FA8C;\"> test:pa11y</span>",
+      "selector": "#main>:nth-child(76)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1453,8 +2023,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">og:image</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(11)>:nth-child(6)",
+      "context": "<span style=\"color: #50FA7B;\">pnpm</span>",
+      "selector": "#main>:nth-child(80)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1468,8 +2038,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\"> content</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(11)>:nth-child(8)",
+      "context": "<span style=\"color: #F1FA8C;\"> test</span>",
+      "selector": "#main>:nth-child(80)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1483,8 +2053,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">http://exiguus.github.io/zola-mo...</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(11)>:nth-child(11)",
+      "context": "<span style=\"color: #50FA7B;\">pnpm</span>",
+      "selector": "#main>:nth-child(80)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1498,8 +2068,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #FF79C6;\">meta</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(12)>:nth-child(2)",
+      "context": "<span style=\"color: #F1FA8C;\"> check</span>",
+      "selector": "#main>:nth-child(80)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1513,8 +2083,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\"> property</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(12)>:nth-child(3)",
+      "context": "<span style=\"color: #50FA7B;\">pnpm</span>",
+      "selector": "#main>:nth-child(82)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1528,8 +2098,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">og:image:url</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(12)>:nth-child(6)",
+      "context": "<span style=\"color: #F1FA8C;\"> build</span>",
+      "selector": "#main>:nth-child(82)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1543,8 +2113,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\"> content</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(12)>:nth-child(8)",
+      "context": "<span style=\"color: #50FA7B;\">git</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1558,8 +2128,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">http://exiguus.github.io/zola-mo...</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(12)>:nth-child(11)",
+      "context": "<span style=\"color: #F1FA8C;\"> add .</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1573,8 +2143,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #FF79C6;\">meta</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(13)>:nth-child(2)",
+      "context": "<span style=\"color: #50FA7B;\">git</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1588,8 +2158,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\"> property</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(13)>:nth-child(3)",
+      "context": "<span style=\"color: #F1FA8C;\"> commit</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1603,8 +2173,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">og:image:secure_url</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(13)>:nth-child(6)",
+      "context": "<span style=\"color: #BD93F9;\"> -m</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(2)>:nth-child(3)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1618,8 +2188,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #50FA7B;font-style: italic;\"> content</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(13)>:nth-child(8)",
+      "context": "<span style=\"color: #F1FA8C;\">feat(posts): short summary of yo...</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(2)>:nth-child(5)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1633,8 +2203,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">http://exiguus.github.io/zola-mo...</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(13)>:nth-child(11)",
+      "context": "<span style=\"color: #50FA7B;\">git</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1648,8 +2218,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #FF79C6;\">link</span>",
-      "selector": "#main>:nth-child(13)>:nth-child(1)>:nth-child(14)>:nth-child(2)",
+      "context": "<span style=\"color: #F1FA8C;\"> push</span>",
+      "selector": "#main>:nth-child(89)>:nth-child(1)>:nth-child(3)>:nth-child(2)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1663,8 +2233,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>{{ image(src=\"opengraph-preview-...</span>",
-      "selector": "#main>:nth-child(17)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "context": "<span>https://exiguus.github.io/zola-m...</span>",
+      "selector": "#main>:nth-child(93)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1678,8 +2248,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span>{{ image(src=\"opengraph-preview-...</span>",
-      "selector": "#main>:nth-child(21)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "context": "<span style=\"color: #50FA7B;\">pnpm</span>",
+      "selector": "#main>:nth-child(97)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1693,8 +2263,128 @@
       "recurrence": 0
     },
     {
-      "context": "<span>{{ image(src=\"../../../static/im...</span>",
-      "selector": "#main>:nth-child(26)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "context": "<span style=\"color: #F1FA8C;\"> release:patch</span>",
+      "selector": "#main>:nth-child(97)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "color-contrast",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #50FA7B;\">pnpm</span>",
+      "selector": "#main>:nth-child(97)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> release:minor</span>",
+      "selector": "#main>:nth-child(97)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
+      "code": "color-contrast",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #50FA7B;\">pnpm</span>",
+      "selector": "#main>:nth-child(97)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> release:major</span>",
+      "selector": "#main>:nth-child(97)>:nth-child(1)>:nth-child(3)>:nth-child(2)",
+      "code": "color-contrast",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #50FA7B;\">git</span>",
+      "selector": "#main>:nth-child(99)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> push</span>",
+      "selector": "#main>:nth-child(99)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "color-contrast",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #BD93F9;\"> --follow-tags</span>",
+      "selector": "#main>:nth-child(99)>:nth-child(1)>:nth-child(1)>:nth-child(3)",
+      "code": "color-contrast",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\"> origin main</span>",
+      "selector": "#main>:nth-child(99)>:nth-child(1)>:nth-child(1)>:nth-child(4)",
       "code": "color-contrast",
       "type": "warning",
       "typeCode": 2,
@@ -1710,7 +2400,7 @@
   ],
   "meta": {
     "errorCount": 0,
-    "warningCount": 190,
+    "warningCount": 229,
     "noticeCount": 0,
     "accessScore": 80
   },

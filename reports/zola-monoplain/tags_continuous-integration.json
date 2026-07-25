@@ -1,6 +1,6 @@
 {
-  "documentTitle": "Example gallery | mono/plain; a11y=true",
-  "pageUrl": "https://exiguus.github.io/zola-monoplain/gallery/",
+  "documentTitle": "Continuous Integration | mono/plain; a11y=true",
+  "pageUrl": "https://exiguus.github.io/zola-monoplain/tags/continuous-integration/",
   "issues": [
     {
       "context": "<h2 id=\"footer-links\" class=\"sr-only\">Links</h2>",
@@ -24,7 +24,7 @@
     },
     {
       "context": "<i class=\"sr-only\">Last update:</i>",
-      "selector": "#gallery>:nth-child(6)>:nth-child(4)>:nth-child(5)",
+      "selector": "#tags--continuous-integration>:nth-child(6)>:nth-child(4)>:nth-child(5)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -54,7 +54,7 @@
     },
     {
       "context": "<span class=\"sr-only\">Github</span>",
-      "selector": "#gallery>:nth-child(6)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "selector": "#tags--continuous-integration>:nth-child(6)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -64,7 +64,7 @@
     },
     {
       "context": "<span class=\"sr-only\">Mastodon</span>",
-      "selector": "#gallery>:nth-child(6)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+      "selector": "#tags--continuous-integration>:nth-child(6)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -74,7 +74,7 @@
     },
     {
       "context": "<span class=\"sr-only\">Atom</span>",
-      "selector": "#gallery>:nth-child(6)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
+      "selector": "#tags--continuous-integration>:nth-child(6)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -84,7 +84,7 @@
     },
     {
       "context": "<div class=\"p-name\">Simon Gattner</div>",
-      "selector": "#gallery>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "selector": "#tags--continuous-integration>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -94,7 +94,7 @@
     },
     {
       "context": "<div class=\"p-nickname\">Nick: exiguus</div>",
-      "selector": "#gallery>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "selector": "#tags--continuous-integration>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -104,7 +104,7 @@
     },
     {
       "context": "<a class=\"u-url\" href=\"https://www.gattner.name\">Homepage</a>",
-      "selector": "#gallery>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "selector": "#tags--continuous-integration>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -114,7 +114,7 @@
     },
     {
       "context": "<a class=\"u-url\" href=\"https://github.com/exiguus\">Github Profile</a>",
-      "selector": "#gallery>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
+      "selector": "#tags--continuous-integration>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -134,7 +134,7 @@
     },
     {
       "context": "<p aria-labelledby=\"footer-info\">\n    © mono/plain; a11y=true 202...</p>",
-      "selector": "#gallery>:nth-child(6)>:nth-child(4)",
+      "selector": "#tags--continuous-integration>:nth-child(6)>:nth-child(4)",
       "code": "aria-allowed-attr",
       "type": "warning",
       "typeCode": 2,
@@ -146,11 +146,26 @@
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-allowed-attr?application=axeAPI"
       },
       "recurrence": 0
+    },
+    {
+      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "ARIA attributes must conform to valid values",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
+      },
+      "recurrence": 0
     }
   ],
   "meta": {
     "errorCount": 0,
-    "warningCount": 14,
+    "warningCount": 15,
     "noticeCount": 0,
     "accessScore": 100
   },

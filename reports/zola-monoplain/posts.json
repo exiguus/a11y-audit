@@ -1,205 +1,865 @@
 {
-	"documentTitle": "Example posts | mono/plain; a11y=true",
-	"pageUrl": "https://exiguus.github.io/zola-monoplain/posts/",
-	"issues": [
-		{
-			"context": "<hgroup role=\"group\" aria-description=\"Page summary\">\n  <h1>Example posts</h1>\n  <p>H...</hgroup>",
-			"selector": "#main>:nth-child(1)",
-			"code": "aria-valid-attr",
-			"type": "error",
-			"typeCode": 1,
-			"message": "ARIA attributes must conform to valid names",
-			"runner": "axe",
-			"runnerExtras": {
-				"description": "Ensures attributes that begin with aria- are valid ARIA attributes",
-				"impact": "critical",
-				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr?application=axeAPI"
-			},
-			"recurrence": 0
-		},
-		{
-			"context": "<h2 id=\"footer-info\" class=\"sr-only\">Information</h2>",
-			"selector": "#footer-info",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<i class=\"sr-only\">Last update:</i>",
-			"selector": "#posts>:nth-child(6)>:nth-child(4)>:nth-child(5)",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<a href=\"#main\">Skip to content</a>",
-			"selector": "#skip-nav>:nth-child(1)>:nth-child(1)>:nth-child(1)",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<a href=\"#main-nav\">Skip to navigation</a>",
-			"selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(1)",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<span class=\"sr-only\">Github</span>",
-			"selector": "#posts>:nth-child(6)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<span class=\"sr-only\">Mastodon</span>",
-			"selector": "#posts>:nth-child(6)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<span class=\"sr-only\">Atom</span>",
-			"selector": "#posts>:nth-child(6)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<p class=\"sr-only\">Continous Integration by Example...</p>",
-			"selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<p class=\"sr-only\">Dictionary by Example</p>",
-			"selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<p class=\"sr-only\">Icons by Example</p>",
-			"selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<p class=\"sr-only\">Monoplain Theme for your one-sto...</p>",
-			"selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<p class=\"sr-only\">Shortcodes by example</p>",
-			"selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<p class=\"sr-only\">Emoji by example</p>",
-			"selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<p class=\"sr-only\">Markdown by example</p>",
-			"selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(7)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<nav id=\"skip-nav\" aria-label=\"Skip Navigation\" aria-live=\"off\" aria-atomic=\"false\">\n  <ul>\n    <li><a href=\"#main\">...</nav>",
-			"selector": "#skip-nav",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_10.C32,C31,C33,C38,SCR34,G206",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element has \"position: fixed\". This may require scrolling in two dimensions, which is considered a failure of this Success Criterion.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<h2 id=\"footer-links\" class=\"sr-only\">Links</h2>",
-			"selector": "#footer-links",
-			"code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
-			"runner": "htmlcs",
-			"recurrence": 0
-		},
-		{
-			"context": "<p aria-labelledby=\"footer-info\">\n    © mono/plain; a11y=true 202...</p>",
-			"selector": "#posts>:nth-child(6)>:nth-child(4)",
-			"code": "aria-allowed-attr",
-			"type": "warning",
-			"typeCode": 2,
-			"message": "Elements must only use allowed ARIA attributes",
-			"runner": "axe",
-			"runnerExtras": {
-				"description": "Ensures ARIA attributes are allowed for an element's role",
-				"impact": "serious",
-				"helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-allowed-attr?application=axeAPI"
-			},
-			"recurrence": 0
-		}
-	],
-	"meta": {
-		"errorCount": 1,
-		"warningCount": 17,
-		"noticeCount": 0,
-		"accessScore": 100
-	},
-	"automateable": {
-		"missingAltIndexs": []
-	}
+  "documentTitle": "Example posts | mono/plain; a11y=true",
+  "pageUrl": "https://exiguus.github.io/zola-monoplain/posts/",
+  "issues": [
+    {
+      "context": "<h2 id=\"footer-links\" class=\"sr-only\">Links</h2>",
+      "selector": "#footer-links",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<h2 id=\"footer-info\" class=\"sr-only\">Information</h2>",
+      "selector": "#footer-info",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<i class=\"sr-only\">Last update:</i>",
+      "selector": "#posts>:nth-child(6)>:nth-child(4)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#main\">Skip to content</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#main-nav\">Skip to navigation</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"sr-only\">Github</span>",
+      "selector": "#posts>:nth-child(6)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"sr-only\">Mastodon</span>",
+      "selector": "#posts>:nth-child(6)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"sr-only\">Atom</span>",
+      "selector": "#posts>:nth-child(6)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<div class=\"p-name\">Simon Gattner</div>",
+      "selector": "#posts>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<div class=\"p-nickname\">Nick: exiguus</div>",
+      "selector": "#posts>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a class=\"u-url\" href=\"https://www.gattner.name\">Homepage</a>",
+      "selector": "#posts>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a class=\"u-url\" href=\"https://github.com/exiguus\">Github Profile</a>",
+      "selector": "#posts>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only\">Set up a local development envir...</p>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only\">How images work in mono/plain an...</p>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only\">Feedback Email for mono/plain th...</p>",
+      "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only\">Open Graph Preview by example</p>",
+      "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only\">Continuous Integration by Exampl...</p>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only\">Dictionary by Example</p>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only\">Icons by Example</p>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only\">Monoplain Theme for your one-sto...</p>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only\">Shortcodes by example</p>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only\">Emoji by example</p>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only\">Markdown by example</p>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(7)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<date> 2026-07-12 </date>",
+      "selector": "#post-2026-07-12-development-1>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Zola\">#Zola</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 10
+    },
+    {
+      "context": "<li aria-label=\"Theme\">#Theme</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 7
+    },
+    {
+      "context": "<li aria-label=\"Development\">#Development</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Templates\">#Templates</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<li aria-label=\"Debugging\">#Debugging</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Accessibility\">#Accessibility</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Testing\">#Testing</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(7)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Release\">#Release</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(8)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<date> 2026-07-11 </date>",
+      "selector": "#post-2026-07-11-images-2>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Images\">#Images</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<li aria-label=\"Markdown\">#Markdown</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 9
+    },
+    {
+      "context": "<li aria-label=\"Shortcodes\">#Shortcodes</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<date> 2025-06-17 </date>",
+      "selector": "#post-2025-06-17-feedback-1>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Feedback\">#Feedback</li>",
+      "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"E-Mail\">#E-Mail</li>",
+      "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"SSG\">#SSG</li>",
+      "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<li aria-label=\"Static Site Generator\">#Static Site Generator</li>",
+      "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(7)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<date> 2025-05-03 </date>",
+      "selector": "#post-2025-05-03-opengraph-2>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Open Graph\">#Open Graph</li>",
+      "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Preview Image\">#Preview Image</li>",
+      "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<date> 2024-06-15 </date>",
+      "selector": "#post-2024-06-15-ci-1>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"CI\">#CI</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Continuous Integration\">#Continuous Integration</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Deployment\">#Deployment</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Build\">#Build</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Github Actions\">#Github Actions</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<date> 2024-06-09 </date>",
+      "selector": "#post-2024-06-09-dictionary-2>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 2
+    },
+    {
+      "context": "<li aria-label=\"Translations\">#Translations</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Languages\">#Languages</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Dictionary\">#Dictionary</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Icons\">#Icons</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<date> 2024-06-08 </date>",
+      "selector": "#post-2024-06-08-shortcodes-5>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Details\">#Details</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Youtube\">#Youtube</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(9)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Spotify\">#Spotify</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(10)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Email\">#Email</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(11)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Phone\">#Phone</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(12)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"h-card\">#h-card</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(13)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<date> 2024-06-07 </date>",
+      "selector": "#post-2024-06-07-emojis-6>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Emojis\">#Emojis</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<date> 2024-03-26 </date>",
+      "selector": "#post-2024-03-26-markdown-7>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li aria-label=\"Typography\">#Typography</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(7)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<nav id=\"skip-nav\" aria-label=\"Skip Navigation\" aria-live=\"off\" aria-atomic=\"false\">\n  <ul>\n    <li><a href=\"#main\">...</nav>",
+      "selector": "#skip-nav",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_10.C32,C31,C33,C38,SCR34,G206",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element has \"position: fixed\". This may require scrolling in two dimensions, which is considered a failure of this Success Criterion.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p aria-labelledby=\"footer-info\">\n    © mono/plain; a11y=true 202...</p>",
+      "selector": "#posts>:nth-child(6)>:nth-child(4)",
+      "code": "aria-allowed-attr",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Elements must only use allowed ARIA attributes",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures ARIA attributes are allowed for an element's role",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-allowed-attr?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "ARIA attributes must conform to valid values",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "ARIA attributes must conform to valid values",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "ARIA attributes must conform to valid values",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "ARIA attributes must conform to valid values",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "ARIA attributes must conform to valid values",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "ARIA attributes must conform to valid values",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "ARIA attributes must conform to valid values",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "ARIA attributes must conform to valid values",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "ARIA attributes must conform to valid values",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "ARIA attributes must conform to valid values",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(7)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "ARIA attributes must conform to valid values",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
+      },
+      "recurrence": 0
+    }
+  ],
+  "meta": {
+    "errorCount": 0,
+    "warningCount": 113,
+    "noticeCount": 0,
+    "accessScore": 100
+  },
+  "automateable": {
+    "missingAltIndexs": []
+  }
 }
