@@ -42,7 +42,7 @@
     "url": "https://github.com/exiguus/a11y-audit"
   },
   "homepage": "https://github.com/exiguus/a11y-audit#readme",
-  "packageManager": "pnpm@11.9.0",
+  "packageManager": "pnpm@11.15.0",
   "devDependencies": {
     "@biomejs/biome": "^2.5.2",
     "@commitlint/cli": "^21.2.0",
