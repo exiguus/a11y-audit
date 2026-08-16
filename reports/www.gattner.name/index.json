@@ -43,8 +43,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span data-testid=\"randext\" aria-hidden=\"true\" class=\"Animation__StyledAnimation-gattner-corporate__sc-1vffw48-0 bjHlbD\" data-randext=\"false\">Frontend</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "context": "<span data-testid=\"randext\" aria-hidden=\"true\" class=\"Animation__StyledAnimation-gattner-corporate__sc-1vffw48-0 bjHlbD\" data-randext=\"false\">development</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
       "type": "warning",
       "typeCode": 2,
@@ -53,7 +53,7 @@
       "recurrence": 0
     },
     {
-      "context": "<p size=\"md\" class=\"Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0 jqSWAN\">Frontend development</p>",
+      "context": "<p size=\"md\" class=\"Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0 jqSWAN\">Full-Stack development</p>",
       "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
       "type": "warning",
@@ -123,8 +123,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span data-randext-char=\"x0\" data-randext-char-active=\"true\">d</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+      "context": "<span data-randext-char=\"x0\">k</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
       "type": "warning",
       "typeCode": 2,
@@ -133,8 +133,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span data-randext-char=\"x1\" data-randext-char-active=\"true\">e</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
+      "context": "<span data-randext-char=\"x1\">u</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
       "type": "warning",
       "typeCode": 2,
@@ -143,8 +143,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span data-randext-char=\"x2\" data-randext-char-active=\"true\">v</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(3)",
+      "context": "<span data-randext-char=\"x2\">-</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
       "type": "warning",
       "typeCode": 2,
@@ -153,8 +153,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span data-randext-char=\"x3\" data-randext-char-active=\"true\">e</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
+      "context": "<span data-randext-char=\"x3\">F</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(4)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
       "type": "warning",
       "typeCode": 2,
@@ -163,8 +163,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span data-randext-char=\"x4\" data-randext-char-active=\"true\">l</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(5)",
+      "context": "<span data-randext-char=\"x4\">k</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(5)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
       "type": "warning",
       "typeCode": 2,
@@ -173,8 +173,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span data-randext-char=\"x5\" data-randext-char-active=\"true\">o</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(6)",
+      "context": "<span data-randext-char=\"x5\">u</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(6)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
       "type": "warning",
       "typeCode": 2,
@@ -183,8 +183,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span data-randext-char=\"x6\" data-randext-char-active=\"true\">p</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(7)",
+      "context": "<span data-randext-char=\"x6\">F</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(7)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
       "type": "warning",
       "typeCode": 2,
@@ -193,8 +193,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span data-randext-char=\"x7\" data-randext-char-active=\"true\">m</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(8)",
+      "context": "<span data-randext-char=\"x7\">S</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(8)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
       "type": "warning",
       "typeCode": 2,
@@ -203,8 +203,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span data-randext-char=\"x8\">d</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(9)",
+      "context": "<span data-randext-char=\"x8\">a</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(9)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
       "type": "warning",
       "typeCode": 2,
@@ -213,18 +213,8 @@
       "recurrence": 0
     },
     {
-      "context": "<span data-randext-char=\"x9\">d</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(10)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span data-randext-char=\"x10\">p</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(11)",
+      "context": "<span data-randext-char=\"x9\">l</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(10)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
       "type": "warning",
       "typeCode": 2,
@@ -241,11 +231,241 @@
       "message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 4.5:1.",
       "runner": "htmlcs",
       "recurrence": 0
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+      "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+      "runner": "nu",
+      "recurrence": 1
     }
   ],
   "meta": {
     "errorCount": 0,
-    "warningCount": 24,
+    "warningCount": 23,
     "noticeCount": 0,
     "accessScore": 100
   },

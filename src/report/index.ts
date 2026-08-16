@@ -1,5 +1,5 @@
 import { readFileSync, readdirSync } from "node:fs";
-import { type Browser, chromium } from "@playwright/test";
+import { type Browser, chromium, Page } from "@playwright/test";
 import { type Audit, kayle, setLogging } from "kayle";
 import { type CrawlConfig, defaultConfig } from "./config";
 import { Reporter } from "./reporter.class";
@@ -15,7 +15,7 @@ export class AccessibilityAuditor {
 			...config,
 			origin: `${process.env.ORIGIN || "default"}`,
 		};
-		this.reporter = new Reporter();
+		this.reporter = new Reporter(this.config);
 		this.validateConfig();
 		this.browser = chromium.launch(config.browserConfig);
 	}
@@ -81,7 +81,12 @@ export class AccessibilityAuditor {
 			// remove doublicates and shuffle
 			return Array.from(new Set(content)).sort(() => Math.random() - 0.5);
 		} catch (error) {
-			throw new Error(`Failed to load sitemap: ${error.message}`);
+			if (error instanceof Error) {
+				logError(`Failed to load sitemap: ${error.message}`);
+			} else {
+				logError("An unknown error occurred while loading the sitemap.");
+			}
+			throw error;
 		}
 	}
 
@@ -123,7 +128,11 @@ export async function main(): Promise<void> {
 		await auditor.runAudit();
 		process.exit(0);
 	} catch (error) {
-		logError(`Error during audit: ${error.message}`);
+		if (error instanceof Error) {
+			logError(`Error during audit: ${error.message}`);
+		} else {
+			logError(`An unknown error occurred during the audit.`);
+		}
 		process.exit(1);
 	}
 }

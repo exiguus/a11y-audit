@@ -49,12 +49,12 @@ class SitemapScraper {
 		const sitemaps =
 			result.sitemapindex?.sitemap
 				?.map((entry: { loc: string[] }) => entry.loc?.[0])
-				.filter((url): url is string => !!url) || [];
+				.filter((url: unknown): url is string => !!url) || [];
 
 		const urls =
 			result.urlset?.url
 				?.map((entry: { loc: string[] }) => entry.loc?.[0])
-				.filter((url): url is string => !!url) || [];
+				.filter((url: unknown): url is string => !!url) || [];
 
 		return { sitemaps, urls };
 	}
@@ -75,7 +75,7 @@ class SitemapScraper {
 		for (const [i, sitemap] of sitemaps.entries()) {
 			logInfo(`Processing sitemap ${i + 1}/${sitemaps.length}`);
 			const links = await this.fetchSitemapLinks(sitemap);
-			await this.saveSitemapLinks(links, i, sitemap);
+			await this.saveSitemapLinks(links, i);
 		}
 
 		logInfo("All sitemaps processed.");
@@ -91,7 +91,7 @@ export async function main(): Promise<void> {
 		switch (true) {
 			// biome-ignore lint/suspicious/noFallthroughSwitchClause: false
 			case urlList.length > 0:
-				await scraper.saveSitemapLinks(urlList, 999, "URL_LIST");
+				await scraper.saveSitemapLinks(urlList, 999);
 			// biome-ignore lint/suspicious/noFallthroughSwitchClause: false
 			case siteMaps.length > 0:
 				await scraper.scrapeAll(siteMaps);

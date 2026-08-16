@@ -34,6 +34,10 @@ export function main(): void {
 
 		console.log("Backup process completed successfully.");
 	} catch (error) {
-		console.error(`Error during backup process: ${error.message}`);
+		if (error instanceof Error) {
+			console.error(`Error during backup process: ${error.message}`);
+		} else {
+			console.error("An unknown error occurred during the backup process.");
+		}
 	}
 }

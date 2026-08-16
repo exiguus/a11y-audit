@@ -8,7 +8,7 @@ export interface Report {
 		type: "error" | "warning" | "notice";
 		typeCode: number;
 		message: string;
-		runner: "htmlcs" | "axe";
+		runner: "htmlcs" | "axe" | "nu";
 		recurrence: number;
 	}[];
 	meta: {
@@ -43,6 +43,7 @@ export interface Results {
 	missingAltIndex: number;
 	wcagIssues: IssueCount[];
 	axeIssues: IssueCount[];
+	nuHtmlIssues: IssueCount[];
 	selectorIssues: IssueCount[];
 	issuesByCode: Record<
 		string,
@@ -91,6 +92,7 @@ export interface ResultsEscaped {
 	missingAltIndex: string;
 	wcagIssues: IssueCountEscaped[];
 	axeIssues: IssueCountEscaped[];
+	nuHtmlIssues: IssueCountEscaped[];
 	selectorIssues: IssueCountEscaped[];
 	issuesByCode: Record<
 		string,

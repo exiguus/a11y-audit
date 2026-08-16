@@ -50,6 +50,9 @@ SITEMAP_URLS='[]'
 URL_LIST='["https://www.gattner.name/", "https://www.gattner.name/about", "https://www.gattner.name/contact", "https://www.gattner.name/impressum"]'
 TIMEOUT=30000
 LANGUAGE="en"
+NU_HTML_CHECKER_URL="https://validator.w3.org"
+NU_HTML_CHECKER_LEVEL="error"
+NU_HTML_CHECKER_PARSER="html5"
 ```
 
 - ORIGIN: The origin of the web application to audit. This is used to generate subdirectories and file names for the results.
@@ -70,6 +73,11 @@ export const defaultConfig: Partial<CrawlConfig> = {
 		standard: Standard.WCAG2AA,
 		timeout: process.env.TIMEOUT ? Number.parseInt(process.env.TIMEOUT) : 30000,
 		language: process.env.LANGUAGE || "en",
+	},
+	nuHtmlCheckerConfig: {
+		url: process.env.NU_HTML_CHECKER_URL || "https://validator.exiguus.app",
+		parser: process.env.NU_HTML_CHECKER_PARSER || "html5",
+		level: process.env.NU_HTML_CHECKER_LEVEL || "error",
 	},
 };
 ```

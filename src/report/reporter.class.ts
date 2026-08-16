@@ -7,14 +7,22 @@ import {
 	sanitizeFolderName,
 	writeJsonFile,
 } from "../utils";
+import type { CrawlConfig } from "./config";
+import { NuHtmlChecker } from "./nuhtmlchecker.class";
 
 export class Reporter {
 	private readonly reportDir: string =
 		`${process.env.REPORT_PATH || "./reports"}/${process.env.ORIGIN || "default"}`;
+	private readonly nuHtmlChecker?: NuHtmlChecker;
 
-	constructor() {
+	constructor(config?: CrawlConfig) {
 		// Ensure the report directory exists
 		ensureDirectoryExists(this.reportDir);
+
+		// Initialize Nu HTML Checker if config is provided
+		if (config?.nuHtmlCheckerConfig) {
+			this.nuHtmlChecker = new NuHtmlChecker(config);
+		}
 	}
 
 	/**
@@ -35,6 +43,19 @@ export class Reporter {
 		}
 
 		const filename = this.generateFilename(result.pageUrl);
+
+		const existingIssues = Array.isArray(result.issues) ? result.issues : [];
+
+		// Fetch Nu HTML Checker issues and merge them with the audit results
+		if (this.nuHtmlChecker) {
+			const nuIssues = await this.nuHtmlChecker.getIssues(result.pageUrl);
+			if (nuIssues.length > 0) {
+				result.issues = [...existingIssues, ...nuIssues];
+			} else {
+				result.issues = existingIssues;
+			}
+		}
+
 		try {
 			writeJsonFile(filename, result);
 			logInfo(`Report saved: ${filename}`);

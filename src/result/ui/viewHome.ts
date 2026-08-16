@@ -6,10 +6,9 @@ export const generateIndexHtml = (data: ResultsEscaped): string =>
 		data,
 		content: `<section id="wcag-issues">
       <h2>WCAG Issues</h2>
-      ${
-				data.wcagIssues.length === 0
-					? "<p>No WCAG issues found.</p>"
-					: `
+      ${data.wcagIssues.length === 0
+				? "<p>No WCAG issues found.</p>"
+				: `
         <table>
           <caption>WCAG Issues sorted by Count</caption>
           <thead>
@@ -24,8 +23,8 @@ export const generateIndexHtml = (data: ResultsEscaped): string =>
           </thead>
           <tbody>
             ${data.wcagIssues
-							.map(
-								(issue: IssueCountEscaped) => `
+					.map(
+						(issue: IssueCountEscaped) => `
               <tr>
                 <td>${issue.code}</td>
                 <td class="${issue.type.toLowerCase()}">${issue.type}</td>
@@ -35,8 +34,8 @@ export const generateIndexHtml = (data: ResultsEscaped): string =>
                 <td><a title="Open external link" href="${issue.url}" target="_blank">View Issue</a></td>
               </tr>
             `,
-							)
-							.join("")}
+					)
+					.join("")}
           </tbody>
         </table>
       `
@@ -44,10 +43,9 @@ export const generateIndexHtml = (data: ResultsEscaped): string =>
     </section>
     <section id="axe-issues">
       <h2>Axe Issues</h2>
-      ${
-				data.axeIssues.length === 0
-					? "<p>No Axe issues found.</p>"
-					: `
+      ${data.axeIssues.length === 0
+				? "<p>No Axe issues found.</p>"
+				: `
         <table>
           <caption>Axe Issues sorted by Count</caption>
           <thead>
@@ -62,8 +60,8 @@ export const generateIndexHtml = (data: ResultsEscaped): string =>
           </thead>
           <tbody>
             ${data.axeIssues
-							.map(
-								(issue: IssueCountEscaped) => `
+					.map(
+						(issue: IssueCountEscaped) => `
               <tr>
                 <td>${issue.code}</td>
                 <td class="${issue.type.toLowerCase()}">${issue.type}</td>
@@ -73,8 +71,45 @@ export const generateIndexHtml = (data: ResultsEscaped): string =>
                 <td><a title="Open external link" href="${issue.url}" target="_blank">View Issue</a></td>
               </tr>
             `,
-							)
-							.join("")}
+					)
+					.join("")}
+          </tbody>
+        </table>
+      `
+			}
+    </section>
+    <section id="nu-html-issues">
+      <h2>Nu HTML Checker Issues</h2>
+      ${data.nuHtmlIssues.length === 0
+				? "<p>No Nu HTML Checker issues found.</p>"
+				: `
+        <table>
+          <caption>Nu HTML Checker Issues sorted by Count</caption>
+          <thead>
+            <tr>
+              <th>Code</th>
+              <th>Type</th>
+              <th>Message</th>
+              <th>Count</th>
+              <th>Selector</th>
+              <th>URL</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${data.nuHtmlIssues
+					.map(
+						(issue: IssueCountEscaped) => `
+              <tr>
+                <td>${issue.code}</td>
+                <td class="${issue.type.toLowerCase()}">${issue.type}</td>
+                <td>${issue.message}</td>
+                <td>${issue.count}</td>
+                <td><code>${issue.selector}</code></td>
+                <td><a title="Open external link" href="${issue.url}" target="_blank">View Issue</a></td>
+              </tr>
+            `,
+					)
+					.join("")}
           </tbody>
         </table>
       `
@@ -82,10 +117,9 @@ export const generateIndexHtml = (data: ResultsEscaped): string =>
     </section>
     <section id="selector-issues">
       <h2>Selector Issues</h2>
-      ${
-				data.selectorIssues.length === 0
-					? "<p>No Selector issues found.</p>"
-					: `
+      ${data.selectorIssues.length === 0
+				? "<p>No Selector issues found.</p>"
+				: `
         <table>
           <caption>Selector Issues sorted by Count</caption>
           <thead>
@@ -100,8 +134,8 @@ export const generateIndexHtml = (data: ResultsEscaped): string =>
           </thead>
           <tbody>
             ${data.selectorIssues
-							.map(
-								(issue: IssueCountEscaped) => `
+					.map(
+						(issue: IssueCountEscaped) => `
               <tr>
                 <td><code>${issue.selector}</code></td>
                 <td class="${issue.type.toLowerCase()}">${issue.type}</td>
@@ -111,8 +145,8 @@ export const generateIndexHtml = (data: ResultsEscaped): string =>
                 <td><a title="Open external link" href="${issue.url}" target="_blank">View Issue</a></td>
               </tr>
             `,
-							)
-							.join("")}
+					)
+					.join("")}
           </tbody>
         </table>
       `

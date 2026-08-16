@@ -19,6 +19,10 @@ export function main(): void {
 
 		console.log("Cleanup process completed successfully.");
 	} catch (error) {
-		console.error(`Error during cleanup process: ${error.message}`);
+		if (error instanceof Error) {
+			console.error(`Error during cleanup process: ${error.message}`);
+		} else {
+			console.error("An unknown error occurred during the cleanup process.");
+		}
 	}
 }

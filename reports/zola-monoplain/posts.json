@@ -23,8 +23,18 @@
       "recurrence": 0
     },
     {
+      "context": "<h2 id=\"header-links\" class=\"sr-only\">Links</h2>",
+      "selector": "#header-links",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
       "context": "<i class=\"sr-only\">Last update:</i>",
-      "selector": "#posts>:nth-child(6)>:nth-child(4)>:nth-child(5)",
+      "selector": "#posts>:nth-child(6)>:nth-child(4)>:nth-child(7)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -60,7 +70,7 @@
       "typeCode": 2,
       "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
       "runner": "htmlcs",
-      "recurrence": 0
+      "recurrence": 1
     },
     {
       "context": "<span class=\"sr-only\">Mastodon</span>",
@@ -70,17 +80,27 @@
       "typeCode": 2,
       "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
       "runner": "htmlcs",
-      "recurrence": 0
+      "recurrence": 1
     },
     {
-      "context": "<span class=\"sr-only\">Atom</span>",
+      "context": "<span class=\"sr-only\">E-Mail</span>",
       "selector": "#posts>:nth-child(6)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
       "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
       "runner": "htmlcs",
-      "recurrence": 0
+      "recurrence": 1
+    },
+    {
+      "context": "<span class=\"sr-only\">Atom</span>",
+      "selector": "#posts>:nth-child(6)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
     },
     {
       "context": "<div class=\"p-name\">Simon Gattner</div>",
@@ -123,7 +143,7 @@
       "recurrence": 0
     },
     {
-      "context": "<p class=\"sr-only\">Set up a local development envir...</p>",
+      "context": "<p class=\"sr-only e-summary\">How to customize and generate fa...</p>",
       "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -133,7 +153,7 @@
       "recurrence": 0
     },
     {
-      "context": "<p class=\"sr-only\">How images work in mono/plain an...</p>",
+      "context": "<p class=\"sr-only e-summary\">Front matter fields: common usag...</p>",
       "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -143,7 +163,27 @@
       "recurrence": 0
     },
     {
-      "context": "<p class=\"sr-only\">Feedback Email for mono/plain th...</p>",
+      "context": "<p class=\"sr-only e-summary\">Set up a local development envir...</p>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only e-summary\">How images work in mono/plain an...</p>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only e-summary\">Feedback Email for mono/plain th...</p>",
       "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -153,7 +193,7 @@
       "recurrence": 0
     },
     {
-      "context": "<p class=\"sr-only\">Open Graph Preview by example</p>",
+      "context": "<p class=\"sr-only e-summary\">Open Graph Preview by example</p>",
       "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -163,7 +203,7 @@
       "recurrence": 0
     },
     {
-      "context": "<p class=\"sr-only\">Continuous Integration by Exampl...</p>",
+      "context": "<p class=\"sr-only e-summary\">Continuous Integration by Exampl...</p>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -173,7 +213,7 @@
       "recurrence": 0
     },
     {
-      "context": "<p class=\"sr-only\">Dictionary by Example</p>",
+      "context": "<p class=\"sr-only e-summary\">Dictionary by Example</p>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -183,7 +223,7 @@
       "recurrence": 0
     },
     {
-      "context": "<p class=\"sr-only\">Icons by Example</p>",
+      "context": "<p class=\"sr-only e-summary\">Icons by Example</p>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -193,7 +233,7 @@
       "recurrence": 0
     },
     {
-      "context": "<p class=\"sr-only\">Monoplain Theme for your one-sto...</p>",
+      "context": "<p class=\"sr-only e-summary\">Monoplain Theme for your one-sto...</p>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -203,7 +243,7 @@
       "recurrence": 0
     },
     {
-      "context": "<p class=\"sr-only\">Shortcodes by example</p>",
+      "context": "<p class=\"sr-only e-summary\">Shortcodes by example</p>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -213,7 +253,7 @@
       "recurrence": 0
     },
     {
-      "context": "<p class=\"sr-only\">Emoji by example</p>",
+      "context": "<p class=\"sr-only e-summary\">Emoji by example</p>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -223,7 +263,7 @@
       "recurrence": 0
     },
     {
-      "context": "<p class=\"sr-only\">Markdown by example</p>",
+      "context": "<p class=\"sr-only e-summary\">Markdown by example</p>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(7)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -233,8 +273,8 @@
       "recurrence": 0
     },
     {
-      "context": "<date> 2026-07-12 </date>",
-      "selector": "#post-2026-07-12-development-1>:nth-child(2)>:nth-child(1)",
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2026-08-02-favicon-1>:nth-child(4)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -243,27 +283,177 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Zola\">#Zola</li>",
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2026-07-31-formatter-2>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2026-07-12-development-3>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2026-07-11-images-4>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2025-06-17-feedback-1>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2025-05-03-opengraph-2>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2024-06-15-ci-1>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2024-06-09-dictionary-2>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2024-06-09-icons-3>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2024-06-09-themes-4>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only p-author h-card\"><span class=\"p-name\">Simon Gattn...</p>",
+      "selector": "#post-2024-06-08-shortcodes-5>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2024-06-08-shortcodes-5>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2024-06-07-emojis-6>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2024-03-26-markdown-7>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<time class=\"dt-published\" datetime=\"2026-08-02\">2026-08-02</time>",
+      "selector": "#post-2026-08-02-favicon-1>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">Simon Gattner</span>",
+      "selector": "#post-2026-08-02-favicon-1>:nth-child(3)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 12
+    },
+    {
+      "context": "<li class=\"h-name\" aria-label=\"Zola\">#Zola</li>",
       "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
       "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
       "runner": "htmlcs",
-      "recurrence": 10
+      "recurrence": 12
     },
     {
-      "context": "<li aria-label=\"Theme\">#Theme</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Theme\">#Theme</li>",
       "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
       "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
       "runner": "htmlcs",
-      "recurrence": 7
+      "recurrence": 9
     },
     {
-      "context": "<li aria-label=\"Development\">#Development</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Favicon\">#Favicon</li>",
       "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(3)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -273,7 +463,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Templates\">#Templates</li>",
+      "context": "<li class=\"h-name\" aria-label=\"SVG\">#SVG</li>",
       "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -283,7 +473,7 @@
       "recurrence": 1
     },
     {
-      "context": "<li aria-label=\"Debugging\">#Debugging</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Inkscape\">#Inkscape</li>",
       "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(5)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -293,8 +483,8 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Accessibility\">#Accessibility</li>",
-      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(6)",
+      "context": "<time class=\"dt-published\" datetime=\"2026-07-31\">2026-07-31</time>",
+      "selector": "#post-2026-07-31-formatter-2>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -303,38 +493,58 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Testing\">#Testing</li>",
-      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(7)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<li aria-label=\"Release\">#Release</li>",
-      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(8)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<date> 2026-07-11 </date>",
-      "selector": "#post-2026-07-11-images-2>:nth-child(2)>:nth-child(1)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<li aria-label=\"Images\">#Images</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Front Matter\">#Front Matter</li>",
       "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li class=\"h-name\" aria-label=\"Metadata\">#Metadata</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li class=\"h-name\" aria-label=\"Configuration\">#Configuration</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<time class=\"dt-published\" datetime=\"2026-07-12\">2026-07-12</time>",
+      "selector": "#post-2026-07-12-development-3>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li class=\"h-name\" aria-label=\"Development\">#Development</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li class=\"h-name\" aria-label=\"Templates\">#Templates</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -343,8 +553,68 @@
       "recurrence": 1
     },
     {
-      "context": "<li aria-label=\"Markdown\">#Markdown</li>",
-      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
+      "context": "<li class=\"h-name\" aria-label=\"Debugging\">#Debugging</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li class=\"h-name\" aria-label=\"Accessibility\">#Accessibility</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li class=\"h-name\" aria-label=\"Testing\">#Testing</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(7)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li class=\"h-name\" aria-label=\"Release\">#Release</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(8)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<time class=\"dt-published\" datetime=\"2026-07-11\">2026-07-11</time>",
+      "selector": "#post-2026-07-11-images-4>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li class=\"h-name\" aria-label=\"Images\">#Images</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<li class=\"h-name\" aria-label=\"Markdown\">#Markdown</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -353,8 +623,8 @@
       "recurrence": 9
     },
     {
-      "context": "<li aria-label=\"Shortcodes\">#Shortcodes</li>",
-      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(5)",
+      "context": "<li class=\"h-name\" aria-label=\"Shortcodes\">#Shortcodes</li>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(5)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -363,7 +633,7 @@
       "recurrence": 1
     },
     {
-      "context": "<date> 2025-06-17 </date>",
+      "context": "<time class=\"dt-published\" datetime=\"2025-06-17\">2025-06-17</time>",
       "selector": "#post-2025-06-17-feedback-1>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -373,7 +643,17 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Feedback\">#Feedback</li>",
+      "context": "<time class=\"dt-updated\" datetime=\"2026-07-12\">2026-07-12</time>",
+      "selector": "#post-2025-06-17-feedback-1>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li class=\"h-name\" aria-label=\"Feedback\">#Feedback</li>",
       "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -383,7 +663,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"E-Mail\">#E-Mail</li>",
+      "context": "<li class=\"h-name\" aria-label=\"E-Mail\">#E-Mail</li>",
       "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -393,7 +673,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"SSG\">#SSG</li>",
+      "context": "<li class=\"h-name\" aria-label=\"SSG\">#SSG</li>",
       "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(6)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -403,7 +683,7 @@
       "recurrence": 1
     },
     {
-      "context": "<li aria-label=\"Static Site Generator\">#Static Site Generator</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Static Site Generator\">#Static Site Generator</li>",
       "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(7)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -413,7 +693,7 @@
       "recurrence": 1
     },
     {
-      "context": "<date> 2025-05-03 </date>",
+      "context": "<time class=\"dt-published\" datetime=\"2025-05-03\">2025-05-03</time>",
       "selector": "#post-2025-05-03-opengraph-2>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -423,7 +703,17 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Open Graph\">#Open Graph</li>",
+      "context": "<time class=\"dt-updated\" datetime=\"2026-07-11\">2026-07-11</time>",
+      "selector": "#post-2025-05-03-opengraph-2>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 5
+    },
+    {
+      "context": "<li class=\"h-name\" aria-label=\"Open Graph\">#Open Graph</li>",
       "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -433,7 +723,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Preview Image\">#Preview Image</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Preview Image\">#Preview Image</li>",
       "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(5)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -443,7 +733,7 @@
       "recurrence": 0
     },
     {
-      "context": "<date> 2024-06-15 </date>",
+      "context": "<time class=\"dt-published\" datetime=\"2024-06-15\">2024-06-15</time>",
       "selector": "#post-2024-06-15-ci-1>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -453,7 +743,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"CI\">#CI</li>",
+      "context": "<li class=\"h-name\" aria-label=\"CI\">#CI</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -463,7 +753,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Continuous Integration\">#Continuous Integration</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Continuous Integration\">#Continuous Integration</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(3)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -473,7 +763,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Deployment\">#Deployment</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Deployment\">#Deployment</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -483,7 +773,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Build\">#Build</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Build\">#Build</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(5)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -493,7 +783,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Github Actions\">#Github Actions</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Github Actions\">#Github Actions</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(6)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -503,7 +793,7 @@
       "recurrence": 0
     },
     {
-      "context": "<date> 2024-06-09 </date>",
+      "context": "<time class=\"dt-published\" datetime=\"2024-06-09\">2024-06-09</time>",
       "selector": "#post-2024-06-09-dictionary-2>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -513,7 +803,7 @@
       "recurrence": 2
     },
     {
-      "context": "<li aria-label=\"Translations\">#Translations</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Translations\">#Translations</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(3)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -523,7 +813,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Languages\">#Languages</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Languages\">#Languages</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -533,7 +823,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Dictionary\">#Dictionary</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Dictionary\">#Dictionary</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(5)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -543,7 +833,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Icons\">#Icons</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Icons\">#Icons</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(3)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -553,7 +843,27 @@
       "recurrence": 1
     },
     {
-      "context": "<date> 2024-06-08 </date>",
+      "context": "<li class=\"h-name\" aria-label=\"Tabler Icons\">#Tabler Icons</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li class=\"h-name\" aria-label=\"Shortcode\">#Shortcode</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<time class=\"dt-published\" datetime=\"2024-06-08\">2024-06-08</time>",
       "selector": "#post-2024-06-08-shortcodes-5>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -563,7 +873,27 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Details\">#Details</li>",
+      "context": "<time class=\"dt-updated\" datetime=\"2026-07-28\">2026-07-28</time>",
+      "selector": "#post-2024-06-08-shortcodes-5>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">exiguus</span>",
+      "selector": "#post-2024-06-08-shortcodes-5>:nth-child(3)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<li class=\"h-name\" aria-label=\"Details\">#Details</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(6)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -573,7 +903,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Youtube\">#Youtube</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Youtube\">#Youtube</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(9)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -583,7 +913,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Spotify\">#Spotify</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Spotify\">#Spotify</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(10)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -593,7 +923,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Email\">#Email</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Email\">#Email</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(11)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -603,7 +933,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Phone\">#Phone</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Phone\">#Phone</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(12)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -613,7 +943,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"h-card\">#h-card</li>",
+      "context": "<li class=\"h-name\" aria-label=\"h-card\">#h-card</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(13)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -623,7 +953,17 @@
       "recurrence": 0
     },
     {
-      "context": "<date> 2024-06-07 </date>",
+      "context": "<li class=\"h-name\" aria-label=\"h-entry\">#h-entry</li>",
+      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(14)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<time class=\"dt-published\" datetime=\"2024-06-07\">2024-06-07</time>",
       "selector": "#post-2024-06-07-emojis-6>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -633,7 +973,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Emojis\">#Emojis</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Emojis\">#Emojis</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -643,7 +983,7 @@
       "recurrence": 0
     },
     {
-      "context": "<date> 2024-03-26 </date>",
+      "context": "<time class=\"dt-published\" datetime=\"2024-03-26\">2024-03-26</time>",
       "selector": "#post-2024-03-26-markdown-7>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -653,7 +993,7 @@
       "recurrence": 0
     },
     {
-      "context": "<li aria-label=\"Typography\">#Typography</li>",
+      "context": "<li class=\"h-name\" aria-label=\"Typography\">#Typography</li>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(7)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(4)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -673,22 +1013,7 @@
       "recurrence": 0
     },
     {
-      "context": "<p aria-labelledby=\"footer-info\">\n    © mono/plain; a11y=true 202...</p>",
-      "selector": "#posts>:nth-child(6)>:nth-child(4)",
-      "code": "aria-allowed-attr",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must only use allowed ARIA attributes",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures ARIA attributes are allowed for an element's role",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-allowed-attr?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "context": "<ul class=\"p-category\" aria-labelledby=\"tags\">\n              \n              <l...</ul>",
       "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "aria-valid-attr-value",
       "type": "warning",
@@ -703,7 +1028,7 @@
       "recurrence": 0
     },
     {
-      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "context": "<ul class=\"p-category\" aria-labelledby=\"tags\">\n              \n              <l...</ul>",
       "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "aria-valid-attr-value",
       "type": "warning",
@@ -718,7 +1043,37 @@
       "recurrence": 0
     },
     {
-      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "context": "<ul class=\"p-category\" aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "ARIA attributes must conform to valid values",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<ul class=\"p-category\" aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "ARIA attributes must conform to valid values",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<ul class=\"p-category\" aria-labelledby=\"tags\">\n              \n              <l...</ul>",
       "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "aria-valid-attr-value",
       "type": "warning",
@@ -733,7 +1088,7 @@
       "recurrence": 0
     },
     {
-      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "context": "<ul class=\"p-category\" aria-labelledby=\"tags\">\n              \n              <l...</ul>",
       "selector": "#main>:nth-child(3)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "aria-valid-attr-value",
       "type": "warning",
@@ -748,7 +1103,7 @@
       "recurrence": 0
     },
     {
-      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "context": "<ul class=\"p-category\" aria-labelledby=\"tags\">\n              \n              <l...</ul>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "aria-valid-attr-value",
       "type": "warning",
@@ -763,7 +1118,7 @@
       "recurrence": 0
     },
     {
-      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "context": "<ul class=\"p-category\" aria-labelledby=\"tags\">\n              \n              <l...</ul>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "aria-valid-attr-value",
       "type": "warning",
@@ -778,7 +1133,7 @@
       "recurrence": 0
     },
     {
-      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "context": "<ul class=\"p-category\" aria-labelledby=\"tags\">\n              \n              <l...</ul>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "aria-valid-attr-value",
       "type": "warning",
@@ -793,7 +1148,7 @@
       "recurrence": 0
     },
     {
-      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "context": "<ul class=\"p-category\" aria-labelledby=\"tags\">\n              \n              <l...</ul>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "aria-valid-attr-value",
       "type": "warning",
@@ -808,7 +1163,7 @@
       "recurrence": 0
     },
     {
-      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "context": "<ul class=\"p-category\" aria-labelledby=\"tags\">\n              \n              <l...</ul>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "aria-valid-attr-value",
       "type": "warning",
@@ -823,7 +1178,7 @@
       "recurrence": 0
     },
     {
-      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "context": "<ul class=\"p-category\" aria-labelledby=\"tags\">\n              \n              <l...</ul>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "aria-valid-attr-value",
       "type": "warning",
@@ -838,7 +1193,7 @@
       "recurrence": 0
     },
     {
-      "context": "<ul aria-labelledby=\"tags\">\n              \n              <l...</ul>",
+      "context": "<ul class=\"p-category\" aria-labelledby=\"tags\">\n              \n              <l...</ul>",
       "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(7)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "aria-valid-attr-value",
       "type": "warning",
@@ -851,11 +1206,41 @@
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
       },
       "recurrence": 0
+    },
+    {
+      "context": "Nu HTML Checker: Bad value “og:https://ogp.me/ns#” for attribute “prefix” on element “html”.",
+      "selector": "//html",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “og:https://ogp.me/ns#” for attribute “prefix” on element “html”.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "selector": "//a",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "selector": "//a",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "runner": "nu",
+      "recurrence": 1
     }
   ],
   "meta": {
     "errorCount": 0,
-    "warningCount": 113,
+    "warningCount": 174,
     "noticeCount": 0,
     "accessScore": 100
   },

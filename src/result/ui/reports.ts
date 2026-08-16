@@ -50,6 +50,22 @@ const escapeDate = (rawData: Results): ResultsEscaped => ({
 			...issue,
 			code: issue.code.split(".").join(" "),
 		})),
+	nuHtmlIssues: rawData.nuHtmlIssues
+		.map(
+			(issue) =>
+				escapeHtmlObject(issue, [
+					"code",
+					"type",
+					"message",
+					"count",
+					"selector",
+					"url",
+				]) as IssueCountEscaped,
+		)
+		.map((issue: IssueCountEscaped) => ({
+			...issue,
+			code: issue.code,
+		})),
 	selectorIssues: rawData.selectorIssues
 		.map(
 			(issue) =>

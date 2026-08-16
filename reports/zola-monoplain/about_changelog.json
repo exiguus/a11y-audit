@@ -1,0 +1,230 @@
+{
+  "documentTitle": "CHANGELOG | mono/plain; a11y=true",
+  "pageUrl": "https://exiguus.github.io/zola-monoplain/about/changelog/",
+  "issues": [
+    {
+      "context": "<h3 id=\"1-8-3-2026-08-11\"><a rel=\"external\" href=\"https://...</h3>",
+      "selector": "#1-8-3-2026-08-11",
+      "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1_A.G141",
+      "type": "error",
+      "typeCode": 1,
+      "message": "The heading structure is not logically nested. This h3 element should be an h2 to be properly nested.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<h3 id=\"1-8-3-2026-08-11\"><a rel=\"external\" href=\"https://...</h3>",
+      "selector": "#1-8-3-2026-08-11",
+      "code": "heading-order",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Heading levels should only increase by one",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the order of headings is semantically correct",
+        "impact": "moderate",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/heading-order?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<h2 id=\"footer-info\" class=\"sr-only\">Information</h2>",
+      "selector": "#footer-info",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<h2 id=\"header-links\" class=\"sr-only\">Links</h2>",
+      "selector": "#header-links",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<i class=\"sr-only\">Last update:</i>",
+      "selector": "#about--changelog>:nth-child(6)>:nth-child(4)>:nth-child(7)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#main\">Skip to content</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a href=\"#main-nav\">Skip to navigation</a>",
+      "selector": "#skip-nav>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"sr-only\">Github</span>",
+      "selector": "#about--changelog>:nth-child(6)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<span class=\"sr-only\">Mastodon</span>",
+      "selector": "#about--changelog>:nth-child(6)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<span class=\"sr-only\">E-Mail</span>",
+      "selector": "#about--changelog>:nth-child(6)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<span class=\"sr-only\">Atom</span>",
+      "selector": "#about--changelog>:nth-child(6)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<div class=\"p-name\">Simon Gattner</div>",
+      "selector": "#about--changelog>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<div class=\"p-nickname\">Nick: exiguus</div>",
+      "selector": "#about--changelog>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a class=\"u-url\" href=\"https://www.gattner.name\">Homepage</a>",
+      "selector": "#about--changelog>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<a class=\"u-url\" href=\"https://github.com/exiguus\">Github Profile</a>",
+      "selector": "#about--changelog>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<nav id=\"skip-nav\" aria-label=\"Skip Navigation\" aria-live=\"off\" aria-atomic=\"false\">\n  <ul>\n    <li><a href=\"#main\">...</nav>",
+      "selector": "#skip-nav",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_10.C32,C31,C33,C38,SCR34,G206",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element has \"position: fixed\". This may require scrolling in two dimensions, which is considered a failure of this Success Criterion.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<h2 id=\"footer-links\" class=\"sr-only\">Links</h2>",
+      "selector": "#footer-links",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "Nu HTML Checker: Bad value “og:https://ogp.me/ns#” for attribute “prefix” on element “html”.",
+      "selector": "//html",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “og:https://ogp.me/ns#” for attribute “prefix” on element “html”.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "selector": "//a",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "selector": "//a",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: The heading “h3” (with computed level 3) follows the heading “h1” (with computed level 1), skipping 1 heading level.",
+      "selector": "//*[@id='1-8-3-2026-08-11']",
+      "code": "NU-HTML-3",
+      "type": "error",
+      "typeCode": 1,
+      "message": "The heading “h3” (with computed level 3) follows the heading “h1” (with computed level 1), skipping 1 heading level.",
+      "runner": "nu",
+      "recurrence": 1
+    }
+  ],
+  "meta": {
+    "errorCount": 2,
+    "warningCount": 19,
+    "noticeCount": 0,
+    "accessScore": 90
+  },
+  "automateable": {
+    "missingAltIndexs": []
+  }
+}

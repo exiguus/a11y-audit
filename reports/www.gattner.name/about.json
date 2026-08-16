@@ -361,6 +361,186 @@
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-allowed-attr?application=axeAPI"
       },
       "recurrence": 0
+    },
+    {
+      "context": "Nu HTML Checker: Element “div” not allowed as child of element “h1” in this context. (Suppressing further errors from this subtree.)",
+      "selector": "//div[@class='Headline__StyledIcon-gattner-corporate__sc-5fuutc-1 igYxM']",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Element “div” not allowed as child of element “h1” in this context. (Suppressing further errors from this subtree.)",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='DGAgH Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='DGAgH Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-3",
+      "type": "error",
+      "typeCode": 1,
+      "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Attribute “size” not allowed on element “p” at this point.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Attribute “size” not allowed on element “p” at this point.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+      "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+      "code": "NU-HTML-3",
+      "type": "error",
+      "typeCode": 1,
+      "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+      "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
+      "code": "NU-HTML-4",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+      "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
+      "code": "NU-HTML-4",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+      "runner": "nu",
+      "recurrence": 1
     }
   ],
   "meta": {

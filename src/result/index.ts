@@ -290,7 +290,7 @@ function calculateIssuesBySelector(reports: Report[]) {
 function calculateOverallAccessibilityScore(reports: Report[]): number {
 	return Math.round(
 		reports.reduce((acc, report) => acc + report.meta.accessScore, 0) /
-			reports.length,
+		reports.length,
 	);
 }
 
@@ -332,7 +332,8 @@ async function generateAccessibilityReport(): Promise<void> {
 			...totals,
 			missingAltIndex: calculateMissingAltIndex(reports),
 			wcagIssues: issueCounts.filter((issue) => issue.code.startsWith("WCAG")),
-			axeIssues: issueCounts.filter((issue) => !issue.code.startsWith("WCAG")),
+			axeIssues: issueCounts.filter((issue) => !issue.code.startsWith("WCAG") && !issue.code.startsWith("NU-HTML")),
+			nuHtmlIssues: issueCounts.filter((issue) => issue.code.startsWith("NU-HTML")),
 			selectorIssues: calculateSelectorIssues(reports),
 			issuesByCode: calculateIssuesByCode(reports),
 			issuesByPage: calculateIssuesByPage(reports),

@@ -1,6 +1,6 @@
 {
-  "documentTitle": "Search | mono/plain; a11y=true",
-  "pageUrl": "https://exiguus.github.io/zola-monoplain/search/",
+  "documentTitle": "Inkscape | mono/plain; a11y=true",
+  "pageUrl": "https://exiguus.github.io/zola-monoplain/tags/inkscape/",
   "issues": [
     {
       "context": "<h2 id=\"footer-links\" class=\"sr-only\">Links</h2>",
@@ -23,8 +23,18 @@
       "recurrence": 0
     },
     {
+      "context": "<h2 id=\"header-links\" class=\"sr-only\">Links</h2>",
+      "selector": "#header-links",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
       "context": "<i class=\"sr-only\">Last update:</i>",
-      "selector": "#search>:nth-child(6)>:nth-child(4)>:nth-child(5)",
+      "selector": "#tags--inkscape>:nth-child(6)>:nth-child(4)>:nth-child(7)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -53,48 +63,48 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"search-input\">Text to search</label>",
-      "selector": "#main>:nth-child(4)>:nth-child(2)>:nth-child(1)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
       "context": "<span class=\"sr-only\">Github</span>",
-      "selector": "#search>:nth-child(6)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "selector": "#tags--inkscape>:nth-child(6)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
       "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
       "runner": "htmlcs",
-      "recurrence": 0
+      "recurrence": 1
     },
     {
       "context": "<span class=\"sr-only\">Mastodon</span>",
-      "selector": "#search>:nth-child(6)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
+      "selector": "#tags--inkscape>:nth-child(6)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
       "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
       "runner": "htmlcs",
-      "recurrence": 0
+      "recurrence": 1
+    },
+    {
+      "context": "<span class=\"sr-only\">E-Mail</span>",
+      "selector": "#tags--inkscape>:nth-child(6)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
     },
     {
       "context": "<span class=\"sr-only\">Atom</span>",
-      "selector": "#search>:nth-child(6)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
+      "selector": "#tags--inkscape>:nth-child(6)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
       "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
       "runner": "htmlcs",
-      "recurrence": 0
+      "recurrence": 1
     },
     {
       "context": "<div class=\"p-name\">Simon Gattner</div>",
-      "selector": "#search>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "selector": "#tags--inkscape>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -104,7 +114,7 @@
     },
     {
       "context": "<div class=\"p-nickname\">Nick: exiguus</div>",
-      "selector": "#search>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "selector": "#tags--inkscape>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -114,7 +124,7 @@
     },
     {
       "context": "<a class=\"u-url\" href=\"https://www.gattner.name\">Homepage</a>",
-      "selector": "#search>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "selector": "#tags--inkscape>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -124,7 +134,27 @@
     },
     {
       "context": "<a class=\"u-url\" href=\"https://github.com/exiguus\">Github Profile</a>",
-      "selector": "#search>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
+      "selector": "#tags--inkscape>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">Simon Gattner</span>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -143,24 +173,54 @@
       "recurrence": 0
     },
     {
-      "context": "<p aria-labelledby=\"footer-info\">\n    © mono/plain; a11y=true 202...</p>",
-      "selector": "#search>:nth-child(6)>:nth-child(4)",
-      "code": "aria-allowed-attr",
+      "context": "<ul aria-labelledby=\"tags\" class=\"p-category\">\n              \n              <l...</ul>",
+      "selector": "#main>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(5)>:nth-child(1)",
+      "code": "aria-valid-attr-value",
       "type": "warning",
       "typeCode": 2,
-      "message": "Elements must only use allowed ARIA attributes",
+      "message": "ARIA attributes must conform to valid values",
       "runner": "axe",
       "runnerExtras": {
-        "description": "Ensures ARIA attributes are allowed for an element's role",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-allowed-attr?application=axeAPI"
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-valid-attr-value?application=axeAPI"
       },
       "recurrence": 0
+    },
+    {
+      "context": "Nu HTML Checker: Bad value “og:https://ogp.me/ns#” for attribute “prefix” on element “html”.",
+      "selector": "//html",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “og:https://ogp.me/ns#” for attribute “prefix” on element “html”.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "selector": "//a",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "runner": "nu",
+      "recurrence": 1
+    },
+    {
+      "context": "Nu HTML Checker: Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "selector": "//a",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "runner": "nu",
+      "recurrence": 1
     }
   ],
   "meta": {
     "errorCount": 0,
-    "warningCount": 15,
+    "warningCount": 22,
     "noticeCount": 0,
     "accessScore": 100
   },

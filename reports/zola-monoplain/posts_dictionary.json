@@ -3,6 +3,1306 @@
   "pageUrl": "https://exiguus.github.io/zola-monoplain/posts/dictionary/",
   "issues": [
     {
+      "context": "<span style=\"color: #8BE9FD;\">translations</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">search_form_legend</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">Search</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">search_form_input_label</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">Text to search</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(3)>:nth-child(4)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">search_form_input_placeholder</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">Search ↵</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(4)>:nth-child(4)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">search_form_submit</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(5)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">Search</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(5)>:nth-child(4)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">search_form_clear</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(6)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">Clear</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(6)>:nth-child(4)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">translations</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(8)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">search_form_legend</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(8)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">The Search</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(8)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">language</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">de</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(1)>:nth-child(4)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">translations</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(1)>:nth-child(6)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">search_form_legend</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">Die Suche</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">language</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(4)>:nth-child(2)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">fr</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(4)>:nth-child(4)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">translations</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(4)>:nth-child(6)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">search_form_legend</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(5)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">La recherche</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(5)>:nth-child(4)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">language</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(7)>:nth-child(2)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">it</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(7)>:nth-child(4)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">translations</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(7)>:nth-child(6)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">search_form_legend</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(8)>:nth-child(1)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">La ricerca</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(8)>:nth-child(4)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #FF79C6;\">extra</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(13)>:nth-child(1)>:nth-child(5)>:nth-child(2)",
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must have sufficient color contrast",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
+      },
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"p-category\"><span class=\"p-name\">#Zola</span...</p>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"e-summary\">Shortcodes by example</p>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only p-category\"><span class=\"p-name\">#Zola</span...</p>",
+      "selector": "#post-2026-08-02-favicon-1>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2026-08-02-favicon-1>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only p-category\"><span class=\"p-name\">#Zola</span...</p>",
+      "selector": "#post-2026-07-31-formatter-2>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2026-07-31-formatter-2>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only p-category\"><span class=\"p-name\">#Zola</span...</p>",
+      "selector": "#post-2026-07-12-development-3>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2026-07-12-development-3>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only p-category\"><span class=\"p-name\">#Zola</span...</p>",
+      "selector": "#post-2026-07-11-images-4>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2026-07-11-images-4>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only p-category\"><span class=\"p-name\">#Feedback</...</p>",
+      "selector": "#post-2025-06-17-feedback-5>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2025-06-17-feedback-5>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only p-category\"><span class=\"p-name\">#Zola</span...</p>",
+      "selector": "#post-2025-05-03-opengraph-6>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"sr-only u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-2025-05-03-opengraph-6>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<time class=\"dt-published\" datetime=\"2026-07-11\">2026-07-11</time>",
+      "selector": "#post-image-2026-07-11-images-1>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">Simon Gattner</span>",
+      "selector": "#post-image-2026-07-11-images-1>:nth-child(3)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 8
+    },
+    {
+      "context": "<span class=\"p-name\">#Zola</span>",
+      "selector": "#post-image-2026-07-11-images-1>:nth-child(4)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 8
+    },
+    {
+      "context": "<span class=\"p-name\">#Theme</span>",
+      "selector": "#post-image-2026-07-11-images-1>:nth-child(4)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 8
+    },
+    {
+      "context": "<span class=\"p-name\">#Images</span>",
+      "selector": "#post-image-2026-07-11-images-1>:nth-child(4)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 2
+    },
+    {
+      "context": "<span class=\"p-name\">#Markdown</span>",
+      "selector": "#post-image-2026-07-11-images-1>:nth-child(4)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 6
+    },
+    {
+      "context": "<span class=\"p-name\">#Shortcodes</span>",
+      "selector": "#post-image-2026-07-11-images-1>:nth-child(4)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 2
+    },
+    {
+      "context": "<span class=\"p-name\">#Templates</span>",
+      "selector": "#post-image-2026-07-11-images-1>:nth-child(4)>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 2
+    },
+    {
+      "context": "<time class=\"dt-published\" datetime=\"2025-05-03\">2025-05-03</time>",
+      "selector": "#post-image-2025-05-03-opengraph-1>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<time class=\"dt-updated\" datetime=\"2026-07-11\">2026-07-11</time>",
+      "selector": "#post-image-2025-05-03-opengraph-1>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Open Graph</span>",
+      "selector": "#post-image-2025-05-03-opengraph-1>:nth-child(4)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<span class=\"p-name\">#Preview Image</span>",
+      "selector": "#post-image-2025-05-03-opengraph-1>:nth-child(4)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<time class=\"dt-published\" datetime=\"2024-06-08\">2024-06-08</time>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<time class=\"dt-updated\" datetime=\"2026-07-28\">2026-07-28</time>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">exiguus</span>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(3)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Details</span>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(4)>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Icons</span>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(4)>:nth-child(8)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Youtube</span>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(4)>:nth-child(9)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Spotify</span>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(4)>:nth-child(10)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Email</span>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(4)>:nth-child(11)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Phone</span>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(4)>:nth-child(12)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#h-card</span>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(4)>:nth-child(13)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#h-entry</span>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(4)>:nth-child(14)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Favicon</span>",
+      "selector": "#post-2026-08-02-favicon-1>:nth-child(4)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#SVG</span>",
+      "selector": "#post-2026-08-02-favicon-1>:nth-child(4)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Inkscape</span>",
+      "selector": "#post-2026-08-02-favicon-1>:nth-child(4)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Front Matter</span>",
+      "selector": "#post-2026-07-31-formatter-2>:nth-child(4)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Metadata</span>",
+      "selector": "#post-2026-07-31-formatter-2>:nth-child(4)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Configuration</span>",
+      "selector": "#post-2026-07-31-formatter-2>:nth-child(4)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Development</span>",
+      "selector": "#post-2026-07-12-development-3>:nth-child(4)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Debugging</span>",
+      "selector": "#post-2026-07-12-development-3>:nth-child(4)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Accessibility</span>",
+      "selector": "#post-2026-07-12-development-3>:nth-child(4)>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Testing</span>",
+      "selector": "#post-2026-07-12-development-3>:nth-child(4)>:nth-child(7)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Release</span>",
+      "selector": "#post-2026-07-12-development-3>:nth-child(4)>:nth-child(8)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<time class=\"sr-only dt-updated\" datetime=\"2026-07-12\">2026-07-12</time>",
+      "selector": "#post-2025-06-17-feedback-5>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Feedback</span>",
+      "selector": "#post-2025-06-17-feedback-5>:nth-child(4)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#E-Mail</span>",
+      "selector": "#post-2025-06-17-feedback-5>:nth-child(4)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#SSG</span>",
+      "selector": "#post-2025-06-17-feedback-5>:nth-child(4)>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span class=\"p-name\">#Static Site Generator</span>",
+      "selector": "#post-2025-06-17-feedback-5>:nth-child(4)>:nth-child(7)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<time class=\"sr-only dt-updated\" datetime=\"2026-07-11\">2026-07-11</time>",
+      "selector": "#post-2025-05-03-opengraph-6>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"toml\"><span cla...</pre>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #FF79C6;\">[</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 4
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">translations</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 4
+    },
+    {
+      "context": "<span style=\"color: #FF79C6;\">]</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(1)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 4
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">search_form_legend</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 4
+    },
+    {
+      "context": "<span style=\"color: #FF79C6;\"> =</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 8
+    },
+    {
+      "context": "<span style=\"color: #E9F284;\"> \"</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(2)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 8
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">Search</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 1
+    },
+    {
+      "context": "<span style=\"color: #E9F284;\">\"</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(2)>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 8
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">search_form_input_label</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">Text to search</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(3)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">search_form_input_placeholder</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">Search ↵</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(4)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">search_form_submit</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(5)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">search_form_clear</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(6)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">Clear</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(6)>:nth-child(1)>:nth-child(6)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"toml\"><span cla...</pre>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(8)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">The Search</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(8)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"toml\"><span cla...</pre>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">language</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 2
+    },
+    {
+      "context": "<span style=\"color: #FF79C6;\">.</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(1)>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 5
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">de</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(1)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">Die Suche</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">fr</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(4)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">La recherche</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(5)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #8BE9FD;\">it</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(7)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #F1FA8C;\">La ricerca</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(11)>:nth-child(1)>:nth-child(8)>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"markdown\"><span...</pre>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(13)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span style=\"color: #FF79C6;\">extra</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(13)>:nth-child(1)>:nth-child(5)>:nth-child(2)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<nav id=\"skip-nav\" aria-label=\"Skip Navigation\" aria-live=\"off\" aria-atomic=\"false\">\n  <ul>\n    <li><a href=\"#main\">...</nav>",
+      "selector": "#skip-nav",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_10.C32,C31,C33,C38,SCR34,G206",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element has \"position: fixed\". This may require scrolling in two dimensions, which is considered a failure of this Success Criterion.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
       "context": "<h2 id=\"footer-links\" class=\"sr-only\">Links</h2>",
       "selector": "#footer-links",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
@@ -23,8 +1323,18 @@
       "recurrence": 0
     },
     {
+      "context": "<h2 id=\"header-links\" class=\"sr-only\">Links</h2>",
+      "selector": "#header-links",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 3:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
       "context": "<i class=\"sr-only\">Last update:</i>",
-      "selector": "#posts--dictionary>:nth-child(6)>:nth-child(4)>:nth-child(5)",
+      "selector": "#posts--dictionary>:nth-child(6)>:nth-child(4)>:nth-child(7)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -70,7 +1380,7 @@
       "typeCode": 2,
       "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
       "runner": "htmlcs",
-      "recurrence": 0
+      "recurrence": 1
     },
     {
       "context": "<span class=\"sr-only\">Mastodon</span>",
@@ -80,17 +1390,27 @@
       "typeCode": 2,
       "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
       "runner": "htmlcs",
-      "recurrence": 0
+      "recurrence": 1
     },
     {
-      "context": "<span class=\"sr-only\">Atom</span>",
+      "context": "<span class=\"sr-only\">E-Mail</span>",
       "selector": "#posts--dictionary>:nth-child(6)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
       "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
       "runner": "htmlcs",
-      "recurrence": 0
+      "recurrence": 1
+    },
+    {
+      "context": "<span class=\"sr-only\">Atom</span>",
+      "selector": "#posts--dictionary>:nth-child(6)>:nth-child(2)>:nth-child(4)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 1
     },
     {
       "context": "<div class=\"p-name\">Simon Gattner</div>",
@@ -153,6 +1473,16 @@
       "recurrence": 0
     },
     {
+      "context": "<a href=\"https://exiguus.github.io/zola-monoplain/posts/dictionary/\" class=\"u-url\">Post Permalink</a>",
+      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
       "context": "<a class=\"u-url\" href=\"https://www.gattner.name\">Homepage</a>",
       "selector": "#posts--dictionary>:nth-child(6)>:nth-child(5)>:nth-child(1)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
@@ -173,8 +1503,8 @@
       "recurrence": 0
     },
     {
-      "context": "<figcaption id=\"post-image-2025-05-03-opengraph-1\">\n            Open Graph Preview\n...</figcaption>",
-      "selector": "#post-image-2025-05-03-opengraph-1",
+      "context": "<p class=\"h-name\">Images</p>",
+      "selector": "#post-image-2026-07-11-images-1>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -183,8 +1513,8 @@
       "recurrence": 0
     },
     {
-      "context": "<figcaption id=\"post-image-2024-06-08-shortcodes-1\">\n            Shortcodes\n        ...</figcaption>",
-      "selector": "#post-image-2024-06-08-shortcodes-1",
+      "context": "<p class=\"p-category\"><span class=\"p-name\">#Zola</span...</p>",
+      "selector": "#post-image-2026-07-11-images-1>:nth-child(4)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
@@ -193,7 +1523,27 @@
       "recurrence": 0
     },
     {
-      "context": "<date>2025-05-03</date>",
+      "context": "<p class=\"u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-image-2026-07-11-images-1>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"e-summary\">How images work in mono/plain an...</p>",
+      "selector": "#post-image-2026-07-11-images-1>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"h-name\">Open Graph Preview</p>",
       "selector": "#post-image-2025-05-03-opengraph-1>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -203,7 +1553,37 @@
       "recurrence": 0
     },
     {
-      "context": "<date>2024-06-08</date>",
+      "context": "<p class=\"p-category\"><span class=\"p-name\">#Zola</span...</p>",
+      "selector": "#post-image-2025-05-03-opengraph-1>:nth-child(4)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"u-url u-uid\">https://exiguus.github.io/zola-m...</p>",
+      "selector": "#post-image-2025-05-03-opengraph-1>:nth-child(5)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"e-summary\">Open Graph Preview by example</p>",
+      "selector": "#post-image-2025-05-03-opengraph-1>:nth-child(6)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<p class=\"h-name\">Shortcodes</p>",
       "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -213,849 +1593,94 @@
       "recurrence": 0
     },
     {
-      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"toml\"><span cla...</pre>",
-      "selector": "#main>:nth-child(7)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "context": "<p class=\"p-author h-card\"><span class=\"p-name\">Simon Gattn...</p>",
+      "selector": "#post-image-2024-06-08-shortcodes-1>:nth-child(3)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
       "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
+      "message": "This element is absolutely positioned and the background color can not be determined. Ensure the contrast ratio between the text and all covered parts of the background are at least 4.5:1.",
       "runner": "htmlcs",
       "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #FF79C6;\">[</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
+      "context": "<div aria-label=\"Post Authors\">\n    <span>Author:</span>\n    \n<...</div>",
+      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(5)",
+      "code": "aria-allowed-attr",
       "type": "warning",
       "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 4
+      "message": "Elements must only use allowed ARIA attributes",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures ARIA attributes are allowed for an element's role",
+        "impact": "serious",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-allowed-attr?application=axeAPI"
+      },
+      "recurrence": 0
     },
     {
-      "context": "<span style=\"color: #8BE9FD;\">translations</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 4
-    },
-    {
-      "context": "<span style=\"color: #FF79C6;\">]</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(1)>:nth-child(3)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 4
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">search_form_legend</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 4
-    },
-    {
-      "context": "<span style=\"color: #FF79C6;\"> =</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(2)>:nth-child(2)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 8
-    },
-    {
-      "context": "<span style=\"color: #E9F284;\"> \"</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(2)>:nth-child(3)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 8
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">Search</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
+      "context": "Nu HTML Checker: Bad value “og:https://ogp.me/ns#” for attribute “prefix” on element “html”.",
+      "selector": "//html",
+      "code": "NU-HTML-1",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “og:https://ogp.me/ns#” for attribute “prefix” on element “html”.",
+      "runner": "nu",
       "recurrence": 1
     },
     {
-      "context": "<span style=\"color: #E9F284;\">\"</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(2)>:nth-child(5)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 8
+      "context": "Nu HTML Checker: Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "selector": "//a",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "runner": "nu",
+      "recurrence": 1
     },
     {
-      "context": "<span style=\"color: #8BE9FD;\">search_form_input_label</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
+      "context": "Nu HTML Checker: The “aria-label” attribute must not be specified on any “div” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+      "selector": "//div",
+      "code": "NU-HTML-3",
+      "type": "error",
+      "typeCode": 1,
+      "message": "The “aria-label” attribute must not be specified on any “div” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+      "runner": "nu",
+      "recurrence": 1
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">Text to search</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(3)>:nth-child(4)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
+      "context": "Nu HTML Checker: Bad value “true” for attribute “open” on element “details”.",
+      "selector": "//details",
+      "code": "NU-HTML-4",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “true” for attribute “open” on element “details”.",
+      "runner": "nu",
+      "recurrence": 1
     },
     {
-      "context": "<span style=\"color: #8BE9FD;\">search_form_input_placeholder</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
+      "context": "Nu HTML Checker: Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "selector": "//p",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "runner": "nu",
+      "recurrence": 1
     },
     {
-      "context": "<span style=\"color: #F1FA8C;\">Search ↵</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(4)>:nth-child(4)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">search_form_submit</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(5)>:nth-child(1)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">search_form_clear</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(6)>:nth-child(1)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">Clear</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(6)>:nth-child(4)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"toml\"><span cla...</pre>",
-      "selector": "#main>:nth-child(9)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">The Search</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"toml\"><span cla...</pre>",
-      "selector": "#main>:nth-child(12)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">language</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 2
-    },
-    {
-      "context": "<span style=\"color: #FF79C6;\">.</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(1)>:nth-child(3)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 5
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">de</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(1)>:nth-child(4)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">Die Suche</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">fr</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(4)>:nth-child(4)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">La recherche</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(5)>:nth-child(4)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">it</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(7)>:nth-child(4)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">La ricerca</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(8)>:nth-child(4)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<pre class=\"giallo\" style=\"color: #F8F8F2; background-color: #282A36;\" tabindex=\"0\"><code data-lang=\"markdown\"><span...</pre>",
-      "selector": "#main>:nth-child(14)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #FF79C6;\">extra</span>",
-      "selector": "#main>:nth-child(14)>:nth-child(1)>:nth-child(5)>:nth-child(2)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3_F24.F24.FGColour",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Check that this element has an inherited background colour or image to complement the corresponding inline foreground colour.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<nav id=\"skip-nav\" aria-label=\"Skip Navigation\" aria-live=\"off\" aria-atomic=\"false\">\n  <ul>\n    <li><a href=\"#main\">...</nav>",
-      "selector": "#skip-nav",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_10.C32,C31,C33,C38,SCR34,G206",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element has \"position: fixed\". This may require scrolling in two dimensions, which is considered a failure of this Success Criterion.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<p aria-label=\"Author\">By \n  <a href=\"https://exiguus.g...</p>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)",
-      "code": "aria-allowed-attr",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must only use allowed ARIA attributes",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures ARIA attributes are allowed for an element's role",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-allowed-attr?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<p aria-labelledby=\"footer-info\">\n    © mono/plain; a11y=true 202...</p>",
-      "selector": "#posts--dictionary>:nth-child(6)>:nth-child(4)",
-      "code": "aria-allowed-attr",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must only use allowed ARIA attributes",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures ARIA attributes are allowed for an element's role",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/aria-allowed-attr?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">translations</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">search_form_legend</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">Search</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">search_form_input_label</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">Text to search</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(3)>:nth-child(4)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">search_form_input_placeholder</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">Search ↵</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(4)>:nth-child(4)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">search_form_submit</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(5)>:nth-child(1)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">Search</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(5)>:nth-child(4)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">search_form_clear</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(6)>:nth-child(1)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">Clear</span>",
-      "selector": "#main>:nth-child(7)>:nth-child(1)>:nth-child(6)>:nth-child(4)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">translations</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">search_form_legend</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">The Search</span>",
-      "selector": "#main>:nth-child(9)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">language</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">de</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(1)>:nth-child(4)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">translations</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(1)>:nth-child(6)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">search_form_legend</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">Die Suche</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(2)>:nth-child(4)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">language</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(4)>:nth-child(2)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">fr</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(4)>:nth-child(4)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">translations</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(4)>:nth-child(6)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">search_form_legend</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(5)>:nth-child(1)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">La recherche</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(5)>:nth-child(4)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">language</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(7)>:nth-child(2)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">it</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(7)>:nth-child(4)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">translations</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(7)>:nth-child(6)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #8BE9FD;\">search_form_legend</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(8)>:nth-child(1)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #F1FA8C;\">La ricerca</span>",
-      "selector": "#main>:nth-child(12)>:nth-child(1)>:nth-child(8)>:nth-child(4)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span>title = \"Extra Language\"</span>",
-      "selector": "#main>:nth-child(14)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span>description = \"Extra Language\"</span>",
-      "selector": "#main>:nth-child(14)>:nth-child(1)>:nth-child(3)>:nth-child(1)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span>date = 2024-06-09</span>",
-      "selector": "#main>:nth-child(14)>:nth-child(1)>:nth-child(4)>:nth-child(1)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span style=\"color: #FF79C6;\">extra</span>",
-      "selector": "#main>:nth-child(14)>:nth-child(1)>:nth-child(5)>:nth-child(2)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
-    },
-    {
-      "context": "<span>lang = \"de\"</span>",
-      "selector": "#main>:nth-child(14)>:nth-child(1)>:nth-child(6)>:nth-child(1)",
-      "code": "color-contrast",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "Elements must have sufficient color contrast",
-      "runner": "axe",
-      "runnerExtras": {
-        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
-        "impact": "serious",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.6/color-contrast?application=axeAPI"
-      },
-      "recurrence": 0
+      "context": "Nu HTML Checker: Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "selector": "//a",
+      "code": "NU-HTML-2",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
+      "runner": "nu",
+      "recurrence": 1
     }
   ],
   "meta": {
-    "errorCount": 0,
-    "warningCount": 135,
+    "errorCount": 30,
+    "warningCount": 206,
     "noticeCount": 0,
     "accessScore": 80
   },

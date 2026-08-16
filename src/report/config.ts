@@ -14,6 +14,11 @@ export interface CrawlConfig {
 		timeout: number;
 		language: string;
 	};
+	nuHtmlCheckerConfig?: {
+		url: string;
+		parser?: string;
+		level?: string;
+	};
 }
 
 export const defaultConfig: Partial<CrawlConfig> = {
@@ -32,5 +37,10 @@ export const defaultConfig: Partial<CrawlConfig> = {
 			? Number.parseInt(process.env.TIMEOUT, 10)
 			: 30000,
 		language: process.env.LANGUAGE || "en",
+	},
+	nuHtmlCheckerConfig: {
+		url: process.env.NU_HTML_CHECKER_URL || "https://validator.exiguus.app",
+		parser: "html5",
+		level: process.env.NU_HTML_CHECKER_LEVEL || "error",
 	},
 };
