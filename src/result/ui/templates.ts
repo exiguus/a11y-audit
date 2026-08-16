@@ -2,33 +2,33 @@ import type { ResultsEscaped } from "../config";
 import { getDateTime } from "../../utils";
 
 const getProcessStatus = (score: number): string => {
-	switch (true) {
-		case score >= 90:
-			return "success";
-		case score >= 70:
-			return "notice";
-		case score >= 50:
-			return "warning";
-		default:
-			return "error";
-	}
+    switch (true) {
+        case score >= 90:
+            return "success";
+        case score >= 70:
+            return "notice";
+        case score >= 50:
+            return "warning";
+        default:
+            return "error";
+    }
 };
 
 export const getHtmlLayout = ({
-	type = "index",
-	data,
-	content,
+    type = "index",
+    data,
+    content,
 }: {
-	type?: "index" | "issues-by";
-	data: ResultsEscaped;
-	content: string;
+    type?: "index" | "issues-by";
+    data: ResultsEscaped;
+    content: string;
 }): string => {
-	const config = {
-		processStatus: getProcessStatus(
-			Number.parseInt(data.overallAccessibilityScore, 10),
-		),
-	};
-	return `
+    const config = {
+        processStatus: getProcessStatus(
+            Number.parseInt(data.overallAccessibilityScore, 10),
+        ),
+    };
+    return `
 <!DOCTYPE html>
 <html lang="en">
 <head>
