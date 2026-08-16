@@ -138,7 +138,9 @@ export async function fetchWithRetry(
                         `Failed to fetch ${url} after ${retries} attempts: ${error.message}`,
                     );
                 } else {
-                    throw new Error(`Failed to fetch ${url} after ${retries} attempts.`);
+                    throw new Error(
+                        `Failed to fetch ${url} after ${retries} attempts.`,
+                    );
                 }
             }
             logWarn(`Retrying (${attempt}/${retries}) for ${url}...`);
@@ -178,16 +180,17 @@ export const escapeHtmlObject = <T, R>(
 ): R => {
     return obj != null && typeof obj === "object"
         ? (Object.fromEntries(
-            Object.entries(obj).map(([key, value]) => {
-                const escapedValue =
-                    keysToEscape.includes(key as keyof T) && typeof value === "string"
-                        ? escapeHtml(value)
-                        : value?.toString
+              Object.entries(obj).map(([key, value]) => {
+                  const escapedValue =
+                      keysToEscape.includes(key as keyof T) &&
+                      typeof value === "string"
+                          ? escapeHtml(value)
+                          : value?.toString
                             ? escapeHtml(value.toString())
                             : value;
-                return [key, escapedValue];
-            }),
-        ) as R)
+                  return [key, escapedValue];
+              }),
+          ) as R)
         : ((obj || "").toString() as R);
 };
 

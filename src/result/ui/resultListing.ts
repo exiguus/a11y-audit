@@ -2,26 +2,26 @@ import { readdirSync, writeFileSync } from "node:fs";
 import { logInfo } from "../../utils";
 
 export const generateResultListing = (): void => {
-	const RESULT_DIR = `${process.env.RESULT_PATH || "./results"}`;
-	// Get only directories in the result directory
-	const directories = readdirSync(RESULT_DIR, { withFileTypes: true })
-		.filter((dir) => dir.isDirectory())
-		.map((dir) => dir.name);
-	const dirList = directories.map((dir) => ({
-		name: dir,
-		url: `${dir}/index.html`,
-	}));
-	const htmlContent = template(dirList);
-	const filePath = `${RESULT_DIR}/index.html`;
-	writeFileSync(filePath, htmlContent);
-	logInfo(`Result listing generated at ${filePath}`);
+    const RESULT_DIR = `${process.env.RESULT_PATH || "./results"}`;
+    // Get only directories in the result directory
+    const directories = readdirSync(RESULT_DIR, { withFileTypes: true })
+        .filter((dir) => dir.isDirectory())
+        .map((dir) => dir.name);
+    const dirList = directories.map((dir) => ({
+        name: dir,
+        url: `${dir}/index.html`,
+    }));
+    const htmlContent = template(dirList);
+    const filePath = `${RESULT_DIR}/index.html`;
+    writeFileSync(filePath, htmlContent);
+    logInfo(`Result listing generated at ${filePath}`);
 };
 
 const template = (
-	data: Array<{
-		name: string;
-		url: string;
-	}>,
+    data: Array<{
+        name: string;
+        url: string;
+    }>,
 ) => `
 <!DOCTYPE html>
 <html lang="en">

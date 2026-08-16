@@ -43,7 +43,17 @@
       "recurrence": 0
     },
     {
-      "context": "<span data-testid=\"randext\" aria-hidden=\"true\" class=\"Animation__StyledAnimation-gattner-corporate__sc-1vffw48-0 bjHlbD\" data-randext=\"false\">development</span>",
+      "context": "<span data-testid=\"randext\" aria-hidden=\"true\" class=\"Animation__StyledAnimation-gattner-corporate__sc-1vffw48-0 bjHlbD\" data-randext=\"false\">Software</span>",
+      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
+      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
+      "type": "warning",
+      "typeCode": 2,
+      "message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
+      "runner": "htmlcs",
+      "recurrence": 0
+    },
+    {
+      "context": "<span data-testid=\"randext\" aria-hidden=\"true\" class=\"Animation__StyledAnimation-gattner-corporate__sc-1vffw48-0 bjHlbD\" data-randext=\"false\">Craftsmanship</span>",
       "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
       "type": "warning",
@@ -53,7 +63,7 @@
       "recurrence": 0
     },
     {
-      "context": "<p size=\"md\" class=\"Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0 jqSWAN\">Full-Stack development</p>",
+      "context": "<p size=\"md\" class=\"Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0 jqSWAN\">Software Craftsmanship</p>",
       "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
       "type": "warning",
@@ -123,106 +133,6 @@
       "recurrence": 0
     },
     {
-      "context": "<span data-randext-char=\"x0\">k</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span data-randext-char=\"x1\">u</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span data-randext-char=\"x2\">-</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(3)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span data-randext-char=\"x3\">F</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(4)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span data-randext-char=\"x4\">k</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(5)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span data-randext-char=\"x5\">u</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(6)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span data-randext-char=\"x6\">F</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(7)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span data-randext-char=\"x7\">S</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(8)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span data-randext-char=\"x8\">a</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(9)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
-      "context": "<span data-randext-char=\"x9\">l</span>",
-      "selector": "#main>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(10)",
-      "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Alpha",
-      "type": "warning",
-      "typeCode": 2,
-      "message": "This element's text or background contains transparency. Ensure the contrast ratio between the text and background are at least 3:1.",
-      "runner": "htmlcs",
-      "recurrence": 0
-    },
-    {
       "context": "<a class=\"bEyvsT styles__StyledNavLink-gattner-corporate__sc-199jze8-0\" data-testid=\"footer-menu-link-contact\" title=\"Contact\" href=\"/contact\">Contact</a>",
       "selector": "#footer>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)>:nth-child(2)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Alpha",
@@ -240,6 +150,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 12336,
+        "lastColumn": 12440,
+        "extract": "\"content\"><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Consul",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -250,6 +168,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 12492,
+        "lastColumn": 12596,
+        "extract": "utions</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Build ",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -260,6 +186,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 12640,
+        "lastColumn": 12744,
+        "extract": "morrow</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Create",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -270,6 +204,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 12775,
+        "lastColumn": 12879,
+        "extract": "tomers</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Design",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -280,6 +222,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 12910,
+        "lastColumn": 13014,
+        "extract": "rience</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Custom",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -290,6 +240,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 13049,
+        "lastColumn": 13153,
+        "extract": "ulting</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Web ex",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -300,6 +258,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 13184,
+        "lastColumn": 13288,
+        "extract": "opment</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">E-comm",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -310,6 +276,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 13334,
+        "lastColumn": 13438,
+        "extract": "opment</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Web ap",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -320,6 +294,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 13462,
+        "lastColumn": 13566,
+        "extract": "opment</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Mobile",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -330,6 +312,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 13608,
+        "lastColumn": 13712,
+        "extract": "opment</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Create",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -340,6 +330,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 13739,
+        "lastColumn": 13843,
+        "extract": "uccess</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Build ",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -350,6 +348,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 13878,
+        "lastColumn": 13982,
+        "extract": "morrow</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">User i",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -360,6 +366,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 14013,
+        "lastColumn": 14117,
+        "extract": "opment</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Fronte",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -370,6 +384,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 14142,
+        "lastColumn": 14246,
+        "extract": "opment</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Full-S",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -380,6 +402,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 14273,
+        "lastColumn": 14377,
+        "extract": "opment</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Progre",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -390,6 +420,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 14402,
+        "lastColumn": 14506,
+        "extract": "b Apps</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Domain",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -400,6 +438,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 14536,
+        "lastColumn": 14640,
+        "extract": "opment</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Agile ",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -410,6 +456,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 14662,
+        "lastColumn": 14766,
+        "extract": "opment</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Domain",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -420,6 +474,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 14791,
+        "lastColumn": 14895,
+        "extract": "design</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">User e",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -430,6 +492,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 14922,
+        "lastColumn": 15026,
+        "extract": "design</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Softwa",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -440,6 +510,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 15053,
+        "lastColumn": 15157,
+        "extract": "anship</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Digita",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -450,6 +528,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 15188,
+        "lastColumn": 15292,
+        "extract": "ulting</p><p data-content=\"true\" size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">MVP de",
+        "hiliteStart": 10,
+        "hiliteLength": 105
+      },
       "recurrence": 1
     },
     {
@@ -460,12 +546,20 @@
       "typeCode": 1,
       "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 21088,
+        "lastColumn": 21263,
+        "extract": "oppfk0-0\"><a href=\"mailto:simon[at]gattner.name\" title=\"Contact email\" data-testid=\"footer-nav-link-contact\" class=\"fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1\"><svg x",
+        "hiliteStart": 10,
+        "hiliteLength": 176
+      },
       "recurrence": 1
     }
   ],
   "meta": {
     "errorCount": 0,
-    "warningCount": 23,
+    "warningCount": 14,
     "noticeCount": 0,
     "accessScore": 100
   },

@@ -14,10 +14,11 @@ export interface CrawlConfig {
         timeout: number;
         language: string;
     };
-    nuHtmlCheckerConfig?: {
-        url: string;
-        parser?: string;
-        level?: string;
+    vnuConfig: {
+        errorsOnly?: boolean;
+        skipInfoMessages?: boolean;
+        userAgent?: string;
+        additionalRequestHeaders?: string[];
     };
 }
 
@@ -38,9 +39,9 @@ export const defaultConfig: Partial<CrawlConfig> = {
             : 30000,
         language: process.env.LANGUAGE || "en",
     },
-    nuHtmlCheckerConfig: {
-        url: process.env.NU_HTML_CHECKER_URL || "https://validator.w3.org",
-        parser: process.env.NU_HTML_CHECKER_PARSER || "html5",
-        level: process.env.NU_HTML_CHECKER_LEVEL || "error",
+    vnuConfig: {
+        errorsOnly: process.env.RESULTS_IGNORE_WARNING === "true",
+        userAgent: process.env.USER_AGENT || "a11y-audit/1.0",
+        additionalRequestHeaders: [],
     },
 };

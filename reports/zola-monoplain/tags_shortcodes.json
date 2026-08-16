@@ -250,6 +250,15 @@
       "typeCode": 1,
       "message": "Bad value “og:https://ogp.me/ns#” for attribute “prefix” on element “html”.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 1,
+        "lastLine": 2,
+        "firstColumn": 16,
+        "lastColumn": 47,
+        "extract": "TYPE html>\n<html lang=\"en\" prefix=\"og:https://ogp.me/ns#\">\n\n<hea",
+        "hiliteStart": 10,
+        "hiliteLength": 48
+      },
       "recurrence": 1
     },
     {
@@ -260,6 +269,15 @@
       "typeCode": 1,
       "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 143,
+        "lastLine": 148,
+        "firstColumn": 9,
+        "lastColumn": 46,
+        "extract": ">\n        <a \nhref=\"mailto:invalid\\(local\\)part@example.org\"\n \ndata-obfuscated-email=\"&#x3C;monoplain&#x40;&#8203;&#8203;0x38&#8203;&#x2E;&#8203;de&#x3E;\"\n\n          title=\"Write me a message\" rel=\"me\">\n     ",
+        "hiliteStart": 10,
+        "hiliteLength": 192
+      },
       "recurrence": 1
     },
     {
@@ -270,6 +288,15 @@
       "typeCode": 1,
       "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 420,
+        "lastLine": 425,
+        "firstColumn": 7,
+        "lastColumn": 44,
+        "extract": "li>\n      <a \nhref=\"mailto:invalid\\(local\\)part@example.org\"\n \ndata-obfuscated-email=\"&#x3C;monoplain&#x40;&#8203;&#8203;0x38&#8203;&#x2E;&#8203;de&#x3E;\"\n\n        title=\"Write me a message\" rel=\"me\">\n     ",
+        "hiliteStart": 10,
+        "hiliteLength": 190
+      },
       "recurrence": 1
     }
   ],

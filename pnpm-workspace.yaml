@@ -8,3 +8,6 @@ blockExoticSubdeps: true
 trustPolicy: "no-downgrade"
 
 strictDepBuilds: true
+
+allowBuilds:
+  vnu-jar: true

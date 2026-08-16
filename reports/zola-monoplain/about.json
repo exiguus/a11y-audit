@@ -123,7 +123,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-1m128nifi\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-3rmc0sici\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -133,7 +133,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-767r3iuub\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-qwumvnz1h\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -143,7 +143,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-iibbc0o89\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-dufjg6mw6\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -153,7 +153,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-zzxv5nt2d\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-lk284l90p\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(4)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -163,7 +163,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-6tut1kt08\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-3x0r0k2c7\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -173,7 +173,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-l4s70hiwg\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-5hjkv4g40\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(6)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -183,7 +183,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-re8hh53r2\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-phovvochc\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(7)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -193,7 +193,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-gur28txmb\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-ng5oypq1u\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(8)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -203,7 +203,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-v96j3y14q\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-fcxm56fwr\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(9)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -213,7 +213,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-9rc1ynsij\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-aif5dluee\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(10)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -243,7 +243,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-0nlhtd103\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-4k5widpnp\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -253,7 +253,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-x3lgxdtzs\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-45b3xzmn8\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(1)>:nth-child(3)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -263,7 +263,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-ig0ybae79\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-rybtren1q\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(1)>:nth-child(3)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -273,7 +273,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-wer8gy0z6\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-47v1423lj\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(1)>:nth-child(3)>:nth-child(4)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -283,7 +283,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-798gf0n7c\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-evu0mhd10\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(1)>:nth-child(3)>:nth-child(5)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -293,7 +293,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-0bbuj299q\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-0hmszuayo\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(1)>:nth-child(3)>:nth-child(6)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -303,7 +303,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-zp7qg9lz7\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-mmt0wnnky\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(1)>:nth-child(3)>:nth-child(7)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -313,7 +313,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-8y2bj39wn\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-7jcnbfest\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -323,7 +323,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-9660itdm4\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-mhtgfv4xt\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(2)>:nth-child(3)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -333,7 +333,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-pl42diodt\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-scw0kj5bf\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(2)>:nth-child(3)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -343,7 +343,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-xjibfmgvi\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-oz30mkb64\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(2)>:nth-child(3)>:nth-child(4)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -353,7 +353,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-oxqmak579\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-wdhlkarjn\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(3)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -363,7 +363,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-zteb7okh0\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-3aff4twjy\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(3)>:nth-child(3)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -373,7 +373,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-4pv4y9vsr\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-scvf199ot\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(4)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -383,7 +383,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-3mkeszm8k\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-v9lrhk5ca\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(4)>:nth-child(3)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -393,7 +393,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-ttmrmd0rz\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-18usxg8jf\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -403,7 +403,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-nx4utop4s\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-jros7ivw7\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -413,7 +413,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-bvm76oh0y\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-7mrosz2c8\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -423,7 +423,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-bwr0v2xux\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-ed0749715\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(4)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -433,7 +433,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-zj4yqbtp6\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-c94k1dvlp\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(5)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -443,7 +443,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-0flsiw3qg\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-y96r7ih08\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(6)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -453,7 +453,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-4g852dqke\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-gdkraqvcu\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(7)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -463,7 +463,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-jgptyi1m6\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-d7whxa08a\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(8)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -473,7 +473,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-bnt14jn5n\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-nf9z7ekxl\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(6)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -483,7 +483,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-i1pzhkcoc\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-1kg8m2dkl\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(6)>:nth-child(3)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -493,7 +493,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-f45iylhbl\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-5dceqmj51\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(7)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -503,7 +503,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-uugmyktdl\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-b86mudq3t\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(7)>:nth-child(3)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -513,7 +513,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-7wbq2wa8s\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-su0psnjwc\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(7)>:nth-child(3)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -523,7 +523,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-vr3prc8ij\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-cfojsezx6\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(8)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -533,7 +533,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-zfd9tj04j\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-rsxhbezwe\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(8)>:nth-child(3)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -543,7 +543,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-a1yogt290\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-stx81j261\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(9)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -553,7 +553,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-enw5ioj0w\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-w9una07k8\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(9)>:nth-child(3)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -563,7 +563,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-0acwunz5h\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-znv8rdb8i\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(9)>:nth-child(3)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -573,7 +573,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-66n0m9049\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-rngge6w3n\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(10)>:nth-child(4)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -583,7 +583,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-ubc40668q\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-u363vwawr\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(10)>:nth-child(4)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -593,7 +593,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-2p8m7bwz3\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-dzr3gmshb\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(3)>:nth-child(3)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -603,7 +603,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-emv7tujgy\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-fczyylaky\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(3)>:nth-child(3)>:nth-child(2)>:nth-child(3)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -613,7 +613,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-sr5synz8z\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-kz9sw556z\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -623,7 +623,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-5l1ghiyl5\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-m1a4ju2x2\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(1)>:nth-child(3)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -633,7 +633,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-odcz75k4w\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-ypesmvwku\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(2)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -643,7 +643,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-g9dmhmptl\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-qgh31e2kl\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(2)>:nth-child(3)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -653,7 +653,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-xw40zy9dm\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-39ggagna4\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(2)>:nth-child(3)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -663,7 +663,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-4bxvde0x0\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-81yvb0pbl\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(2)>:nth-child(3)>:nth-child(4)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -673,7 +673,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-s3zwfdpp4\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-4q5kuaxnp\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(2)>:nth-child(3)>:nth-child(5)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -683,7 +683,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-9tszeyt6j\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-mzhowt4ur\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(2)>:nth-child(3)>:nth-child(6)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -693,7 +693,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-absy19loy\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-43w3vsluu\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(2)>:nth-child(3)>:nth-child(7)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -703,7 +703,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-pmkhy2oph\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-r7stornt8\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(2)>:nth-child(3)>:nth-child(8)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -713,7 +713,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-e8enyb4ew\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-hi60zrtad\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(2)>:nth-child(3)>:nth-child(9)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -723,7 +723,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-9h5924qd1\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-iuw58y6lx\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(3)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -733,7 +733,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-qugepy50a\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-ez7sq7vro\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(8)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -743,7 +743,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-pgkf406kp\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-egr6dulfq\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(8)>:nth-child(3)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -753,7 +753,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-ho5cpzzpe\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-nhz3wp2nf\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(10)>:nth-child(4)>:nth-child(1)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -763,7 +763,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-fq3apvr0s\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-nyqvhmuus\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(10)>:nth-child(4)>:nth-child(1)>:nth-child(3)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -773,7 +773,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-2k4chj667\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-jrdm6ks7k\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(2)>:nth-child(3)>:nth-child(8)>:nth-child(4)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -783,7 +783,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-dbmytb8ms\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-7dn8ra0yg\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(2)>:nth-child(3)>:nth-child(8)>:nth-child(4)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -793,7 +793,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-gs3eecaex\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-zwt8kt0jb\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(2)>:nth-child(19)>:nth-child(5)>:nth-child(3)>:nth-child(2)>:nth-child(3)>:nth-child(9)>:nth-child(3)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -820,6 +820,15 @@
       "typeCode": 1,
       "message": "Bad value “og:https://ogp.me/ns#” for attribute “prefix” on element “html”.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 1,
+        "lastLine": 2,
+        "firstColumn": 16,
+        "lastColumn": 47,
+        "extract": "TYPE html>\n<html lang=\"en\" prefix=\"og:https://ogp.me/ns#\">\n\n<hea",
+        "hiliteStart": 10,
+        "hiliteLength": 48
+      },
       "recurrence": 1
     },
     {
@@ -830,6 +839,15 @@
       "typeCode": 1,
       "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 143,
+        "lastLine": 148,
+        "firstColumn": 9,
+        "lastColumn": 46,
+        "extract": ">\n        <a \nhref=\"mailto:invalid\\(local\\)part@example.org\"\n \ndata-obfuscated-email=\"&#x3C;monoplain&#x40;&#8203;&#8203;0x38&#8203;&#x2E;&#8203;de&#x3E;\"\n\n          title=\"Write me a message\" rel=\"me\">\n     ",
+        "hiliteStart": 10,
+        "hiliteLength": 192
+      },
       "recurrence": 1
     },
     {
@@ -840,6 +858,15 @@
       "typeCode": 1,
       "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 568,
+        "lastLine": 573,
+        "firstColumn": 7,
+        "lastColumn": 44,
+        "extract": "li>\n      <a \nhref=\"mailto:invalid\\(local\\)part@example.org\"\n \ndata-obfuscated-email=\"&#x3C;monoplain&#x40;&#8203;&#8203;0x38&#8203;&#x2E;&#8203;de&#x3E;\"\n\n        title=\"Write me a message\" rel=\"me\">\n     ",
+        "hiliteStart": 10,
+        "hiliteLength": 190
+      },
       "recurrence": 1
     }
   ],

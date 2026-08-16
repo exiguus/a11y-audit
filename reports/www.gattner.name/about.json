@@ -370,6 +370,14 @@
       "typeCode": 1,
       "message": "Element “div” not allowed as child of element “h1” in this context. (Suppressing further errors from this subtree.)",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 13211,
+        "lastColumn": 13281,
+        "extract": "out</span><div class=\"Headline__StyledIcon-gattner-corporate__sc-5fuutc-1 igYxM\"><svg x",
+        "hiliteStart": 10,
+        "hiliteLength": 71
+      },
       "recurrence": 1
     },
     {
@@ -380,6 +388,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 18114,
+        "lastColumn": 18198,
+        "extract": "c-bcXHqe\"><p size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">I help",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
       "recurrence": 1
     },
     {
@@ -390,6 +406,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 18375,
+        "lastColumn": 18458,
+        "extract": "n3p96y-0\"><p size=\"lg\" class=\"DGAgH Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Hello,",
+        "hiliteStart": 10,
+        "hiliteLength": 84
+      },
       "recurrence": 1
     },
     {
@@ -400,6 +424,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 18489,
+        "lastColumn": 18572,
+        "extract": "ttner!</p><p size=\"lg\" class=\"DGAgH Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">I help",
+        "hiliteStart": 10,
+        "hiliteLength": 84
+      },
       "recurrence": 1
     },
     {
@@ -410,6 +442,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 19018,
+        "lastColumn": 19102,
+        "extract": "c-bcXHqe\"><p size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">If you",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
       "recurrence": 1
     },
     {
@@ -420,6 +460,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 19190,
+        "lastColumn": 19274,
+        "extract": "></figure><p size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">I have",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
       "recurrence": 1
     },
     {
@@ -430,6 +478,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 19431,
+        "lastColumn": 19515,
+        "extract": "ience.</p><p size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">To und",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
       "recurrence": 1
     },
     {
@@ -440,6 +496,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 19657,
+        "lastColumn": 19741,
+        "extract": "ience.</p><p size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">My per",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
       "recurrence": 1
     },
     {
@@ -450,6 +514,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 19914,
+        "lastColumn": 19998,
+        "extract": "world.</p><p size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">I prim",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
       "recurrence": 1
     },
     {
@@ -460,6 +532,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 20406,
+        "lastColumn": 20490,
+        "extract": "ation.</p><p size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Aside ",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
       "recurrence": 1
     },
     {
@@ -470,6 +550,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 20919,
+        "lastColumn": 21003,
+        "extract": "ngual.</p><p size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Curren",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
       "recurrence": 1
     },
     {
@@ -480,6 +568,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 21373,
+        "lastColumn": 21457,
+        "extract": "tomer.</p><p size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">You ca",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
       "recurrence": 1
     },
     {
@@ -490,6 +586,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 21866,
+        "lastColumn": 21969,
+        "extract": "ormation\"><p size=\"md\" aria-label=\"phone\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\"><a hre",
+        "hiliteStart": 10,
+        "hiliteLength": 104
+      },
       "recurrence": 1
     },
     {
@@ -500,6 +604,14 @@
       "typeCode": 1,
       "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 21866,
+        "lastColumn": 21969,
+        "extract": "ormation\"><p size=\"md\" aria-label=\"phone\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\"><a hre",
+        "hiliteStart": 10,
+        "hiliteLength": 104
+      },
       "recurrence": 1
     },
     {
@@ -510,6 +622,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 22277,
+        "lastColumn": 22379,
+        "extract": "n></a></p><p size=\"md\" aria-label=\"mail\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\"><a hre",
+        "hiliteStart": 10,
+        "hiliteLength": 103
+      },
       "recurrence": 1
     },
     {
@@ -520,6 +640,14 @@
       "typeCode": 1,
       "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 22277,
+        "lastColumn": 22379,
+        "extract": "n></a></p><p size=\"md\" aria-label=\"mail\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\"><a hre",
+        "hiliteStart": 10,
+        "hiliteLength": 103
+      },
       "recurrence": 1
     },
     {
@@ -530,6 +658,14 @@
       "typeCode": 1,
       "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 22380,
+        "lastColumn": 22545,
+        "extract": "-pfsh1-0\"><a href=\"mailto:simon[at]gattner.name\" title=\"Send me an email to simon[at]gattner.name\" class=\"fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1\"><span ",
+        "hiliteStart": 10,
+        "hiliteLength": 166
+      },
       "recurrence": 1
     },
     {
@@ -540,6 +676,14 @@
       "typeCode": 1,
       "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 29862,
+        "lastColumn": 30037,
+        "extract": "oppfk0-0\"><a href=\"mailto:simon[at]gattner.name\" title=\"Contact email\" data-testid=\"footer-nav-link-contact\" class=\"fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1\"><svg x",
+        "hiliteStart": 10,
+        "hiliteLength": 176
+      },
       "recurrence": 1
     }
   ],

@@ -250,6 +250,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 12375,
+        "lastColumn": 12459,
+        "extract": "\"Address\"><p size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Softwa",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
       "recurrence": 1
     },
     {
@@ -260,6 +268,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 12509,
+        "lastColumn": 12593,
+        "extract": "ulting</p><p size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Simon ",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
       "recurrence": 1
     },
     {
@@ -270,6 +286,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 12611,
+        "lastColumn": 12695,
+        "extract": "attner</p><p size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">Tußman",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
       "recurrence": 1
     },
     {
@@ -280,6 +304,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 12714,
+        "lastColumn": 12798,
+        "extract": "tr. 11</p><p size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">40477 ",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
       "recurrence": 1
     },
     {
@@ -290,6 +322,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 12969,
+        "lastColumn": 13053,
+        "extract": "bel=\"Vat\"><p size=\"md\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\">VAT ID",
+        "hiliteStart": 10,
+        "hiliteLength": 85
+      },
       "recurrence": 1
     },
     {
@@ -300,6 +340,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 13283,
+        "lastColumn": 13386,
+        "extract": "ormation\"><p size=\"md\" aria-label=\"phone\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\"><a hre",
+        "hiliteStart": 10,
+        "hiliteLength": 104
+      },
       "recurrence": 1
     },
     {
@@ -310,6 +358,14 @@
       "typeCode": 1,
       "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 13283,
+        "lastColumn": 13386,
+        "extract": "ormation\"><p size=\"md\" aria-label=\"phone\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\"><a hre",
+        "hiliteStart": 10,
+        "hiliteLength": 104
+      },
       "recurrence": 1
     },
     {
@@ -320,6 +376,14 @@
       "typeCode": 1,
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 13650,
+        "lastColumn": 13752,
+        "extract": "n></a></p><p size=\"md\" aria-label=\"mail\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\"><a hre",
+        "hiliteStart": 10,
+        "hiliteLength": 103
+      },
       "recurrence": 1
     },
     {
@@ -330,6 +394,14 @@
       "typeCode": 1,
       "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 13650,
+        "lastColumn": 13752,
+        "extract": "n></a></p><p size=\"md\" aria-label=\"mail\" class=\"jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0\"><a hre",
+        "hiliteStart": 10,
+        "hiliteLength": 103
+      },
       "recurrence": 1
     },
     {
@@ -340,6 +412,14 @@
       "typeCode": 1,
       "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 13753,
+        "lastColumn": 13893,
+        "extract": "-pfsh1-0\"><a href=\"mailto:simon[at]gattner.name\" title=\"Send me an email\" class=\"fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1\"><span ",
+        "hiliteStart": 10,
+        "hiliteLength": 141
+      },
       "recurrence": 1
     },
     {
@@ -350,6 +430,14 @@
       "typeCode": 1,
       "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 1,
+        "firstColumn": 19831,
+        "lastColumn": 20006,
+        "extract": "oppfk0-0\"><a href=\"mailto:simon[at]gattner.name\" title=\"Contact email\" data-testid=\"footer-nav-link-contact\" class=\"fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1\"><svg x",
+        "hiliteStart": 10,
+        "hiliteLength": 176
+      },
       "recurrence": 1
     }
   ],

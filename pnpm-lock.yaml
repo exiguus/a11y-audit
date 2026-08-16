@@ -47,6 +47,9 @@ importers:
       lint-staged:
         specifier: ^17.3.0
         version: 17.3.0
+      vnu-jar:
+        specifier: ^26.8.6
+        version: 26.8.6
       xml2js:
         specifier: ^0.6.2
         version: 0.6.2
@@ -905,6 +908,11 @@ packages:
 
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+
+  vnu-jar@26.8.6:
+    resolution: {integrity: sha512-P7f2yd+4GObCYt8kCDe+ERdPZ7PlHE1GXp8wSqclQm/VBlxyic0ME6wPqeEq9G6ZlpkR/CdygVgRth4FvL/jMw==}
+    engines: {node: '>=18'}
+    hasBin: true
 
   wcwidth@1.0.1:
     resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}
@@ -1799,6 +1807,8 @@ snapshots:
   undici-types@8.3.0: {}
 
   util-deprecate@1.0.2: {}
+
+  vnu-jar@26.8.6: {}
 
   wcwidth@1.0.1:
     dependencies:

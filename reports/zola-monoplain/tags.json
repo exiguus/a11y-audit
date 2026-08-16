@@ -160,6 +160,15 @@
       "typeCode": 1,
       "message": "Bad value “og:https://ogp.me/ns#” for attribute “prefix” on element “html”.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 1,
+        "lastLine": 2,
+        "firstColumn": 16,
+        "lastColumn": 47,
+        "extract": "TYPE html>\n<html lang=\"en\" prefix=\"og:https://ogp.me/ns#\">\n\n<hea",
+        "hiliteStart": 10,
+        "hiliteLength": 48
+      },
       "recurrence": 1
     },
     {
@@ -170,6 +179,15 @@
       "typeCode": 1,
       "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 143,
+        "lastLine": 148,
+        "firstColumn": 9,
+        "lastColumn": 46,
+        "extract": ">\n        <a \nhref=\"mailto:invalid\\(local\\)part@example.org\"\n \ndata-obfuscated-email=\"&#x3C;monoplain&#x40;&#8203;&#8203;0x38&#8203;&#x2E;&#8203;de&#x3E;\"\n\n          title=\"Write me a message\" rel=\"me\">\n     ",
+        "hiliteStart": 10,
+        "hiliteLength": 192
+      },
       "recurrence": 1
     },
     {
@@ -180,6 +198,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 233,
+        "lastLine": 234,
+        "firstColumn": 15,
+        "lastColumn": 11,
+        "extract": "    Zola (<count\n          >16</co",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -190,6 +217,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 233,
+        "lastLine": 234,
+        "firstColumn": 15,
+        "lastColumn": 11,
+        "extract": "    Zola (<count\n          >16</co",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -200,6 +236,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 245,
+        "lastLine": 246,
+        "firstColumn": 16,
+        "lastColumn": 11,
+        "extract": "   Theme (<count\n          >13</co",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -210,6 +255,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 245,
+        "lastLine": 246,
+        "firstColumn": 16,
+        "lastColumn": 11,
+        "extract": "   Theme (<count\n          >13</co",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -220,6 +274,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 257,
+        "lastLine": 258,
+        "firstColumn": 19,
+        "lastColumn": 11,
+        "extract": "Markdown (<count\n          >10</co",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -230,6 +293,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 257,
+        "lastLine": 258,
+        "firstColumn": 19,
+        "lastColumn": 11,
+        "extract": "Markdown (<count\n          >10</co",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -240,6 +312,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 269,
+        "lastLine": 270,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " gallery (<count\n          >3</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -250,6 +331,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 269,
+        "lastLine": 270,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " gallery (<count\n          >3</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -260,6 +350,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 281,
+        "lastLine": 282,
+        "firstColumn": 20,
+        "lastColumn": 11,
+        "extract": "emplates (<count\n          >2</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -270,6 +369,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 281,
+        "lastLine": 282,
+        "firstColumn": 20,
+        "lastColumn": 11,
+        "extract": "emplates (<count\n          >2</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -280,6 +388,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 293,
+        "lastLine": 294,
+        "firstColumn": 14,
+        "lastColumn": 11,
+        "extract": "     SVG (<count\n          >2</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -290,6 +407,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 293,
+        "lastLine": 294,
+        "firstColumn": 14,
+        "lastColumn": 11,
+        "extract": "     SVG (<count\n          >2</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -300,6 +426,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 305,
+        "lastLine": 306,
+        "firstColumn": 32,
+        "lastColumn": 11,
+        "extract": "enerator (<count\n          >2</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -310,6 +445,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 305,
+        "lastLine": 306,
+        "firstColumn": 32,
+        "lastColumn": 11,
+        "extract": "enerator (<count\n          >2</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -320,6 +464,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 317,
+        "lastLine": 318,
+        "firstColumn": 14,
+        "lastColumn": 11,
+        "extract": "     SSG (<count\n          >2</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -330,6 +483,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 317,
+        "lastLine": 318,
+        "firstColumn": 14,
+        "lastColumn": 11,
+        "extract": "     SSG (<count\n          >2</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -340,6 +502,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 329,
+        "lastLine": 330,
+        "firstColumn": 21,
+        "lastColumn": 11,
+        "extract": "ortcodes (<count\n          >2</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -350,6 +521,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 329,
+        "lastLine": 330,
+        "firstColumn": 21,
+        "lastColumn": 11,
+        "extract": "ortcodes (<count\n          >2</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -360,6 +540,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 341,
+        "lastLine": 342,
+        "firstColumn": 17,
+        "lastColumn": 11,
+        "extract": "  Images (<count\n          >2</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -370,6 +559,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 341,
+        "lastLine": 342,
+        "firstColumn": 17,
+        "lastColumn": 11,
+        "extract": "  Images (<count\n          >2</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -380,6 +578,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 353,
+        "lastLine": 354,
+        "firstColumn": 16,
+        "lastColumn": 11,
+        "extract": "   Icons (<count\n          >2</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -390,6 +597,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 353,
+        "lastLine": 354,
+        "firstColumn": 16,
+        "lastColumn": 11,
+        "extract": "   Icons (<count\n          >2</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -400,6 +616,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 365,
+        "lastLine": 366,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " Youtube (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -410,6 +635,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 365,
+        "lastLine": 366,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " Youtube (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -420,6 +654,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 377,
+        "lastLine": 378,
+        "firstColumn": 21,
+        "lastColumn": 11,
+        "extract": "pography (<count\n          >1</",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -430,6 +673,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 377,
+        "lastLine": 378,
+        "firstColumn": 21,
+        "lastColumn": 11,
+        "extract": "pography (<count\n          >1</",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -440,6 +692,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 389,
+        "lastLine": 390,
+        "firstColumn": 23,
+        "lastColumn": 11,
+        "extract": "slations (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -450,6 +711,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 389,
+        "lastLine": 390,
+        "firstColumn": 23,
+        "lastColumn": 11,
+        "extract": "slations (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -460,6 +730,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 401,
+        "lastLine": 402,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " Testing (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -470,6 +749,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 401,
+        "lastLine": 402,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " Testing (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -480,6 +768,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 413,
+        "lastLine": 414,
+        "firstColumn": 23,
+        "lastColumn": 11,
+        "extract": "er Icons (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -490,6 +787,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 413,
+        "lastLine": 414,
+        "firstColumn": 23,
+        "lastColumn": 11,
+        "extract": "er Icons (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -500,6 +806,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 425,
+        "lastLine": 426,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " Spotify (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -510,6 +825,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 425,
+        "lastLine": 426,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " Spotify (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -520,6 +844,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 437,
+        "lastLine": 438,
+        "firstColumn": 20,
+        "lastColumn": 11,
+        "extract": "hortcode (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -530,6 +863,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 437,
+        "lastLine": 438,
+        "firstColumn": 20,
+        "lastColumn": 11,
+        "extract": "hortcode (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -540,6 +882,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 449,
+        "lastLine": 450,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " Release (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -550,6 +901,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 449,
+        "lastLine": 450,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " Release (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -560,6 +920,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 461,
+        "lastLine": 462,
+        "firstColumn": 24,
+        "lastColumn": 11,
+        "extract": "ew Image (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -570,6 +939,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 461,
+        "lastLine": 462,
+        "firstColumn": 24,
+        "lastColumn": 11,
+        "extract": "ew Image (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -580,6 +958,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 473,
+        "lastLine": 474,
+        "firstColumn": 16,
+        "lastColumn": 11,
+        "extract": "   Phone (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -590,6 +977,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 473,
+        "lastLine": 474,
+        "firstColumn": 16,
+        "lastColumn": 11,
+        "extract": "   Phone (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -600,6 +996,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 485,
+        "lastLine": 486,
+        "firstColumn": 21,
+        "lastColumn": 11,
+        "extract": "en Graph (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -610,6 +1015,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 485,
+        "lastLine": 486,
+        "firstColumn": 21,
+        "lastColumn": 11,
+        "extract": "en Graph (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -620,6 +1034,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 497,
+        "lastLine": 498,
+        "firstColumn": 19,
+        "lastColumn": 11,
+        "extract": "Metadata (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -630,6 +1053,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 497,
+        "lastLine": 498,
+        "firstColumn": 19,
+        "lastColumn": 11,
+        "extract": "Metadata (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -640,6 +1072,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 509,
+        "lastLine": 510,
+        "firstColumn": 20,
+        "lastColumn": 11,
+        "extract": "anguages (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -650,6 +1091,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 509,
+        "lastLine": 510,
+        "firstColumn": 20,
+        "lastColumn": 11,
+        "extract": "anguages (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -660,6 +1110,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 521,
+        "lastLine": 522,
+        "firstColumn": 19,
+        "lastColumn": 11,
+        "extract": "Inkscape (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -670,6 +1129,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 521,
+        "lastLine": 522,
+        "firstColumn": 19,
+        "lastColumn": 11,
+        "extract": "Inkscape (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -680,6 +1148,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 533,
+        "lastLine": 534,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " h-entry (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -690,6 +1167,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 533,
+        "lastLine": 534,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " h-entry (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -700,6 +1186,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 545,
+        "lastLine": 546,
+        "firstColumn": 17,
+        "lastColumn": 11,
+        "extract": "  h-card (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -710,6 +1205,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 545,
+        "lastLine": 546,
+        "firstColumn": 17,
+        "lastColumn": 11,
+        "extract": "  h-card (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -720,6 +1224,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 557,
+        "lastLine": 558,
+        "firstColumn": 25,
+        "lastColumn": 11,
+        "extract": " Actions (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -730,6 +1243,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 557,
+        "lastLine": 558,
+        "firstColumn": 25,
+        "lastColumn": 11,
+        "extract": " Actions (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -740,6 +1262,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 569,
+        "lastLine": 570,
+        "firstColumn": 23,
+        "lastColumn": 11,
+        "extract": "t Matter (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -750,6 +1281,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 569,
+        "lastLine": 570,
+        "firstColumn": 23,
+        "lastColumn": 11,
+        "extract": "t Matter (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -760,6 +1300,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 581,
+        "lastLine": 582,
+        "firstColumn": 19,
+        "lastColumn": 11,
+        "extract": "Feedback (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -770,6 +1319,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 581,
+        "lastLine": 582,
+        "firstColumn": 19,
+        "lastColumn": 11,
+        "extract": "Feedback (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -780,6 +1338,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 593,
+        "lastLine": 594,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " Favicon (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -790,6 +1357,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 593,
+        "lastLine": 594,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " Favicon (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -800,6 +1376,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 605,
+        "lastLine": 606,
+        "firstColumn": 17,
+        "lastColumn": 11,
+        "extract": "  Emojis (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -810,6 +1395,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 605,
+        "lastLine": 606,
+        "firstColumn": 17,
+        "lastColumn": 11,
+        "extract": "  Emojis (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -820,6 +1414,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 617,
+        "lastLine": 618,
+        "firstColumn": 16,
+        "lastColumn": 11,
+        "extract": "   Email (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -830,6 +1433,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 617,
+        "lastLine": 618,
+        "firstColumn": 16,
+        "lastColumn": 11,
+        "extract": "   Email (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -840,6 +1452,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 629,
+        "lastLine": 630,
+        "firstColumn": 17,
+        "lastColumn": 11,
+        "extract": "  E-Mail (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -850,6 +1471,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 629,
+        "lastLine": 630,
+        "firstColumn": 17,
+        "lastColumn": 11,
+        "extract": "  E-Mail (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -860,6 +1490,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 641,
+        "lastLine": 642,
+        "firstColumn": 21,
+        "lastColumn": 11,
+        "extract": "ctionary (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -870,6 +1509,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 641,
+        "lastLine": 642,
+        "firstColumn": 21,
+        "lastColumn": 11,
+        "extract": "ctionary (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -880,6 +1528,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 653,
+        "lastLine": 654,
+        "firstColumn": 22,
+        "lastColumn": 11,
+        "extract": "elopment (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -890,6 +1547,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 653,
+        "lastLine": 654,
+        "firstColumn": 22,
+        "lastColumn": 11,
+        "extract": "elopment (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -900,6 +1566,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 665,
+        "lastLine": 666,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " Details (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -910,6 +1585,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 665,
+        "lastLine": 666,
+        "firstColumn": 18,
+        "lastColumn": 11,
+        "extract": " Details (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -920,6 +1604,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 677,
+        "lastLine": 678,
+        "firstColumn": 21,
+        "lastColumn": 11,
+        "extract": "ployment (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -930,6 +1623,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 677,
+        "lastLine": 678,
+        "firstColumn": 21,
+        "lastColumn": 11,
+        "extract": "ployment (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -940,6 +1642,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 689,
+        "lastLine": 690,
+        "firstColumn": 20,
+        "lastColumn": 11,
+        "extract": "ebugging (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -950,6 +1661,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 689,
+        "lastLine": 690,
+        "firstColumn": 20,
+        "lastColumn": 11,
+        "extract": "ebugging (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -960,6 +1680,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 701,
+        "lastLine": 702,
+        "firstColumn": 33,
+        "lastColumn": 11,
+        "extract": "egration (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -970,6 +1699,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 701,
+        "lastLine": 702,
+        "firstColumn": 33,
+        "lastColumn": 11,
+        "extract": "egration (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -980,6 +1718,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 713,
+        "lastLine": 714,
+        "firstColumn": 24,
+        "lastColumn": 11,
+        "extract": "guration (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -990,6 +1737,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 713,
+        "lastLine": 714,
+        "firstColumn": 24,
+        "lastColumn": 11,
+        "extract": "guration (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -1000,6 +1756,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 725,
+        "lastLine": 726,
+        "firstColumn": 13,
+        "lastColumn": 11,
+        "extract": "      CI (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -1010,6 +1775,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 725,
+        "lastLine": 726,
+        "firstColumn": 13,
+        "lastColumn": 11,
+        "extract": "      CI (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -1020,6 +1794,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 737,
+        "lastLine": 738,
+        "firstColumn": 16,
+        "lastColumn": 11,
+        "extract": "   Build (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -1030,6 +1813,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 737,
+        "lastLine": 738,
+        "firstColumn": 16,
+        "lastColumn": 11,
+        "extract": "   Build (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -1040,6 +1832,15 @@
       "typeCode": 1,
       "message": "Element “count” not allowed as child of element “a” in this context. (Suppressing further errors from this subtree.) Note: The “a” element has a transparent content model; its allowed content is inherited from its parent element.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 749,
+        "lastLine": 750,
+        "firstColumn": 24,
+        "lastColumn": 11,
+        "extract": "sibility (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -1050,6 +1851,15 @@
       "typeCode": 1,
       "message": "The “count” element is a completely-unknown element that is not allowed anywhere in any HTML content.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 749,
+        "lastLine": 750,
+        "firstColumn": 24,
+        "lastColumn": 11,
+        "extract": "sibility (<count\n          >1</cou",
+        "hiliteStart": 10,
+        "hiliteLength": 18
+      },
       "recurrence": 1
     },
     {
@@ -1060,6 +1870,15 @@
       "typeCode": 1,
       "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 834,
+        "lastLine": 839,
+        "firstColumn": 7,
+        "lastColumn": 44,
+        "extract": "li>\n      <a \nhref=\"mailto:invalid\\(local\\)part@example.org\"\n \ndata-obfuscated-email=\"&#x3C;monoplain&#x40;&#8203;&#8203;0x38&#8203;&#x2E;&#8203;de&#x3E;\"\n\n        title=\"Write me a message\" rel=\"me\">\n     ",
+        "hiliteStart": 10,
+        "hiliteLength": 190
+      },
       "recurrence": 1
     }
   ],

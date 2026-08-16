@@ -1,71 +1,69 @@
 {
-  "name": "a11y-audit",
-  "version": "1.0.0",
-  "description": "Audit a11y WCAG2AA",
-  "module": "index.ts",
-  "scripts": {
-    "a11y:audit": "pnpm run a11y:audit:scrape && pnpm run a11y:audit:report && pnpm run a11y:audit:result",
-    "a11y:audit:scrape": "BUN_JSC_forceRAMSize=20 bun ./run.ts scrape",
-    "a11y:audit:report": "BUN_JSC_forceRAMSize=20 bun ./run.ts report",
-    "a11y:audit:result": "BUN_JSC_forceRAMSize=20 bun ./run.ts result",
-    "a11y:audit:backup": "BUN_JSC_forceRAMSize=20 bun ./run.ts backup",
-    "a11y:audit:clean": "BUN_JSC_forceRAMSize=20 bun ./run.ts clean",
-    "a11y:audit:all": "for env_file in .env.*; do echo \"Processing $env_file\"; cp \"$env_file\" .env; pnpm a11y:audit; done",
-    "lint": "biome lint --write .",
-    "lint:check": "biome lint --error-on-warnings .",
-    "format": "biome format --write .",
-    "format:check": "biome format --error-on-warnings .",
-    "check": "pnpm check:biome && pnpm check:fta",
-    "check:biome": "pnpm lint:check && pnpm format:check",
-    "check:fta": "fta --config-path ./fta.config.json .",
-    "test": "bun test",
-    "prepare": "husky"
-  },
-  "keywords": [
-    "a11y",
-    "audit",
-    "wcag2",
-    "wcag2.1",
-    "wcag2.2",
-    "web",
-    "accessibility",
-    "EN 301 549"
-  ],
-  "author": {
-    "name": "Simon Gattner",
-    "url": "https://gattner.name/",
-    "mastodon": "https://toot.community/@exiguus"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/exiguus/a11y-audit"
-  },
-  "homepage": "https://github.com/exiguus/a11y-audit#readme",
-  "packageManager": "pnpm@11.15.0",
-  "devDependencies": {
-    "@biomejs/biome": "^2.5.7",
-    "@commitlint/cli": "^21.2.1",
-    "@commitlint/config-conventional": "^21.2.0",
-    "@commitlint/prompt-cli": "^21.2.0",
-    "@playwright/test": "^1.62.1",
-    "@types/archiver": "^8.0.0",
-    "@types/node": "^26.2.0",
-    "archiver": "^8.0.0",
-    "axios": "^1.19.0",
-    "fta-cli": "^3.0.0",
-    "husky": "^9.1.7",
-    "kayle": "^0.8.64",
-    "lint-staged": "^17.3.0",
-    "xml2js": "^0.6.2"
-  },
-  "lint-staged": {
-    "*.@(ts|js|mjs|cjs)": [
-      "pnpm format",
-      "pnpm lint"
+    "name": "a11y-audit",
+    "version": "1.0.0",
+    "description": "Audit a11y WCAG2AA",
+    "module": "index.ts",
+    "scripts": {
+        "a11y:audit": "pnpm run a11y:audit:scrape && pnpm run a11y:audit:report && pnpm run a11y:audit:result",
+        "a11y:audit:scrape": "BUN_JSC_forceRAMSize=20 bun ./run.ts scrape",
+        "a11y:audit:report": "BUN_JSC_forceRAMSize=20 bun ./run.ts report",
+        "a11y:audit:result": "BUN_JSC_forceRAMSize=20 bun ./run.ts result",
+        "a11y:audit:backup": "BUN_JSC_forceRAMSize=20 bun ./run.ts backup",
+        "a11y:audit:clean": "BUN_JSC_forceRAMSize=20 bun ./run.ts clean",
+        "a11y:audit:all": "for env_file in .env.*; do echo \"Processing $env_file\"; cp \"$env_file\" .env; pnpm a11y:audit; done",
+        "lint": "biome lint --write",
+        "lint:check": "biome lint --error-on-warnings",
+        "format": "biome format --write",
+        "format:check": "biome format --error-on-warnings",
+        "check": "pnpm check:biome && pnpm check:fta",
+        "check:biome": "pnpm lint:check && pnpm format:check",
+        "check:fta": "fta --config-path ./fta.config.json .",
+        "test": "bun test",
+        "prepare": "husky"
+    },
+    "keywords": [
+        "a11y",
+        "audit",
+        "wcag2",
+        "wcag2.1",
+        "wcag2.2",
+        "web",
+        "accessibility",
+        "EN 301 549"
     ],
-    "*.@(json|html)": [
-      "pnpm format"
-    ]
-  }
+    "author": {
+        "name": "Simon Gattner",
+        "url": "https://gattner.name/",
+        "mastodon": "https://toot.community/@exiguus"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/exiguus/a11y-audit"
+    },
+    "homepage": "https://github.com/exiguus/a11y-audit#readme",
+    "packageManager": "pnpm@11.15.0",
+    "devDependencies": {
+        "@biomejs/biome": "^2.5.7",
+        "@commitlint/cli": "^21.2.1",
+        "@commitlint/config-conventional": "^21.2.0",
+        "@commitlint/prompt-cli": "^21.2.0",
+        "@playwright/test": "^1.62.1",
+        "@types/archiver": "^8.0.0",
+        "@types/node": "^26.2.0",
+        "archiver": "^8.0.0",
+        "axios": "^1.19.0",
+        "fta-cli": "^3.0.0",
+        "husky": "^9.1.7",
+        "kayle": "^0.8.64",
+        "lint-staged": "^17.3.0",
+        "vnu-jar": "^26.8.6",
+        "xml2js": "^0.6.2"
+    },
+    "lint-staged": {
+        "*.@(ts|js|mjs|cjs)": [
+            "pnpm format",
+            "pnpm lint"
+        ]
+    }
 }

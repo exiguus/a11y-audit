@@ -2033,7 +2033,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-id0pekm3a\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-19jdwlkqd\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(43)>:nth-child(1)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -2043,7 +2043,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-itgho7jst\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-g67lghs32\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(43)>:nth-child(2)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -2053,7 +2053,7 @@
       "recurrence": 0
     },
     {
-      "context": "<label for=\"task-checkbox-5kd81nzsu\" class=\"sr-only\">Task item</label>",
+      "context": "<label for=\"task-checkbox-33j40nb05\" class=\"sr-only\">Task item</label>",
       "selector": "#main>:nth-child(1)>:nth-child(2)>:nth-child(43)>:nth-child(3)>:nth-child(1)",
       "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs",
       "type": "warning",
@@ -2280,6 +2280,15 @@
       "typeCode": 1,
       "message": "Bad value “og:https://ogp.me/ns#” for attribute “prefix” on element “html”.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 1,
+        "lastLine": 2,
+        "firstColumn": 16,
+        "lastColumn": 47,
+        "extract": "TYPE html>\n<html lang=\"en\" prefix=\"og:https://ogp.me/ns#\">\n\n<hea",
+        "hiliteStart": 10,
+        "hiliteLength": 48
+      },
       "recurrence": 1
     },
     {
@@ -2290,6 +2299,15 @@
       "typeCode": 1,
       "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 232,
+        "lastLine": 237,
+        "firstColumn": 9,
+        "lastColumn": 46,
+        "extract": ">\n        <a \nhref=\"mailto:invalid\\(local\\)part@example.org\"\n \ndata-obfuscated-email=\"&#x3C;monoplain&#x40;&#8203;&#8203;0x38&#8203;&#x2E;&#8203;de&#x3E;\"\n\n          title=\"Write me a message\" rel=\"me\">\n     ",
+        "hiliteStart": 10,
+        "hiliteLength": 192
+      },
       "recurrence": 1
     },
     {
@@ -2300,6 +2318,15 @@
       "typeCode": 1,
       "message": "The “aria-label” attribute must not be specified on any “div” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 328,
+        "lastLine": 329,
+        "firstColumn": 3,
+        "lastColumn": 30,
+        "extract": "\n  </p>\n  <div \n    aria-label=\"Post Authors\">\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 36
+      },
       "recurrence": 1
     },
     {
@@ -2310,6 +2337,14 @@
       "typeCode": 1,
       "message": "Bad value “true” for attribute “open” on element “details”.",
       "runner": "nu",
+      "runnerExtras": {
+        "lastLine": 342,
+        "firstColumn": 3,
+        "lastColumn": 45,
+        "extract": "=\"toc\">\n  <details aria-labelledby=\"toc\" open=\"true\">\n    <",
+        "hiliteStart": 10,
+        "hiliteLength": 43
+      },
       "recurrence": 1
     },
     {
@@ -2320,6 +2355,14 @@
       "typeCode": 1,
       "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 852,
+        "lastLine": 856,
+        "lastColumn": 1,
+        "extract": " <p>\n    \n<a \nhref=\"mailto:invalid\\(local\\)part@example.org\"\n title=\"This email address has been obscured for security. Please click the link to reveal the actual address.\"  \ndata-obfuscated-email=\"&#x3C;markdown.monoplain&#x40;&#8203;&#8203;0x38&#8203;&#x2E;&#8203;de&#x3E;\"\n>\n  \n&#",
+        "hiliteStart": 10,
+        "hiliteLength": 267
+      },
       "recurrence": 1
     },
     {
@@ -2330,6 +2373,15 @@
       "typeCode": 1,
       "message": "Bad value “mailto:invalid\\(local\\)part@example.org” for attribute “href” on element “a”: Illegal character after “ilto:”. “\\” is not allowed.",
       "runner": "nu",
+      "runnerExtras": {
+        "firstLine": 1267,
+        "lastLine": 1272,
+        "firstColumn": 7,
+        "lastColumn": 44,
+        "extract": "li>\n      <a \nhref=\"mailto:invalid\\(local\\)part@example.org\"\n \ndata-obfuscated-email=\"&#x3C;monoplain&#x40;&#8203;&#8203;0x38&#8203;&#x2E;&#8203;de&#x3E;\"\n\n        title=\"Write me a message\" rel=\"me\">\n     ",
+        "hiliteStart": 10,
+        "hiliteLength": 190
+      },
       "recurrence": 1
     }
   ],

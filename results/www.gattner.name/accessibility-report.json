@@ -1,10 +1,10 @@
 {
   "origin": "www.gattner.name",
-  "datetime": "2026-08-16 07:15:33",
+  "datetime": "2026-08-16 14:04:20",
   "overallAccessibilityScore": 100,
   "totalIssues": 62,
   "totalErrors": 0,
-  "totalWarnings": 108,
+  "totalWarnings": 99,
   "totalNotices": 0,
   "totalPages": 4,
   "missingAltIndex": 0,
@@ -12,7 +12,7 @@
   "axeIssues": [],
   "nuHtmlIssues": [
     {
-      "count": 31,
+      "count": 32,
       "type": "error",
       "code": "NU-HTML-1",
       "message": "Attribute “size” not allowed on element “p” at this point.",
@@ -20,7 +20,7 @@
       "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']"
     },
     {
-      "count": 21,
+      "count": 22,
       "type": "error",
       "code": "NU-HTML-2",
       "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
@@ -28,7 +28,7 @@
       "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']"
     },
     {
-      "count": 6,
+      "count": 7,
       "type": "error",
       "code": "NU-HTML-3",
       "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
@@ -36,7 +36,7 @@
       "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']"
     },
     {
-      "count": 4,
+      "count": 5,
       "type": "error",
       "code": "NU-HTML-4",
       "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
@@ -46,51 +46,43 @@
   ],
   "selectorIssues": [
     {
+      "count": 52,
       "code": "NU-HTML-1",
       "type": "error",
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-      "url": "https://www.gattner.name/",
-      "count": 51
+      "url": "https://www.gattner.name/"
     },
     {
+      "count": 8,
       "code": "NU-HTML-2",
       "type": "error",
       "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
       "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
-      "url": "https://www.gattner.name/",
-      "count": 7
+      "url": "https://www.gattner.name/"
     },
     {
+      "count": 3,
       "code": "NU-HTML-1",
       "type": "error",
       "message": "Element “div” not allowed as child of element “h1” in this context. (Suppressing further errors from this subtree.)",
       "selector": "//div[@class='Headline__StyledIcon-gattner-corporate__sc-5fuutc-1 igYxM']",
-      "url": "https://www.gattner.name/contact",
-      "count": 2
+      "url": "https://www.gattner.name/contact"
     },
     {
+      "count": 3,
       "code": "NU-HTML-2",
       "type": "error",
       "message": "Attribute “size” not allowed on element “p” at this point.",
       "selector": "//p[@class='DGAgH Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-      "url": "https://www.gattner.name/about",
-      "count": 2
+      "url": "https://www.gattner.name/about"
     }
   ],
   "issuesByCode": {
     "NU-HTML-1": {
-      "count": 31,
+      "count": 32,
       "code": "NU-HTML-1",
       "issues": [
-        {
-          "type": "error",
-          "message": "Attribute “size” not allowed on element “p” at this point.",
-          "url": "https://www.gattner.name/",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 1,
-          "code": "NU-HTML-1"
-        },
         {
           "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
@@ -261,10 +253,18 @@
         },
         {
           "type": "error",
+          "message": "Attribute “size” not allowed on element “p” at this point.",
+          "url": "https://www.gattner.name/",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+          "count": 23,
+          "code": "NU-HTML-1"
+        },
+        {
+          "type": "error",
           "message": "Element “div” not allowed as child of element “h1” in this context. (Suppressing further errors from this subtree.)",
           "url": "https://www.gattner.name/contact",
           "selector": "//div[@class='Headline__StyledIcon-gattner-corporate__sc-5fuutc-1 igYxM']",
-          "count": 23,
+          "count": 24,
           "code": "NU-HTML-1"
         },
         {
@@ -272,14 +272,6 @@
           "message": "Element “div” not allowed as child of element “h1” in this context. (Suppressing further errors from this subtree.)",
           "url": "https://www.gattner.name/about",
           "selector": "//div[@class='Headline__StyledIcon-gattner-corporate__sc-5fuutc-1 igYxM']",
-          "count": 24,
-          "code": "NU-HTML-1"
-        },
-        {
-          "type": "error",
-          "message": "Attribute “size” not allowed on element “p” at this point.",
-          "url": "https://www.gattner.name/impressum",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 25,
           "code": "NU-HTML-1"
         },
@@ -330,11 +322,19 @@
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 31,
           "code": "NU-HTML-1"
+        },
+        {
+          "type": "error",
+          "message": "Attribute “size” not allowed on element “p” at this point.",
+          "url": "https://www.gattner.name/impressum",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+          "count": 32,
+          "code": "NU-HTML-1"
         }
       ]
     },
     "NU-HTML-2": {
-      "count": 21,
+      "count": 22,
       "code": "NU-HTML-2",
       "issues": [
         {
@@ -342,14 +342,6 @@
           "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
           "url": "https://www.gattner.name/",
           "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
-          "count": 1,
-          "code": "NU-HTML-2"
-        },
-        {
-          "type": "error",
-          "message": "Attribute “size” not allowed on element “p” at this point.",
-          "url": "https://www.gattner.name/contact",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 2,
           "code": "NU-HTML-2"
         },
@@ -388,7 +380,7 @@
         {
           "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
-          "url": "https://www.gattner.name/about",
+          "url": "https://www.gattner.name/contact",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 7,
           "code": "NU-HTML-2"
@@ -397,7 +389,7 @@
           "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/about",
-          "selector": "//p[@class='DGAgH Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 8,
           "code": "NU-HTML-2"
         },
@@ -413,7 +405,7 @@
           "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/about",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+          "selector": "//p[@class='DGAgH Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 10,
           "code": "NU-HTML-2"
         },
@@ -491,8 +483,8 @@
         },
         {
           "type": "error",
-          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
-          "url": "https://www.gattner.name/impressum",
+          "message": "Attribute “size” not allowed on element “p” at this point.",
+          "url": "https://www.gattner.name/about",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 20,
           "code": "NU-HTML-2"
@@ -504,11 +496,19 @@
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 21,
           "code": "NU-HTML-2"
+        },
+        {
+          "type": "error",
+          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+          "url": "https://www.gattner.name/impressum",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+          "count": 22,
+          "code": "NU-HTML-2"
         }
       ]
     },
     "NU-HTML-3": {
-      "count": 6,
+      "count": 7,
       "code": "NU-HTML-3",
       "issues": [
         {
@@ -516,21 +516,13 @@
           "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
           "url": "https://www.gattner.name/contact",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 1,
-          "code": "NU-HTML-3"
-        },
-        {
-          "type": "error",
-          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
-          "url": "https://www.gattner.name/contact",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 2,
           "code": "NU-HTML-3"
         },
         {
           "type": "error",
           "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
-          "url": "https://www.gattner.name/about",
+          "url": "https://www.gattner.name/contact",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 3,
           "code": "NU-HTML-3"
@@ -545,9 +537,9 @@
         },
         {
           "type": "error",
-          "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
-          "url": "https://www.gattner.name/impressum",
-          "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
+          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+          "url": "https://www.gattner.name/about",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 5,
           "code": "NU-HTML-3"
         },
@@ -558,11 +550,19 @@
           "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
           "count": 6,
           "code": "NU-HTML-3"
+        },
+        {
+          "type": "error",
+          "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+          "url": "https://www.gattner.name/impressum",
+          "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
+          "count": 7,
+          "code": "NU-HTML-3"
         }
       ]
     },
     "NU-HTML-4": {
-      "count": 4,
+      "count": 5,
       "code": "NU-HTML-4",
       "issues": [
         {
@@ -570,21 +570,13 @@
           "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
           "url": "https://www.gattner.name/contact",
           "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
-          "count": 1,
-          "code": "NU-HTML-4"
-        },
-        {
-          "type": "error",
-          "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
-          "url": "https://www.gattner.name/contact",
-          "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
           "count": 2,
           "code": "NU-HTML-4"
         },
         {
           "type": "error",
           "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
-          "url": "https://www.gattner.name/about",
+          "url": "https://www.gattner.name/contact",
           "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
           "count": 3,
           "code": "NU-HTML-4"
@@ -595,6 +587,14 @@
           "url": "https://www.gattner.name/about",
           "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
           "count": 4,
+          "code": "NU-HTML-4"
+        },
+        {
+          "type": "error",
+          "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+          "url": "https://www.gattner.name/about",
+          "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
+          "count": 5,
           "code": "NU-HTML-4"
         }
       ]
@@ -602,7 +602,7 @@
   },
   "issuesByPage": {
     "https://www.gattner.name/": {
-      "count": 23,
+      "count": 24,
       "url": "https://www.gattner.name/",
       "issues": [
         {
@@ -610,14 +610,6 @@
           "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 1,
-          "code": "NU-HTML-1"
-        },
-        {
-          "type": "error",
-          "message": "Attribute “size” not allowed on element “p” at this point.",
-          "url": "https://www.gattner.name/",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 2,
           "code": "NU-HTML-1"
         },
@@ -783,16 +775,24 @@
         },
         {
           "type": "error",
+          "message": "Attribute “size” not allowed on element “p” at this point.",
+          "url": "https://www.gattner.name/",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+          "count": 23,
+          "code": "NU-HTML-1"
+        },
+        {
+          "type": "error",
           "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
           "url": "https://www.gattner.name/",
           "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
-          "count": 23,
+          "count": 24,
           "code": "NU-HTML-2"
         }
       ]
     },
     "https://www.gattner.name/about": {
-      "count": 18,
+      "count": 19,
       "url": "https://www.gattner.name/about",
       "issues": [
         {
@@ -800,7 +800,7 @@
           "message": "Element “div” not allowed as child of element “h1” in this context. (Suppressing further errors from this subtree.)",
           "url": "https://www.gattner.name/about",
           "selector": "//div[@class='Headline__StyledIcon-gattner-corporate__sc-5fuutc-1 igYxM']",
-          "count": 1,
+          "count": 2,
           "code": "NU-HTML-1"
         },
         {
@@ -808,14 +808,6 @@
           "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/about",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 2,
-          "code": "NU-HTML-2"
-        },
-        {
-          "type": "error",
-          "message": "Attribute “size” not allowed on element “p” at this point.",
-          "url": "https://www.gattner.name/about",
-          "selector": "//p[@class='DGAgH Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 3,
           "code": "NU-HTML-2"
         },
@@ -831,7 +823,7 @@
           "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/about",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+          "selector": "//p[@class='DGAgH Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 5,
           "code": "NU-HTML-2"
         },
@@ -901,18 +893,10 @@
         },
         {
           "type": "error",
-          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
-          "url": "https://www.gattner.name/about",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 14,
-          "code": "NU-HTML-3"
-        },
-        {
-          "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/about",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 15,
+          "count": 14,
           "code": "NU-HTML-2"
         },
         {
@@ -920,16 +904,24 @@
           "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
           "url": "https://www.gattner.name/about",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 16,
+          "count": 15,
           "code": "NU-HTML-3"
         },
         {
           "type": "error",
-          "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+          "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/about",
-          "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+          "count": 16,
+          "code": "NU-HTML-2"
+        },
+        {
+          "type": "error",
+          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+          "url": "https://www.gattner.name/about",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 17,
-          "code": "NU-HTML-4"
+          "code": "NU-HTML-3"
         },
         {
           "type": "error",
@@ -938,21 +930,21 @@
           "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
           "count": 18,
           "code": "NU-HTML-4"
+        },
+        {
+          "type": "error",
+          "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+          "url": "https://www.gattner.name/about",
+          "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
+          "count": 19,
+          "code": "NU-HTML-4"
         }
       ]
     },
     "https://www.gattner.name/impressum": {
-      "count": 11,
+      "count": 12,
       "url": "https://www.gattner.name/impressum",
       "issues": [
-        {
-          "type": "error",
-          "message": "Attribute “size” not allowed on element “p” at this point.",
-          "url": "https://www.gattner.name/impressum",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 1,
-          "code": "NU-HTML-1"
-        },
         {
           "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
@@ -995,18 +987,10 @@
         },
         {
           "type": "error",
-          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
-          "url": "https://www.gattner.name/impressum",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 7,
-          "code": "NU-HTML-2"
-        },
-        {
-          "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/impressum",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 8,
+          "count": 7,
           "code": "NU-HTML-1"
         },
         {
@@ -1014,16 +998,24 @@
           "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
           "url": "https://www.gattner.name/impressum",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 9,
+          "count": 8,
           "code": "NU-HTML-2"
         },
         {
           "type": "error",
-          "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+          "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/impressum",
-          "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+          "count": 9,
+          "code": "NU-HTML-1"
+        },
+        {
+          "type": "error",
+          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+          "url": "https://www.gattner.name/impressum",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 10,
-          "code": "NU-HTML-3"
+          "code": "NU-HTML-2"
         },
         {
           "type": "error",
@@ -1032,11 +1024,19 @@
           "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
           "count": 11,
           "code": "NU-HTML-3"
+        },
+        {
+          "type": "error",
+          "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+          "url": "https://www.gattner.name/impressum",
+          "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
+          "count": 12,
+          "code": "NU-HTML-3"
         }
       ]
     },
     "https://www.gattner.name/contact": {
-      "count": 10,
+      "count": 11,
       "url": "https://www.gattner.name/contact",
       "issues": [
         {
@@ -1044,16 +1044,8 @@
           "message": "Element “div” not allowed as child of element “h1” in this context. (Suppressing further errors from this subtree.)",
           "url": "https://www.gattner.name/contact",
           "selector": "//div[@class='Headline__StyledIcon-gattner-corporate__sc-5fuutc-1 igYxM']",
-          "count": 1,
-          "code": "NU-HTML-1"
-        },
-        {
-          "type": "error",
-          "message": "Attribute “size” not allowed on element “p” at this point.",
-          "url": "https://www.gattner.name/contact",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 2,
-          "code": "NU-HTML-2"
+          "code": "NU-HTML-1"
         },
         {
           "type": "error",
@@ -1081,18 +1073,10 @@
         },
         {
           "type": "error",
-          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
-          "url": "https://www.gattner.name/contact",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 6,
-          "code": "NU-HTML-3"
-        },
-        {
-          "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/contact",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 7,
+          "count": 6,
           "code": "NU-HTML-2"
         },
         {
@@ -1100,16 +1084,24 @@
           "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
           "url": "https://www.gattner.name/contact",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 8,
+          "count": 7,
           "code": "NU-HTML-3"
         },
         {
           "type": "error",
-          "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+          "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/contact",
-          "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+          "count": 8,
+          "code": "NU-HTML-2"
+        },
+        {
+          "type": "error",
+          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+          "url": "https://www.gattner.name/contact",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 9,
-          "code": "NU-HTML-4"
+          "code": "NU-HTML-3"
         },
         {
           "type": "error",
@@ -1118,23 +1110,23 @@
           "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
           "count": 10,
           "code": "NU-HTML-4"
+        },
+        {
+          "type": "error",
+          "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+          "url": "https://www.gattner.name/contact",
+          "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
+          "count": 11,
+          "code": "NU-HTML-4"
         }
       ]
     }
   },
   "issuesBySelector": {
     "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']": {
-      "count": 51,
+      "count": 52,
       "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
       "issues": [
-        {
-          "type": "error",
-          "message": "Attribute “size” not allowed on element “p” at this point.",
-          "url": "https://www.gattner.name/",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 1,
-          "code": "NU-HTML-1"
-        },
         {
           "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
@@ -1306,10 +1298,10 @@
         {
           "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
-          "url": "https://www.gattner.name/contact",
+          "url": "https://www.gattner.name/",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 23,
-          "code": "NU-HTML-2"
+          "code": "NU-HTML-1"
         },
         {
           "type": "error",
@@ -1337,18 +1329,10 @@
         },
         {
           "type": "error",
-          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+          "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/contact",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 27,
-          "code": "NU-HTML-3"
-        },
-        {
-          "type": "error",
-          "message": "Attribute “size” not allowed on element “p” at this point.",
-          "url": "https://www.gattner.name/contact",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 28,
           "code": "NU-HTML-2"
         },
         {
@@ -1356,16 +1340,24 @@
           "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
           "url": "https://www.gattner.name/contact",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 29,
+          "count": 28,
           "code": "NU-HTML-3"
         },
         {
           "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
-          "url": "https://www.gattner.name/about",
+          "url": "https://www.gattner.name/contact",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+          "count": 29,
+          "code": "NU-HTML-2"
+        },
+        {
+          "type": "error",
+          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+          "url": "https://www.gattner.name/contact",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 30,
-          "code": "NU-HTML-2"
+          "code": "NU-HTML-3"
         },
         {
           "type": "error",
@@ -1441,18 +1433,10 @@
         },
         {
           "type": "error",
-          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
-          "url": "https://www.gattner.name/about",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 40,
-          "code": "NU-HTML-3"
-        },
-        {
-          "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/about",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 41,
+          "count": 40,
           "code": "NU-HTML-2"
         },
         {
@@ -1460,16 +1444,24 @@
           "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
           "url": "https://www.gattner.name/about",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 42,
+          "count": 41,
           "code": "NU-HTML-3"
         },
         {
           "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
-          "url": "https://www.gattner.name/impressum",
+          "url": "https://www.gattner.name/about",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+          "count": 42,
+          "code": "NU-HTML-2"
+        },
+        {
+          "type": "error",
+          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+          "url": "https://www.gattner.name/about",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 43,
-          "code": "NU-HTML-1"
+          "code": "NU-HTML-3"
         },
         {
           "type": "error",
@@ -1513,18 +1505,10 @@
         },
         {
           "type": "error",
-          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
-          "url": "https://www.gattner.name/impressum",
-          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 49,
-          "code": "NU-HTML-2"
-        },
-        {
-          "type": "error",
           "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/impressum",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 50,
+          "count": 49,
           "code": "NU-HTML-1"
         },
         {
@@ -1532,13 +1516,29 @@
           "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
           "url": "https://www.gattner.name/impressum",
           "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+          "count": 50,
+          "code": "NU-HTML-2"
+        },
+        {
+          "type": "error",
+          "message": "Attribute “size” not allowed on element “p” at this point.",
+          "url": "https://www.gattner.name/impressum",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
           "count": 51,
+          "code": "NU-HTML-1"
+        },
+        {
+          "type": "error",
+          "message": "The “aria-label” attribute must not be specified on any “p” element unless the element has a “role” value other than “caption”, “code”, “deletion”, “emphasis”, “generic”, “insertion”, “paragraph”, “presentation”, “strong”, “subscript”, or “superscript”.",
+          "url": "https://www.gattner.name/impressum",
+          "selector": "//p[@class='jqSWAN Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
+          "count": 52,
           "code": "NU-HTML-2"
         }
       ]
     },
     "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']": {
-      "count": 7,
+      "count": 8,
       "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
       "issues": [
         {
@@ -1546,16 +1546,8 @@
           "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
           "url": "https://www.gattner.name/",
           "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
-          "count": 1,
-          "code": "NU-HTML-2"
-        },
-        {
-          "type": "error",
-          "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
-          "url": "https://www.gattner.name/contact",
-          "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
           "count": 2,
-          "code": "NU-HTML-4"
+          "code": "NU-HTML-2"
         },
         {
           "type": "error",
@@ -1568,7 +1560,7 @@
         {
           "type": "error",
           "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
-          "url": "https://www.gattner.name/about",
+          "url": "https://www.gattner.name/contact",
           "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
           "count": 4,
           "code": "NU-HTML-4"
@@ -1584,10 +1576,10 @@
         {
           "type": "error",
           "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
-          "url": "https://www.gattner.name/impressum",
+          "url": "https://www.gattner.name/about",
           "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
           "count": 6,
-          "code": "NU-HTML-3"
+          "code": "NU-HTML-4"
         },
         {
           "type": "error",
@@ -1596,11 +1588,19 @@
           "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
           "count": 7,
           "code": "NU-HTML-3"
+        },
+        {
+          "type": "error",
+          "message": "Bad value “mailto:simon[at]gattner.name” for attribute “href” on element “a”: Illegal character after “ilto:”. “[” is not allowed.",
+          "url": "https://www.gattner.name/impressum",
+          "selector": "//a[@class='fHvDVf styles__StyledExternalNavLink-gattner-corporate__sc-199jze8-1']",
+          "count": 8,
+          "code": "NU-HTML-3"
         }
       ]
     },
     "//div[@class='Headline__StyledIcon-gattner-corporate__sc-5fuutc-1 igYxM']": {
-      "count": 2,
+      "count": 3,
       "selector": "//div[@class='Headline__StyledIcon-gattner-corporate__sc-5fuutc-1 igYxM']",
       "issues": [
         {
@@ -1608,7 +1608,7 @@
           "message": "Element “div” not allowed as child of element “h1” in this context. (Suppressing further errors from this subtree.)",
           "url": "https://www.gattner.name/contact",
           "selector": "//div[@class='Headline__StyledIcon-gattner-corporate__sc-5fuutc-1 igYxM']",
-          "count": 1,
+          "count": 2,
           "code": "NU-HTML-1"
         },
         {
@@ -1616,13 +1616,13 @@
           "message": "Element “div” not allowed as child of element “h1” in this context. (Suppressing further errors from this subtree.)",
           "url": "https://www.gattner.name/about",
           "selector": "//div[@class='Headline__StyledIcon-gattner-corporate__sc-5fuutc-1 igYxM']",
-          "count": 2,
+          "count": 3,
           "code": "NU-HTML-1"
         }
       ]
     },
     "//p[@class='DGAgH Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']": {
-      "count": 2,
+      "count": 3,
       "selector": "//p[@class='DGAgH Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
       "issues": [
         {
@@ -1630,7 +1630,7 @@
           "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/about",
           "selector": "//p[@class='DGAgH Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 1,
+          "count": 2,
           "code": "NU-HTML-2"
         },
         {
@@ -1638,7 +1638,7 @@
           "message": "Attribute “size” not allowed on element “p” at this point.",
           "url": "https://www.gattner.name/about",
           "selector": "//p[@class='DGAgH Paragraph__StyledParagraph-gattner-corporate__sc-pfsh1-0']",
-          "count": 2,
+          "count": 3,
           "code": "NU-HTML-2"
         }
       ]
