@@ -50,7 +50,7 @@
         "@commitlint/prompt-cli": "^21.2.0",
         "@playwright/test": "^1.62.1",
         "@types/archiver": "^8.0.0",
-        "@types/node": "^26.2.0",
+        "@types/node": "^26.3.0",
         "archiver": "^8.0.0",
         "axios": "^1.19.0",
         "fta-cli": "^3.0.0",
